@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "generatedAt": "2026-06-30T11:33:03.399Z",
-  "total": 291,
+  "generatedAt": "2026-06-30T12:35:17.787Z",
+  "total": 292,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 236,
-      "accepted": 236
+      "discovered": 237,
+      "accepted": 237
     },
     {
       "id": "1a51661d4c51",
@@ -3667,6 +3667,26 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TmallCampus_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:天气预报去广告.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
+      "name": "天气预报去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告、悬浮挂件，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "天气预报去广告.sgmodule",
+      "path": "6ee4d08b2155/天气预报去广告.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",

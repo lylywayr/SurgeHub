@@ -5,7 +5,7 @@
 #!tag=去广告, 依赖
 #!loon_version=3.4.0(962)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
+#!date=2026-06-30 19:57:39
 
 [Rule]
 DOMAIN-KEYWORD,adstrategy,REJECT
@@ -82,8 +82,13 @@ DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,wn.pos.baidu.com,REJECT
 DOMAIN,miniapp-ad.cdn.bcebos.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,api.map.baidu.com,REJECT
+DOMAIN,dlswbr.baidu.com,REJECT
+DOMAIN,miao.baidu.com,REJECT
 DOMAIN-SUFFIX,union.baidu.cn,REJECT
 DOMAIN-SUFFIX,union.baidu.com,REJECT
+DOMAIN,tdid.m.qq.com,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,ads.privacy.qq.com,REJECT
@@ -201,6 +206,7 @@ DOMAIN,logrcv.aiclk.com,REJECT
 DOMAIN,acjs.aliyun.com,REJECT
 DOMAIN,retcode.alicdn.com,REJECT
 DOMAIN,arms-retcode.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,iytcdn.com,REJECT
 DOMAIN,huichuan.sm.cn,REJECT
 DOMAIN,huichuan-mc.sm.cn,REJECT
 DOMAIN,api.sm.cn,REJECT
@@ -327,6 +333,8 @@ DOMAIN-SUFFIX,skarb.work,REJECT
 DOMAIN-SUFFIX,amplitude.com,REJECT
 DOMAIN-SUFFIX,fivecdm.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
+DOMAIN-SUFFIX,tobidad.cn,REJECT
+DOMAIN-SUFFIX,tobidad.com,REJECT
 DOMAIN,ep7.facebook.com,REJECT
 
 [URL Rewrite]

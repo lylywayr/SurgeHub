@@ -219,8 +219,13 @@ DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,wn.pos.baidu.com,REJECT
 DOMAIN,miniapp-ad.cdn.bcebos.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,api.map.baidu.com,REJECT
+DOMAIN,dlswbr.baidu.com,REJECT
+DOMAIN,miao.baidu.com,REJECT
 DOMAIN-SUFFIX,union.baidu.cn,REJECT
 DOMAIN-SUFFIX,union.baidu.com,REJECT
+DOMAIN,tdid.m.qq.com,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,ads.privacy.qq.com,REJECT
@@ -331,6 +336,7 @@ DOMAIN,logrcv.aiclk.com,REJECT
 DOMAIN,acjs.aliyun.com,REJECT
 DOMAIN,retcode.alicdn.com,REJECT
 DOMAIN,arms-retcode.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,iytcdn.com,REJECT
 DOMAIN,huichuan.sm.cn,REJECT
 DOMAIN,huichuan-mc.sm.cn,REJECT
 DOMAIN,nex.163.com,REJECT
@@ -450,6 +456,8 @@ DOMAIN-SUFFIX,skarb.work,REJECT
 DOMAIN-SUFFIX,amplitude.com,REJECT
 DOMAIN-SUFFIX,fivecdm.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
+DOMAIN-SUFFIX,tobidad.cn,REJECT
+DOMAIN-SUFFIX,tobidad.com,REJECT
 DOMAIN,ep7.facebook.com,REJECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
