@@ -1,0 +1,9 @@
+#!name=BuyiTunes多合一
+#!desc=用于 BuyiTunes多合一 的 Surge 模块。
+
+[Script]
+# ～ BuyiTunes@ddgksf2013
+buyitunes.vip = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://ddgksf2013.top/scripts/buyitunes.vip.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com

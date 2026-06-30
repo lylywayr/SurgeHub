@@ -1,0 +1,8 @@
+#!name=微信110解锁被屏蔽的URL
+#!desc=广告屏蔽：微信110解锁被屏蔽的URL
+
+[Script]
+weixin110 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weixin110.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% weixin110.qq.com, security.wechat.com

@@ -1,0 +1,18 @@
+#!name=搜图神器净化
+#!desc=广告屏蔽：搜图神器净化
+
+[Map Local]
+# > 启动弹窗@ddgksf2013
+^http?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog data-type=text data=" " status-code=200
+
+[Script]
+# >  配置处理@ddgksf2013
+soutushenqi.vip = type=http-response, pattern=^http?:\/\/wallpaper.soutushenqi.com\/v\d\/config, script-path=https://ddgksf2013.top/scripts/soutushenqi.vip.js, requires-body=true, max-size=-1, timeout=60
+
+replaceBody = type=http-request, pattern=^http?:\/\/wallpaper.soutushenqi.com\/v\d\/config, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, max-size=-1, timeout=30, argument=config_key%3Dstsq_ios_home_vipI-%3Econfig_key%3D
+
+# > 会员处理
+soutushenqi.vip = type=http-response, pattern=^http?:\/\/wallpaper\.soutushenqi\.com\/api\/v\d\/account, script-path=https://ddgksf2013.top/scripts/soutushenqi.vip.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% wallpaper.soutushenqi.com
