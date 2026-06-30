@@ -1,0 +1,9 @@
+#!name=墨鱼专属VIP
+#!desc=用于 墨鱼专属VIP 的 Surge 模块。
+
+[Script]
+# ✅ 财新周刊
+CaiXinZhouKanProCrack = type=http-response, pattern=http://ipadcms.caixin.com/tmp/articles, script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% ipadcms.caixin.com

@@ -1,0 +1,9 @@
+#!name=Nicegram高级版
+#!desc=用于 Nicegram高级版 的 Surge 模块。
+
+[Script]
+# > Nicegram☆解锁会员权限（2024-02-24）@ddgksf2013
+nicegram.vip = type=http-response, pattern=^https?:\/\/nicegram\.cloud\/api\/v\d\/(ai-assistant\/purchase-list|user\/info|telegram\/auth), script-path=https://ddgksf2013.top/scripts/nicegram.vip.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% nicegram.cloud

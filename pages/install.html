@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>安装模块</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; box-sizing: border-box; background: #f5f5f7; color: #1d1d1f; }
+    main { width: min(100%, 500px); padding: 28px; border-radius: 16px; background: #fff; box-shadow: 0 3px 16px rgba(0, 0, 0, .1); text-align: center; }
+    h1 { margin: 0 0 12px; font-size: 24px; overflow-wrap: anywhere; }
+    p { margin: 0; color: #6e6e73; line-height: 1.65; overflow-wrap: anywhere; }
+    .buttons { display: grid; gap: 12px; margin-top: 20px; }
+    a { padding: 13px 18px; color: #fff; text-decoration: none; border-radius: 10px; font-weight: 600; }
+    #surge { background: #007aff; } #egern { background: #20965f; }
+    code { display: block; margin-top: 18px; padding: 10px; border-radius: 8px; background: #f0f0f2; color: #333; text-align: left; font-size: 12px; overflow-wrap: anywhere; }
+    .error { color: #c62828; }
+    @media (prefers-color-scheme: dark) { body { background: #111; color: #f5f5f7; } main { background: #1c1c1e; } p { color: #a1a1a6; } code { background: #2c2c2e; color: #f5f5f7; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 id="title">正在准备安装</h1>
+    <p id="message">正在读取模块信息。</p>
+    <div class="buttons" id="buttons" hidden>
+      <a id="surge">Surge 安装</a>
+      <a id="egern">Egern 安装</a>
+    </div>
+    <code id="url" hidden></code>
+  </main>
+  <script>
+    async function 初始化() {
+      const 参数 = new URLSearchParams(location.search);
+      const 键 = 参数.get("key");
+      const 客户端 = 参数.get("client");
+
+      if (!键) throw new Error("缺少模块标识。");
+
+      const 响应 = await fetch("./modules.json", { cache: "no-store" });
+      if (!响应.ok) throw new Error("模块清单读取失败。");
+
+      const 清单 = await 响应.json();
+      const 模块 = 清单.modules.find((项目) => 项目.key === 键);
+      if (!模块) throw new Error("未找到指定模块。");
+
+      const 模块地址 = new URL(
+        "modules/" + 模块.path.split("/").map(encodeURIComponent).join("/"),
+        new URL("./", location.href)
+      ).href;
+
+      const Surge地址 = "surge:///install-module?url=" + encodeURIComponent(模块地址);
+      const Egern地址 = "egern:/modules/new?name=" + encodeURIComponent(模块.name) + "&url=" + encodeURIComponent(模块地址);
+
+      document.title = "安装：" + 模块.name;
+      document.getElementById("title").textContent = "安装：" + 模块.name;
+      document.getElementById("surge").href = Surge地址;
+      document.getElementById("egern").href = Egern地址;
+      document.getElementById("buttons").hidden = false;
+      document.getElementById("url").textContent = 模块地址;
+      document.getElementById("url").hidden = false;
+
+      if (客户端 === "surge") {
+        document.getElementById("message").textContent = "正在尝试打开 Surge；未自动跳转时，请点击 Surge 安装。";
+        setTimeout(() => { location.href = Surge地址; }, 250);
+      } else if (客户端 === "egern") {
+        document.getElementById("message").textContent = "正在尝试打开 Egern；未自动跳转时，请点击 Egern 安装。";
+        setTimeout(() => { location.href = Egern地址; }, 250);
+      } else {
+        document.getElementById("message").textContent = "请选择要使用的客户端。";
+      }
+    }
+
+    初始化().catch((错误) => {
+      document.getElementById("title").textContent = "无法打开安装页";
+      document.getElementById("message").textContent = 错误.message;
+      document.getElementById("message").className = "error";
+    });
+  </script>
+</body>
+</html>
