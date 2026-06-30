@@ -1,8 +1,8 @@
 #!name=去广告合集
-#!desc=合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、菜鸟去广告、微信外部链接解锁。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。
+#!desc=合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。
 #!author=SurgeHub 自动合并
-#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",番茄小说去广告:"",菜鸟去广告:"",微信外部链接解锁:""
-#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。
+#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",番茄小说去广告:"",小红书去广告:"",拼多多去广告:"",菜鸟去广告:"",微信外部链接解锁:"",掌上英雄联盟去广告:""
+#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n小红书去广告: 【小红书去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。\n掌上英雄联盟去广告: 【掌上英雄联盟去广告】开关：留空启用，填 # 关闭此子模块。
 
 [Rule]
 # HTTPDNS拦截器
@@ -511,6 +511,25 @@
 {{{番茄小说去广告}}}DOMAIN,mssdk.zijieapi.com,REJECT
 {{{番茄小说去广告}}}DOMAIN,timon.zijieapi.com,REJECT
 {{{番茄小说去广告}}}DOMAIN,vcs.zijieapi.com,REJECT
+# 小红书去广告
+{{{小红书去广告}}}AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com)),REJECT
+# 拼多多去广告
+{{{拼多多去广告}}}AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+{{{拼多多去广告}}}AND,((URL-REGEX,"^http:\/\/\[[0-9a-fA-F:]+\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+{{{拼多多去广告}}}AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC)),REJECT
+{{{拼多多去广告}}}DOMAIN,titan.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,xg.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cdl-1.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cdl-p2.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cd-1.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,apm.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th-b.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,ta.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th-a.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,ta-a.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,meta.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,apm-a.pinduoduo.com,REJECT
 
 [URL Rewrite]
 # HTTPDNS拦截器
@@ -533,17 +552,81 @@
 {{{HTTPDNS拦截器}}}^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{HTTPDNS拦截器}}}^https:\/\/ucdc\d?-upaas\.uc\.cn\/api\/v\d\/dns_query\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{HTTPDNS拦截器}}}^https:\/\/gw-cn\.jiaoliuqu\.com\/taqu-im-broadcast-srv\/v\d\/Comet\/get\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 小红书去广告
+{{{小红书去广告}}}^https:\/\/ci\.xiaohongshu\.com\/system_config\/watermark data-type=tiny-gif status-code=200
+{{{小红书去广告}}}^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小红书去广告}}}^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小红书去广告}}}^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小红书去广告}}}^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(?:v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 拼多多去广告
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aristotle\/unrated_order_for_unreceived_tab\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aristotle\/query_order_list_tabs_element\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_express_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/search_hotquery\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/new_chat_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/personal\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/my_order_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/likes\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/phantom\/gbdbpdv\/extra\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/manufacturer\/cross\/shortcut\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/dunkirk\/liveactivity\/push\/create\/url\/report\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/growth\/nagato\/app\/index\/gather\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/engels\/wait\/receive\/review\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/buffon\/nasus\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v2\/query\/goods_detail_with_tags\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 掌上英雄联盟去广告
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/recommend\/platstrongshell\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/club\/match\/get_ai_search_words$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/mlol_news\/search\/varcache_hotV\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/customize_search\/article_rank_tab\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/customize_search\/article_rank\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/zone\/bottomtab_tip\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [MITM]
 # HTTPDNS拦截器
 {{{HTTPDNS拦截器}}}hostname = %APPEND% appconf.mail.163.com, msglb.91160.com, ucdc2-upaas.uc.cn, gw-cn.jiaoliuqu.com
 # 广告平台拦截器
 {{{广告平台拦截器}}}hostname = %APPEND% video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com
+# 小红书去广告
+{{{小红书去广告}}}hostname = %APPEND% ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com
+# 拼多多去广告
+{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com
 # 菜鸟去广告
 {{{菜鸟去广告}}}hostname = %APPEND% netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com
 # 微信外部链接解锁
 {{{微信外部链接解锁}}}hostname = %APPEND% weixin110.qq.com, security.wechat.com
+# 掌上英雄联盟去广告
+{{{掌上英雄联盟去广告}}}hostname = %APPEND% mlol.qt.qq.com
 
 [Script]
+# 小红书去广告
+{{{小红书去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/banner_list$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%22%2C%7B%7D%5D%5D%5D%5D
+{{{小红书去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/hot_list$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.items%22%2C%5B%5D%5D%5D%5D%5D
+{{{小红书去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/hint, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.hint_words%22%2C%5B%5D%5D%5D%5D%5D
+{{{小红书去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/trending\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.queries%22%2C%5B%5D%5D%2C%5B%22data.hint_word%22%2C%7B%7D%5D%5D%5D%5D
+{{{小红书去广告}}}移除图片和实况照片水印 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save), script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除整体配置 ui = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/service\/ui\/config\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除开屏广告 config = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除开屏广告 splash_config = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除详情页小部件、关注页感兴趣的人 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed), script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除信息流广告 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除详情页感兴趣的人 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除评论区实况照片水印 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list), script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除图片和视频水印 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed), script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除信息流广告 = type=http-response, pattern=^https:\/\/(?:edith|rec)\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除搜索页广告 = type=http-response, pattern=^https:\/\/(?:edith|so)\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?, script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+{{{小红书去广告}}}移除视频水印 = type=http-response, pattern=^https:\/\/(?:edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(?:v4\/note\/videofeed|v10\/note\/video\/save), script-path=https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js, requires-body=true
+# 拼多多去广告
+{{{拼多多去广告}}}body_rewrite_50 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22result.dy_module.irregular_banner_dy%22%2C%22result.icon_set%22%2C%22result.search_bar_hot_query%22%2C%22result.dy_module.irregular_banner_dy%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_52 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/search\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22expansion%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_53 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/philo\/personal\/hub\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22monthly_card_entrance%22%2C%22personal_center_style_v2_vo%22%2C%22icon_set.icons%22%2C%22icon_set.top_personal_icons%22%2C%22personal_banner%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_54 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22bottom_section_list%22%2C%22ui.bottom_section%22%2C%22ui.live_section.float_info%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_55 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_detail_group\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.goods_list%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_56 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/order\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22marketing_banner_vo%22%2C%22shipping.banner_above_recommend%22%5D%5D%5D
 # 微信外部链接解锁
 {{{微信外部链接解锁}}}微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js, requires-body=true

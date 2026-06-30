@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "generatedAt": "2026-06-30T22:04:12.034Z",
+  "generatedAt": "2026-06-30T22:20:00.761Z",
   "total": 296,
   "sources": [
     {
@@ -27,7 +27,7 @@
       "key": "6ee4d08b2155:merged-collection.sgmodule",
       "id": "merged:6ee4d08b2155:merged-collection.sgmodule",
       "name": "去广告合集",
-      "description": "合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、菜鸟去广告、微信外部链接解锁。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。",
+      "description": "合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。",
       "file": "merged-collection.sgmodule",
       "path": "6ee4d08b2155/merged-collection.sgmodule",
       "legacyFile": "去广告合集.sgmodule",
@@ -70,6 +70,20 @@
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx"
         },
         {
+          "name": "小红书去广告",
+          "description": "过滤信息流推广，移除图片及视频水印，如有异常，请先清除缓存再尝试",
+          "file": "8e051ed1f0ce40c2.sgmodule",
+          "path": "6ee4d08b2155/8e051ed1f0ce40c2.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx"
+        },
+        {
+          "name": "拼多多去广告",
+          "description": "移除开屏广告、底栏多多视频、会场入口、聊天页面精选推荐及推广，精简首页和个人中心",
+          "file": "ef358f54801c895a.sgmodule",
+          "path": "6ee4d08b2155/ef358f54801c895a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx"
+        },
+        {
           "name": "菜鸟去广告",
           "description": "过滤菜鸟广告",
           "file": "8978974abc0aea0d.sgmodule",
@@ -82,6 +96,13 @@
           "file": "8c3c6783be394ea9.sgmodule",
           "path": "6ee4d08b2155/8c3c6783be394ea9.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx"
+        },
+        {
+          "name": "掌上英雄联盟去广告",
+          "description": "移除开屏广告、弹窗推广、搜索热搜、搜索热榜、底栏推广图标",
+          "file": "a1ffd96d9d123f1c.sgmodule",
+          "path": "6ee4d08b2155/a1ffd96d9d123f1c.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/LOL_Bible_remove_ads.lpx"
         }
       ]
     },
@@ -3484,7 +3505,9 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集"
     },
     {
       "key": "6ee4d08b2155:b0ec73beb78373e5.sgmodule",
@@ -4724,7 +4747,9 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集"
     },
     {
       "key": "6ee4d08b2155:72323a8c9d15eef2.sgmodule",
@@ -5220,7 +5245,9 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集"
     },
     {
       "key": "6ee4d08b2155:efa615aeb1362694.sgmodule",
