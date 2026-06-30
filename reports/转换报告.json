@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T13:11:12.883Z",
+  "generatedAt": "2026-06-30T21:19:26.690Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -1289,6 +1289,30 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:ba8028e7d19333b8.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/BaiduTranslate_remove_ads.lpx",
+      "name": "百度翻译去广告",
+      "description": "移除开屏广告、横幅广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "ba8028e7d19333b8.sgmodule",
+      "path": "6ee4d08b2155/ba8028e7d19333b8.sgmodule",
+      "legacyFile": "百度翻译去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/百度翻译去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BaiduTranslate_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -3954,6 +3978,28 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:e8e4babfb60a33d4.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/CrazyRope_remove_ads.lpx",
+      "name": "天天跳绳去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告、活动推广，精简首页标签和搜索页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "e8e4babfb60a33d4.sgmodule",
+      "path": "6ee4d08b2155/e8e4babfb60a33d4.sgmodule",
+      "legacyFile": "天天跳绳去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/天天跳绳去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CrazyRope_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:4c946d2501d00e54.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/TuGuaiShou_remove_ads.lpx",
       "name": "图怪兽去广告",
@@ -4014,6 +4060,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WaCaiJiZhang_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:550f6ecbafc3e37c.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Wacai_remove_ads.lpx",
+      "name": "挖财记账去广告",
+      "description": "移除开屏广告、横幅广告，顶部推广、活动配置",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "550f6ecbafc3e37c.sgmodule",
+      "path": "6ee4d08b2155/550f6ecbafc3e37c.sgmodule",
+      "legacyFile": "挖财记账去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/挖财记账去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Wacai_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -5199,6 +5268,28 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:d1883cbd7ee25b7d.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/WeatherChina_remove_ads.lpx",
+      "name": "中国天气去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告，移除焦点视频、精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "d1883cbd7ee25b7d.sgmodule",
+      "path": "6ee4d08b2155/d1883cbd7ee25b7d.sgmodule",
+      "legacyFile": "中国天气去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/中国天气去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WeatherChina_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",

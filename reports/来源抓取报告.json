@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T13:09:10.252Z",
+  "generatedAt": "2026-06-30T21:19:18.052Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 237,
-      "accepted": 237,
+      "discovered": 241,
+      "accepted": 241,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 237
+          "found": 241
         },
         {
           "type": "sitemap.xml",
@@ -569,6 +569,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "百度翻译去广告",
+      "description": "移除开屏广告、横幅广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BaiduTranslate_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {
@@ -1634,6 +1643,15 @@
       "sourceSite": "hub.kelee.one"
     },
     {
+      "name": "天天跳绳去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告、活动推广，精简首页标签和搜索页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CrazyRope_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
       "name": "图怪兽去广告",
       "description": "移除开屏广告、弹窗广告、各页面横幅推广",
       "nameSource": "original-metadata",
@@ -1658,6 +1676,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WaCaiJiZhang_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "挖财记账去广告",
+      "description": "移除开屏广告、横幅广告，顶部推广、活动配置",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Wacai_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {
@@ -2126,6 +2153,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "中国天气去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告，移除焦点视频、精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WeatherChina_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {

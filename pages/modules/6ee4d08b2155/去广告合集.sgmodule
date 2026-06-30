@@ -173,6 +173,7 @@
 {{{m02_enable}}}DOMAIN-KEYWORD,bjimp.voiceads.cn,REJECT
 {{{m02_enable}}}DOMAIN-SUFFIX,1rtb.net,REJECT
 {{{m02_enable}}}DOMAIN-SUFFIX,1rtb.com,REJECT
+{{{m02_enable}}}DOMAIN-SUFFIX,yfanads.com,REJECT
 {{{m02_enable}}}DOMAIN-SUFFIX,halomobi.com,REJECT
 {{{m02_enable}}}DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 {{{m02_enable}}}DOMAIN-SUFFIX,inmobi.cn,REJECT
