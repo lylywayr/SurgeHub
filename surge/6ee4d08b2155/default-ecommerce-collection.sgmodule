@@ -1,0 +1,220 @@
+#!name=综合电商去广告
+#!desc=综合电商去广告，包含：得物去广告、盒马去广告、京东去广告、京东外卖去广告、拼多多去广告、朴朴超市去广告、瑞幸咖啡去广告、省钱快报去广告、什么值得买去广告、淘宝去广告、天猫校园去广告、沃尔玛去广告、闲鱼去广告、转转去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=得物去广告:"",盒马去广告:"",京东去广告:"",京东外卖去广告:"",拼多多去广告:"",朴朴超市去广告:"",瑞幸咖啡去广告:"",省钱快报去广告:"",什么值得买去广告:"",淘宝去广告:"",天猫校园去广告:"",沃尔玛去广告:"",闲鱼去广告:"",转转去广告:""
+#!arguments-desc=得物去广告: 【得物去广告】开关：留空启用，填 # 关闭此子模块。\n盒马去广告: 【盒马去广告】开关：留空启用，填 # 关闭此子模块。\n京东去广告: 【京东去广告】开关：留空启用，填 # 关闭此子模块。\n京东外卖去广告: 【京东外卖去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n朴朴超市去广告: 【朴朴超市去广告】开关：留空启用，填 # 关闭此子模块。\n瑞幸咖啡去广告: 【瑞幸咖啡去广告】开关：留空启用，填 # 关闭此子模块。\n省钱快报去广告: 【省钱快报去广告】开关：留空启用，填 # 关闭此子模块。\n什么值得买去广告: 【什么值得买去广告】开关：留空启用，填 # 关闭此子模块。\n淘宝去广告: 【淘宝去广告】开关：留空启用，填 # 关闭此子模块。\n天猫校园去广告: 【天猫校园去广告】开关：留空启用，填 # 关闭此子模块。\n沃尔玛去广告: 【沃尔玛去广告】开关：留空启用，填 # 关闭此子模块。\n闲鱼去广告: 【闲鱼去广告】开关：留空启用，填 # 关闭此子模块。\n转转去广告: 【转转去广告】开关：留空启用，填 # 关闭此子模块。
+
+[Map Local]
+# 得物去广告
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/hacking-newbie\/v1\/app\/coupon\/module\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/api\/v1\/app\/search\/lexicon\/v3\/background_words\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/api\/v1\/app\/search\/lexicon\/v1\/rank_words\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/sns-rec\/v1\/attention\/feed\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/sns-rec\/v1\/search\/word-skip\/new-list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{得物去广告}}}^https:\/\/app\.dewu\.com\/sns-rec\/v1\/search\/hotword-list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 盒马去广告
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.render\.querysinglepage\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.sg\.queryinnerpage\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.lbs\.address\.getshopinfolist\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.render\.querysearchpage\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.sg\.querysinglescene\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.melon\.collocation\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{盒马去广告}}}^https:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.fc\.recommend\.feedscommondservice\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 京东去广告
+{{{京东去广告}}}^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 京东外卖去广告
+{{{京东外卖去广告}}}^https:\/\/color\.jddj\.com\/client\.action\?functionId=uniformRecommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{京东外卖去广告}}}^https:\/\/color\.jddj\.com\/client\.action\?functionId=search_recommendRanking$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 拼多多去广告
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aristotle\/unrated_order_for_unreceived_tab\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aristotle\/query_order_list_tabs_element\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_express_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/search_hotquery\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/new_chat_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/personal\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/my_order_group\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/likes\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/phantom\/gbdbpdv\/extra\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/manufacturer\/cross\/shortcut\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/dunkirk\/liveactivity\/push\/create\/url\/report\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/growth\/nagato\/app\/index\/gather\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/engels\/wait\/receive\/review\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/buffon\/nasus\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{拼多多去广告}}}^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v2\/query\/goods_detail_with_tags\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 省钱快报去广告
+{{{省钱快报去广告}}}^https:\/\/api\.17gwx\.com\/v2\/base\/app\/ad\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{省钱快报去广告}}}^https:\/\/api\.17gwx\.com\/v2\/growth\/popup\/remind$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{省钱快报去广告}}}^https:\/\/api\.17gwx\.com\/v2\/recommend\/feed\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{省钱快报去广告}}}^https:\/\/api\.17gwx\.com\/v2\/homepage\/feed\/similarList\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 什么值得买去广告
+{{{什么值得买去广告}}}^https:\/\/app-api\.smzdm\.com\/util\/loading\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{什么值得买去广告}}}^https:\/\/app-api\.smzdm\.com\/mychannel\/list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{什么值得买去广告}}}^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{什么值得买去广告}}}^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{什么值得买去广告}}}^https:\/\/s-api\.smzdm\.com\/sou\/search_default_keyword\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{什么值得买去广告}}}^https:\/\/s-api\.smzdm\.com\/sou\/popup_coupon\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 淘宝去广告
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/(?:gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(?:octopus|tps)-(?:1080|1125)-\d{4}\.(?:jpg|png)_(?:1\d{3}|9\d{2})x(?:\d|1\d{3}|9\d{2})q[59]0 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{淘宝去广告}}}^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 天猫校园去广告
+{{{天猫校园去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.tmall\.campus\.guide\.advertising\.config\.list\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{天猫校园去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.tmall\.campus\.ai\.agent\.assistant\.settings\.get\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{天猫校园去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.tmall\.campus\.guide\.delivering\.recall\.general\.data\.query\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{天猫校园去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.tmall\.campus\.guide\.app\.home\.pop\.get\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 沃尔玛去广告
+{{{沃尔玛去广告}}}^https:\/\/api-hyper\.walmartmobile\.cn\/search\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{沃尔玛去广告}}}^https:\/\/api-hyper\.walmartmobile\.cn\/cms-web\/frontapi\/shadedWords\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{沃尔玛去广告}}}^https:\/\/api-hyper\.walmartmobile\.cn\/search\/frontapi\/discovery-words\/list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 闲鱼去广告
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.recommend\.list\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.near\.by\.corner\.info\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.buy\.feeds\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.shade\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{闲鱼去广告}}}^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.playboy\.recommend\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 转转去广告
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/getOpenScreen$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzinfoshow\/getwindvanecardv2$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zzopen\/zzbmlogic\/queryFrontPageWindowInfo\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zzopen\/ptuserlogic\/subscribehotrecommend$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zzopen\/ypmall\/listData$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzusercenter\/myprofilevariouscards$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zzopen\/ptsimpleshow\/recommendbymyloveinfo\? data-type=text data="{"respCode":0,"errorMsg":"null","errMsg":""}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzinfoshow\/footprintsamerecommend\? data-type=text data="{"respCode":0,"errorMsg":"","errMsg":""}" status-code=200 header="Content-Type:application/json"
+{{{转转去广告}}}^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzinfoshow\/getchoicegoodsinfos\? data-type=text data="{"respCode":0,"respData":{},"errorMsg":"","errMsg":""}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+# 得物去广告
+{{{得物去广告}}}hostname = %APPEND% app.dewu.com
+# 盒马去广告
+{{{盒马去广告}}}hostname = %APPEND% acs-m.freshippo.com
+# 京东去广告
+{{{京东去广告}}}hostname = %APPEND% api.m.jd.com
+# 京东外卖去广告
+{{{京东外卖去广告}}}hostname = %APPEND% color.jddj.com, api.m.jd.com
+# 拼多多去广告
+{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com
+# 朴朴超市去广告
+{{{朴朴超市去广告}}}hostname = %APPEND% j1.pupuapi.com
+# 瑞幸咖啡去广告
+{{{瑞幸咖啡去广告}}}hostname = %APPEND% capi.lkcoffee.com
+# 省钱快报去广告
+{{{省钱快报去广告}}}hostname = %APPEND% api.17gwx.com
+# 什么值得买去广告
+{{{什么值得买去广告}}}hostname = %APPEND% app-api.smzdm.com, homepage-api.smzdm.com, h5.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, user-api.smzdm.com, article-api.smzdm.com, s-api.smzdm.com, haojia-cdn.smzdm.com, post.m.smzdm.com
+# 淘宝去广告
+{{{淘宝去广告}}}hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com
+# 天猫校园去广告
+{{{天猫校园去广告}}}hostname = %APPEND% acs.m.taobao.com
+# 沃尔玛去广告
+{{{沃尔玛去广告}}}hostname = %APPEND% api-hyper.walmartmobile.cn
+# 闲鱼去广告
+{{{闲鱼去广告}}}hostname = %APPEND% acs.m.goofish.com, g-acs.m.goofish.com
+# 转转去广告
+{{{转转去广告}}}hostname = %APPEND% app.zhuanzhuan.com
+
+[Rule]
+# 京东去广告
+{{{京东去广告}}}URL-REGEX,"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?",REJECT
+# 拼多多去广告
+{{{拼多多去广告}}}AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d(\d)?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+{{{拼多多去广告}}}AND,((URL-REGEX,"^http:\/\/\[[0-9a-fA-F:]+\]\/d(\d)?\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
+{{{拼多多去广告}}}AND,((DOMAIN,api.pinduoduo.com),(PROTOCOL,QUIC)),REJECT
+{{{拼多多去广告}}}DOMAIN,titan.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,xg.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cdl-1.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cdl-p2.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,cd-1.pddpic.com,REJECT
+{{{拼多多去广告}}}DOMAIN,apm.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th-b.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,ta.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,th-a.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,ta-a.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,meta.pinduoduo.com,REJECT
+{{{拼多多去广告}}}DOMAIN,apm-a.pinduoduo.com,REJECT
+# 什么值得买去广告
+{{{什么值得买去广告}}}DOMAIN,adx-api.zdmimg.com,REJECT
+# 淘宝去广告
+{{{淘宝去广告}}}DOMAIN,adashx.m.taobao.com,REJECT
+{{{淘宝去广告}}}DOMAIN,ossgw.alicdn.com,REJECT
+{{{淘宝去广告}}}DOMAIN,ems.youku.com,REJECT
+{{{淘宝去广告}}}DOMAIN,hudong.alicdn.com,REJECT
+{{{淘宝去广告}}}DOMAIN,h-adashx.ut.taobao.com,REJECT
+{{{淘宝去广告}}}DOMAIN,ut.taobao.com,REJECT
+
+[Script]
+# 京东去广告
+{{{京东去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.JDMessage.socketmonitor.isSocketEstablishedAhead%22%2C0%5D%2C%5B%22data.JDMessage.socketmonitor.isSocketReport%22%2C0%5D%2C%5B%22data.JDHttpToolKit.httpdns.httpdns%22%2C0%5D%5D%5D%5D
+{{{京东去广告}}}移除京东广告 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), script-path=https://kelee.one/Resource/JavaScript/JD/JD_remove_ads.js, requires-body=true
+# 京东外卖去广告
+{{{京东外卖去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.searchDTO.searchWords%22%2C%22data.wishlistDTO.bubbleTip%22%5D%5D%5D
+# 拼多多去广告
+{{{拼多多去广告}}}body_rewrite_50 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22result.dy_module.irregular_banner_dy%22%2C%22result.icon_set%22%2C%22result.search_bar_hot_query%22%2C%22result.dy_module.irregular_banner_dy%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_52 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/search\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22expansion%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_53 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/philo\/personal\/hub\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22monthly_card_entrance%22%2C%22personal_center_style_v2_vo%22%2C%22icon_set.icons%22%2C%22icon_set.top_personal_icons%22%2C%22personal_banner%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_54 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22bottom_section_list%22%2C%22ui.bottom_section%22%2C%22ui.live_section.float_info%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_55 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_detail_group\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.goods_list%22%5D%5D%5D
+{{{拼多多去广告}}}body_rewrite_56 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/order\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22marketing_banner_vo%22%2C%22shipping.banner_above_recommend%22%5D%5D%5D
+# 朴朴超市去广告
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/recommendation\/interests\/products, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+{{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
+# 什么值得买去广告
+{{{什么值得买去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/update$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.silence_local_push%22%2C0%5D%2C%5B%22data.baichuan_redirect_switch%22%2C0%5D%5D%5D%2C%5B%22json-del%22%2C%5B%22data.silence_local_push_msg%22%2C%22data.video_cache_num_configs%22%2C%22data.haojia_widget%22%2C%22data.widget%22%2C%22data.operation_float%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.header_operation.theme%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.super_coupon%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banner%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_25 = type=http-response, pattern=^https:\/\/user-api\.smzdm\.com\/vip$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.activity_entrance_info%22%2C%22data.big_banner%22%2C%22data.top_banner%22%2C%22data.banner_switch%22%2C%22data.yaoqingshaiwu%22%2C%22data.right_info%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_30 = type=http-response, pattern=^https:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.search_faxian%22%2C%22data.tonglan%22%2C%22data.hongbao%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_33 = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/detail\/\d+\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.quan_log%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_34 = type=http-response, pattern=^https:\/\/haojia-cdn\.smzdm\.com\/preload\/\d+\/fiphone\/v\d+_\d+_\d+\/wx\d+\/im\d+\/[0-9a-z]+\/[0-9a-z]+\.json$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.quan_log%22%5D%5D%5D
+{{{什么值得买去广告}}}body_rewrite_35 = type=http-response, pattern=^https:\/\/post\.m\.smzdm\.com\/ajax_app\/ajax_get_footer_list\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.tuiguang_ad%22%2C%22data.activity_banner%22%5D%5D%5D
+# 淘宝去广告
+{{{淘宝去广告}}}移除淘宝开屏广告 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get), script-path=https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js, requires-body=true
+{{{淘宝去广告}}}移除淘宝开屏广告 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js, requires-body=true
+# 天猫校园去广告
+{{{天猫校园去广告}}}body_rewrite_16 = type=http-response, pattern=^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.tmall\.kangaroo\.core\.service\.route\.fixrespagerecommend\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.resultValue.data.normal-banner-resource-code%22%2C%22data.resultValue.data.feeds-channel-code%22%5D%5D%5D
+# 闲鱼去广告
+{{{闲鱼去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.magic\.home\.page\.list\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.topList%22%5D%5D%5D
+{{{闲鱼去广告}}}body_rewrite_31 = type=http-response, pattern=^https:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.resultPrefixBar%22%5D%5D%5D
+# 转转去广告
+{{{转转去广告}}}body_rewrite_13 = type=http-response, pattern=^https:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/mycontinenthomepage\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22respData.topOpera.leftOpera%22%2C%22respData.topOpera.rightOpera2%22%2C%22respData.topActBanner%22%2C%22respData.bmArea%22%5D%5D%5D
+{{{转转去广告}}}body_rewrite_14 = type=http-response, pattern=^https:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22respData.freeMarketTabLeadPop%22%2C%22respData.topOperations%22%5D%5D%5D
+{{{转转去广告}}}body_rewrite_26 = type=http-response, pattern=^https:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getmyprofilev3$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22respData.bmNewInfo%22%5D%5D%5D
+
+[URL Rewrite]
+# 朴朴超市去广告
+{{{朴朴超市去广告}}}^https:\/\/j1\.pupuapi\.com\/client\/account\/discount\/order - reject
+{{{朴朴超市去广告}}}^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=100 - reject
+# 瑞幸咖啡去广告
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/growUp\/calendarList - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/promotion\/giftCard\/topPage - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/base\/myLittleLuck - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/menu\/ordinaryUserLayeredArea - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/common\/modules - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/homepage\/homePageCoffeeList - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList - reject
+{{{瑞幸咖啡去广告}}}^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/app\/adposNew - reject
+# 什么值得买去广告
+{{{什么值得买去广告}}}^https:\/\/h5\.smzdm\.com\/user\/coupon\/coupon_list\? - reject

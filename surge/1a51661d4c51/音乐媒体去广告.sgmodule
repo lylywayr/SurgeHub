@@ -1,0 +1,198 @@
+#!name=音乐媒体去广告
+#!desc=音乐媒体去广告，包含：Spotify会员、酷我SVIP+净化、喜马拉雅去广告、网易云去广告、汽水音乐净化[JQ版] 卸载重装、小宇宙FM去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=Spotify会员:"",酷我SVIP_净化:"",喜马拉雅去广告:"",网易云去广告:"",汽水音乐净化_JQ版_卸载重装:"",小宇宙FM去广告:""
+#!arguments-desc=Spotify会员: 【Spotify会员】开关：留空启用，填 # 关闭此子模块。\n酷我SVIP_净化: 【酷我SVIP+净化】开关：留空启用，填 # 关闭此子模块。\n喜马拉雅去广告: 【喜马拉雅去广告】开关：留空启用，填 # 关闭此子模块。\n网易云去广告: 【网易云去广告】开关：留空启用，填 # 关闭此子模块。\n汽水音乐净化_JQ版_卸载重装: 【汽水音乐净化[JQ版] 卸载重装】开关：留空启用，填 # 关闭此子模块。\n小宇宙FM去广告: 【小宇宙FM去广告】开关：留空启用，填 # 关闭此子模块。
+
+[Script]
+# Spotify会员
+{{{Spotify会员}}}spotify-qx-header = type=http-request, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js, timeout=60
+{{{Spotify会员}}}spotify-proto = type=http-response, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, max-size=-1, timeout=60
+{{{Spotify会员}}}spotify-json = type=http-request, pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=60
+# 酷我SVIP+净化
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/searchrecterm\.kuwo\.cn\/recterm\.s, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/page\/cells, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/setting, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/[a-z0-9A-Z]+\.(kuwo|lrts)\.(cn|me)\/a\.p, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/[a-z0-9A-Z]+\.kuwo\.cn\/audi\.tion, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/.*\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip\?op=ui, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/userbase\/vip\?op=get, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip\?(uid|op=ui), script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-request, pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?ui, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/appi.kuwo.cn/kuwopay/personal/cells, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+{{{酷我SVIP_净化}}}kkmusic.vip = type=http-response, pattern=^https?:\/\/[a-z0-9A-Z]+\.kuwo\.cn\/mobi\.s\?f=kwxs, script-path=https://ddgksf2013.top/scripts/kkmusic.vip.js, requires-body=true, max-size=-1, timeout=60
+# 喜马拉雅去广告
+# > XiMaLaYa_喜马拉雅_首页顶部去除直播@ddgksf2013
+{{{喜马拉雅去广告}}}ximalaya_json = type=http-response, pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js, requires-body=true, max-size=-1, timeout=60
+# > XiMaLaYa_喜马拉雅_屏蔽首页横幅_Ad@ddgksf2013
+{{{喜马拉雅去广告}}}ximalaya_json = type=http-response, pattern=^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js, requires-body=true, max-size=-1, timeout=60
+# > XiMaLaYa_喜马拉雅_屏蔽首页动态_Ad@ddgksf2013
+{{{喜马拉雅去广告}}}ximalaya_json = type=http-response, pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js, requires-body=true, max-size=-1, timeout=60
+# > XiMaLaYa_喜马拉雅_屏蔽Tab页滚动_Ad@ddgksf2013
+{{{喜马拉雅去广告}}}ximalaya_json = type=http-response, pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js, requires-body=true, max-size=-1, timeout=60
+# > XiMaLaYa_喜马拉雅_去除我的页面Ad_Tag@ddgksf2013
+{{{喜马拉雅去广告}}}ximalaya_json = type=http-response, pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js, requires-body=true, max-size=-1, timeout=60
+# 网易云去广告
+# > 底部Tab@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 发现页@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 首推荐页@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 软件更新@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ios\/upgrade\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 搜索默认填词@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/default\/keyword\/list, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 猜你喜欢@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/rcmd\/keyword\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 搜索下方Chart@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/list, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 搜索Chart@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/detail, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 相关搜索@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/suggest\/keyword\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 特殊词@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/specialkeyword\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 广告加载@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 广告实时@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 广告Get@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 插入广告@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/position\/show\/resource, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 歌单顶部广告@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/scene\/show\/resource, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 弹窗免费听歌@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧栏账户@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipnewcenter\/app\/resource\/newaccountpage, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧栏推广@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/side-bar\/mini-program\/music-service\/account, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧边VIP推广@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/deliver, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧边浮层@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/batch-deliver, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧边兑换黑胶Tips@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/yunbei\/account\/entrance\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 侧边创作福利@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/creator\/musician\/reminder\/message\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+# > 评论区插入推广@ddgksf2013
+{{{网易云去广告}}}netease.adblock = type=http-response, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch, script-path=https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+# Spotify会员
+{{{Spotify会员}}}hostname = %APPEND% spclient.wg.spotify.com, *spclient.spotify.com
+# 酷我SVIP+净化
+{{{酷我SVIP_净化}}}hostname = %APPEND% *.kuwo.cn, *.lrts.me, mc.tencentmusic.com, h5s.kuwo.cn
+# 喜马拉雅去广告
+{{{喜马拉雅去广告}}}hostname = %APPEND% *.xima*.*, *.xmcdn.*
+# 网易云去广告
+{{{网易云去广告}}}hostname = %APPEND% interface*.music.163.com
+# 汽水音乐净化[JQ版] 卸载重装
+{{{汽水音乐净化_JQ版_卸载重装}}}hostname = %APPEND% beta-luna.douyin.com, api.qishui.com, tnc*-*.zijieapi.com
+# 小宇宙FM去广告
+{{{小宇宙FM去广告}}}hostname = %APPEND% api.xiaoyuzhoufm.com, 118.31.123.175, 112.124.203.116, 118.31.125.171, 47.57.181.112, 47.57.182.96
+
+[Map Local]
+# 酷我SVIP+净化
+#^https?:\/\/.*kuwo.cn/commercia data-type=text data=" " status-code=200
+#^https?:\/\/.*kuwo.cn/commercia url reject-200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/star\/upload\/95\/25\/1764662243747_\.png data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/star\/upload\/25\/9\/1763524573099_\.png data-type=text data=" " status-code=200
+#^https?:\/\/.*kuwo\.cn\/apps\/earning-sign data-type=text data=" " status-code=200
+#^https?:\/\/.*kuwo\.cn\/apps\/earning-sign url reject-200
+#^https?:\/\/.*kuwo\.cn\/api\/v\d\/online\/sign\/new\/todayStatus data-type=text data=" " status-code=200
+#^https?:\/\/.*kuwo\.cn\/api\/v\d\/online\/sign\/new\/todayStatus url reject-200^https?:\/\/.*kuwo\.cn\/api\/v\d\/online\/sign\/new\/todayStatus url reject-2000s?:\/\/.*kuwo\.cn\/openapi\/v\d\/user\/freeMode\/text url reject-200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/openapi\/v\d\/operate\/text data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/openapi\/v\d\/operate\/downTab\/info data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/apps\/global-free-popup data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/vip1\.kuwo\.cn\/vip\/activity\/kwMemberDay data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/mc\.tencentmusic\.com\/sdk\/ad data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo.cn/AdSystem data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo.cn/openapi/v1/user/freemium/global/text data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/hotword\.kuwo\.cn\/hotword\.s data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/vip1\.kuwo\.cn\/vip_adv\/ data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/vip1\.kuwo\.cn\/vip\/v\d\/sysinfo data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/app\/pasterAdvert data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/mobilead\.kuwo\.cn\/ data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/.*kuwo\.cn\/star\/upload\/64\/73\/1724231349487_\.M data-type=text data=" " status-code=200
+{{{酷我SVIP_净化}}}^https?:\/\/rich\.kuwo\.cn\/AdService data-type=text data=" " status-code=200
+# 网易云去广告
+# > 活动推广@ddgksf2013
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/content\/activity\/music\/jar\/template\/list data-type=text data=" " status-code=200
+# > 启动领VIP弹窗@ddgksf2013
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/sp\/flow\/popup\/query data-type=text data=" " status-code=200
+# > 优惠券@ddgksf2013
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipmall\/couponcfg\/get data-type=text data=" " status-code=200
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/w?eapi\/(resource-exposure\/)?activity data-type=text data=" " status-code=200
+# > 评论区插入推广@ddgksf2013
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/comment\/feed\/inserted\/resources data-type=text data=" " status-code=200
+# > 购买实体专辑@ddgksf2013
+{{{网易云去广告}}}^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/resource-exposure\/config data-type=text data=" " status-code=200
+# 汽水音乐净化[JQ版] 卸载重装
+# > 视频广告@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}\/luna\/media_ads data-type=text data=" " status-code=200
+# > 通用广告@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}\/luna\/ads data-type=text data=" " status-code=200
+# > 位置隐私@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}\/location\/info data-type=text data=" " status-code=200
+# > 广告弹窗@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}\/luna\/commerce data-type=text data=" " status-code=200
+# > TAGS推荐@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}\/luna\/hashtag\/recommend data-type=text data=" " status-code=200
+# > DNS处理@ddgksf2013
+{{{汽水音乐净化_JQ版_卸载重装}}}^https:\/\/tnc.*zijieapi\.com\/get_domains data-type=text data=" " status-code=200
+# 小宇宙FM去广告
+# > 搜索推广@ddgksf2013
+{{{小宇宙FM去广告}}}^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get-express data-type=text data=" " status-code=200
+# > 搜索填词@ddgksf2013
+{{{小宇宙FM去广告}}}^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get-preset data-type=text data=" " status-code=200
+# > 搜索建议@ddgksf2013
+{{{小宇宙FM去广告}}}^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category\/list-daily-suggestion data-type=text data=" " status-code=200
+# > 开屏广告@ddgksf2013
+{{{小宇宙FM去广告}}}^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash-screen\/list data-type=text data=" " status-code=200
+
+[URL Rewrite]
+# 喜马拉雅去广告
+# > XiMaLaYa_喜马拉雅_修复轮播Ad失效Bug@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF - reject
+# > XiMaLaYa_喜马拉雅_播放页_Live@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ - reject
+# > XiMaLaYa_喜马拉雅_MyInfo红点提醒@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list - reject
+# > XiMaLaYa_喜马拉雅_屏蔽大红包Tips@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status - reject
+# > XiMaLaYa_喜马拉雅_屏蔽gif弹窗Ad@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$ - reject
+# > XiMaLaYa_喜马拉雅_gslb@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/gslb.*\.xima.*\.com\/ - reject
+# > XiMaLaYa_喜马拉雅_屏蔽Aged请求@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) - reject
+# > XiMaLaYa_喜马拉雅_部分Tab弹窗@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant - reject
+# > XiMaLaYa_喜马拉雅_屏蔽红点提示@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread - reject
+# > XiMaLaYa_喜马拉雅_屏蔽minor请求@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop - reject
+# > XiMaLaYa_喜马拉雅_屏蔽隐私搜集@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d - reject
+# > XiMaLaYa_喜马拉雅_屏蔽版本更新@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck - reject
+# > XiMaLaYa_喜马拉雅_屏蔽开屏广告@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.* - reject
+# > XiMaLaYa_喜马拉雅_屏蔽位置请求@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location - reject
+# > XiMaLaYa_喜马拉雅_屏蔽热搜词@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/(hub\/)?hotWord - reject
+# > XiMaLaYa_喜马拉雅_屏蔽热搜board@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/(hub\/)?hotWordBillboard - reject
+# > XiMaLaYa_喜马拉雅_屏蔽搜索框定时_Ad@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord - reject
+# > XiMaLaYa_喜马拉雅_屏蔽实时Ad请求@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime - reject
+# > XiMaLaYa_喜马拉雅_屏蔽ting_Ad@ddgksf2013
+{{{喜马拉雅去广告}}}^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? - reject

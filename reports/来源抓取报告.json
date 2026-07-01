@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T12:02:52.515Z",
+  "generatedAt": "2026-07-01T15:19:36.800Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 243,
-      "accepted": 243,
+      "discovered": 245,
+      "accepted": 245,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 243
+          "found": 245
         },
         {
           "type": "sitemap.xml",
@@ -1010,6 +1010,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/HantingHotels_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "慧生活798去广告",
+      "description": "移除开屏广告、横幅广告，精简底栏",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {
@@ -2054,6 +2063,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Yitian_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "易校园去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告、悬浮广告、文末广告、消息广告、校园头条，精简首页金刚位和我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {

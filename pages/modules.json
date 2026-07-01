@@ -1,7 +1,7 @@
 {
   "version": 9,
-  "generatedAt": "2026-07-01T12:13:18.059Z",
-  "total": 298,
+  "generatedAt": "2026-07-01T15:20:31.056Z",
+  "total": 307,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 243,
-      "accepted": 243
+      "discovered": 245,
+      "accepted": 245
     },
     {
       "id": "1a51661d4c51",
@@ -27,7 +27,7 @@
       "key": "6ee4d08b2155:merged-collection.sgmodule",
       "id": "merged:6ee4d08b2155:merged-collection.sgmodule",
       "name": "去广告合集",
-      "description": "合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "description": "去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
       "file": "merged-collection.sgmodule",
       "path": "6ee4d08b2155/merged-collection.sgmodule",
       "legacyFile": "去广告合集.sgmodule",
@@ -121,6 +121,471 @@
       ]
     },
     {
+      "key": "6ee4d08b2155:default-ecommerce-collection.sgmodule",
+      "id": "merged:6ee4d08b2155:default-ecommerce-collection.sgmodule",
+      "name": "综合电商去广告",
+      "description": "综合电商去广告，包含：得物去广告、盒马去广告、京东去广告、京东外卖去广告、拼多多去广告、朴朴超市去广告、瑞幸咖啡去广告、省钱快报去广告、什么值得买去广告、淘宝去广告、天猫校园去广告、沃尔玛去广告、闲鱼去广告、转转去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-ecommerce-collection.sgmodule",
+      "path": "6ee4d08b2155/default-ecommerce-collection.sgmodule",
+      "legacyFile": "综合电商去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/综合电商去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "得物去广告",
+          "description": "移除开屏广告、弹窗、搜索词填充、热搜榜、猜你想搜、推荐关注、推荐信息流，精简消息中心和我的页面",
+          "file": "c98a1b43e45a72c4.sgmodule",
+          "path": "6ee4d08b2155/c98a1b43e45a72c4.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx"
+        },
+        {
+          "name": "盒马去广告",
+          "description": "移除开屏广告、首页信息流广告及推广、弹窗广告、悬浮挂件、商品及购物车推荐，精简底栏及我的页面",
+          "file": "1f9dac0f2eaec373.sgmodule",
+          "path": "6ee4d08b2155/1f9dac0f2eaec373.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MrHema_remove_ads.lpx"
+        },
+        {
+          "name": "京东去广告",
+          "description": "移除京东开屏广告，精简我的页面产品推广",
+          "file": "1cb057b9c6ee1491.sgmodule",
+          "path": "6ee4d08b2155/1cb057b9c6ee1491.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx"
+        },
+        {
+          "name": "京东外卖去广告",
+          "description": "移除首页推广、点评页面非美食内容、购物车及我的页面推荐、搜索发现、搜索榜单，精简我的页面",
+          "file": "e15d73fd8e2925c1.sgmodule",
+          "path": "6ee4d08b2155/e15d73fd8e2925c1.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx"
+        },
+        {
+          "name": "拼多多去广告",
+          "description": "移除开屏广告、底栏多多视频、会场入口、聊天页面精选推荐及推广，精简首页和个人中心",
+          "file": "ef358f54801c895a.sgmodule",
+          "path": "6ee4d08b2155/ef358f54801c895a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx"
+        },
+        {
+          "name": "朴朴超市去广告",
+          "description": "移除超市去开屏广告，移除首页顶部轮播图和图标广告、启动小弹图广告、首页右下角悬浮动画、搜索热搜榜、搜索建议词、搜索发现热词、订单页面商，精简我的页面",
+          "file": "662df8a72256b836.sgmodule",
+          "path": "6ee4d08b2155/662df8a72256b836.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PuPuMall_remove_ads.lpx"
+        },
+        {
+          "name": "瑞幸咖啡去广告",
+          "description": "移除开屏广告、弹窗和各类横幅推广",
+          "file": "8f20e54abb24f097.sgmodule",
+          "path": "6ee4d08b2155/8f20e54abb24f097.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx"
+        },
+        {
+          "name": "省钱快报去广告",
+          "description": "移除开屏广告、横幅广告、商品推荐，精简我的页面",
+          "file": "9a2ed093b1d3e926.sgmodule",
+          "path": "6ee4d08b2155/9a2ed093b1d3e926.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YueDanBa_remove_ads.lpx"
+        },
+        {
+          "name": "什么值得买去广告",
+          "description": "移除开屏广告、信息流广告、各类横幅广告、搜索页广告、文章内广告，移除活动皮肤、精简我的页面",
+          "file": "63342f9070a5bb50.sgmodule",
+          "path": "6ee4d08b2155/63342f9070a5bb50.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx"
+        },
+        {
+          "name": "淘宝去广告",
+          "description": "过滤淘宝开屏广告",
+          "file": "7b56bbd9149e7a66.sgmodule",
+          "path": "6ee4d08b2155/7b56bbd9149e7a66.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
+        },
+        {
+          "name": "天猫校园去广告",
+          "description": "移除广告配置、开屏广告、弹窗广告、AI助手、促销模块，精简我的页面",
+          "file": "81a93eb8983f076e.sgmodule",
+          "path": "6ee4d08b2155/81a93eb8983f076e.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TmallCampus_remove_ads.lpx"
+        },
+        {
+          "name": "沃尔玛去广告",
+          "description": "移除操作引导、商品详情页用户调研、搜索填充词和搜索发现，精简我的页面",
+          "file": "a1c43be57fd72acb.sgmodule",
+          "path": "6ee4d08b2155/a1c43be57fd72acb.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Walmart_remove_ads.lpx"
+        },
+        {
+          "name": "闲鱼去广告",
+          "description": "移除开屏广告、商品信息流广告、关注推荐、搜索栏填充词、首页签到入口及悬浮广告，精简我的页面",
+          "file": "0aa02ad476032304.sgmodule",
+          "path": "6ee4d08b2155/0aa02ad476032304.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx"
+        },
+        {
+          "name": "转转去广告",
+          "description": "移除开屏广告、应用内悬浮窗、信息流推广、商品推荐、首页弹窗，精简我的页面",
+          "file": "1de0b795cdb3dc2c.sgmodule",
+          "path": "6ee4d08b2155/1de0b795cdb3dc2c.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx"
+        }
+      ]
+    },
+    {
+      "key": "6ee4d08b2155:default-video-collection.sgmodule",
+      "id": "merged:6ee4d08b2155:default-video-collection.sgmodule",
+      "name": "视频媒体去广告",
+      "description": "视频媒体去广告，包含：555电影去广告、CC直播去广告、ReelShort去广告、TubeMax去广告、YouTube去广告、爱奇艺去广告、哔哩哔哩漫画去广告、哔哩哔哩去广告、斗鱼去广告、快手去广告、快影去广告、芒果TV去广告、皮皮虾去广告、腾讯视频去广告、香港抖音去广告、优酷视频去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-video-collection.sgmodule",
+      "path": "6ee4d08b2155/default-video-collection.sgmodule",
+      "legacyFile": "视频媒体去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/视频媒体去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "555电影去广告",
+          "description": "移除开屏广告和各类横幅广告，支持iPadOS",
+          "file": "4085f8d42a7809d1.sgmodule",
+          "path": "6ee4d08b2155/4085f8d42a7809d1.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/555DY_remove_ads.lpx"
+        },
+        {
+          "name": "CC直播去广告",
+          "description": "移除信息流推广和横幅，精简顶部标签",
+          "file": "8c53aa5bb8c49fee.sgmodule",
+          "path": "6ee4d08b2155/8c53aa5bb8c49fee.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CCLive_remove_ads.lpx"
+        },
+        {
+          "name": "ReelShort去广告",
+          "description": "移除开屏广告、为你推荐及各类弹窗，移除搜索栏填充词",
+          "file": "8e77b447792e47eb.sgmodule",
+          "path": "6ee4d08b2155/8e77b447792e47eb.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ReelShort_remove_ads.lpx"
+        },
+        {
+          "name": "TubeMax去广告",
+          "description": "过滤TubeMax广告",
+          "file": "abc9e23cc24d29b8.sgmodule",
+          "path": "6ee4d08b2155/abc9e23cc24d29b8.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx"
+        },
+        {
+          "name": "YouTube去广告",
+          "description": "移除YouTube视频、瀑布流、搜索和Shorts中的广告，移除底栏的Shorts按钮和上传按钮，增加画中画及字幕翻译功能。移除YouTube Music底栏的上传、选段和升级按钮，增加歌词翻译，支持二者的后台播放。此插件需要启用MitM",
+          "file": "ebfbe147dba1581a.sgmodule",
+          "path": "6ee4d08b2155/ebfbe147dba1581a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx"
+        },
+        {
+          "name": "爱奇艺去广告",
+          "description": "移除开屏广告、焦点图广告、瀑布流广告、搜索页面广告、移除青少年弹窗，精简底栏和我的页面",
+          "file": "9e45bd5dd453b8a9.sgmodule",
+          "path": "6ee4d08b2155/9e45bd5dd453b8a9.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iQiYi_Video_remove_ads.lpx"
+        },
+        {
+          "name": "哔哩哔哩漫画去广告",
+          "description": "移除开屏广告、应用内悬浮窗、各类横幅广告、你可能喜欢、小说推荐、首页弹窗，精简首页标签、底栏活动按钮和我的页面",
+          "file": "0c0c6e61d8c6534e.sgmodule",
+          "path": "6ee4d08b2155/0c0c6e61d8c6534e.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BiliComic_remove_ads.lpx"
+        },
+        {
+          "name": "哔哩哔哩去广告",
+          "description": "过滤哔哩哔哩广告、移除青少年模式弹窗和交互式弹幕、移除无用功能和链接跟踪参数，增加空降助手以便跳过视频中插入的广告。此插件仅建议iOS 15以上设备使用，且必须启用MitM-over-HTTP/2功能。\\n\\n空降助手是第三方提供的功能，依",
+          "file": "bba36377e903761b.sgmodule",
+          "path": "6ee4d08b2155/bba36377e903761b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx"
+        },
+        {
+          "name": "斗鱼去广告",
+          "description": "移除开屏、首页视频流、首页轮播图广告，移除直播间悬浮窗",
+          "file": "c3597096c47f5d44.sgmodule",
+          "path": "6ee4d08b2155/c3597096c47f5d44.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx"
+        },
+        {
+          "name": "快手去广告",
+          "description": "移除开屏广告、视频流广告、底栏皮肤、右下角悬浮推广，精简我的页面",
+          "file": "c7cbd325ba40d96f.sgmodule",
+          "path": "6ee4d08b2155/c7cbd325ba40d96f.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx"
+        },
+        {
+          "name": "快影去广告",
+          "description": "移除开屏广告、信息流推广、横幅推广，移除悬浮部件",
+          "file": "51026b688da4a3ba.sgmodule",
+          "path": "6ee4d08b2155/51026b688da4a3ba.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx"
+        },
+        {
+          "name": "芒果TV去广告",
+          "description": "移除开屏广告、信息流广告、播放页广告，精简我的页面",
+          "file": "d889f8b9c867cf89.sgmodule",
+          "path": "6ee4d08b2155/d889f8b9c867cf89.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MangoTV_remove_ads.lpx"
+        },
+        {
+          "name": "皮皮虾去广告",
+          "description": "移除开屏广告、评论区广告、视频流广告，精简我的页面",
+          "file": "b0ec73beb78373e5.sgmodule",
+          "path": "6ee4d08b2155/b0ec73beb78373e5.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx"
+        },
+        {
+          "name": "腾讯视频去广告",
+          "description": "过滤腾讯视频客户端广告，如遇失效，则需要重新安装腾讯视频客户端。由于此插件不再维护，客户端版本高于8.9.40可能会导致此插件失效，请勿升级客户端",
+          "file": "d4b94f5eb680c8d0.sgmodule",
+          "path": "6ee4d08b2155/d4b94f5eb680c8d0.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx"
+        },
+        {
+          "name": "香港抖音去广告",
+          "description": "精简左右侧边栏、移除底栏切换，其余内容后续再完善",
+          "file": "9341184f41926436.sgmodule",
+          "path": "6ee4d08b2155/9341184f41926436.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/HKDouYin_remove_ads.lpx"
+        },
+        {
+          "name": "优酷视频去广告",
+          "description": "移除开屏广告、视频广告、信息流广告。其余广告由于请求已加密，故无法移除",
+          "file": "a45adc3eaa2a642b.sgmodule",
+          "path": "6ee4d08b2155/a45adc3eaa2a642b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YouKu_Video_remove_ads.lpx"
+        }
+      ]
+    },
+    {
+      "key": "6ee4d08b2155:default-music-collection.sgmodule",
+      "id": "merged:6ee4d08b2155:default-music-collection.sgmodule",
+      "name": "音乐媒体去广告",
+      "description": "音乐媒体去广告，包含：QQ音乐去广告、Spotify去广告、波点音乐去广告、酷狗概念版去广告、酷狗铃声去广告、酷狗音乐去广告、酷我音乐去广告、猫耳FM去广告、蜻蜓FM去广告、汽水音乐去广告、全民K歌去广告、网易云音乐去广告、小宇宙去广告、喜马拉雅去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-music-collection.sgmodule",
+      "path": "6ee4d08b2155/default-music-collection.sgmodule",
+      "legacyFile": "音乐媒体去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/音乐媒体去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "QQ音乐去广告",
+          "description": "过滤QQ音乐广告",
+          "file": "e45dcfabb9c43c1f.sgmodule",
+          "path": "6ee4d08b2155/e45dcfabb9c43c1f.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx"
+        },
+        {
+          "name": "Spotify去广告",
+          "description": "移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效",
+          "file": "6085a6ab2126b2b4.sgmodule",
+          "path": "6ee4d08b2155/6085a6ab2126b2b4.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx"
+        },
+        {
+          "name": "波点音乐去广告",
+          "description": "精简应用配置，禁用P2P传输。移除开屏广告、横幅推广、悬浮广告、歌曲广告、商城入口、搜索推广、评论区推广、试听语音提醒",
+          "file": "e73b28f4207e8b45.sgmodule",
+          "path": "6ee4d08b2155/e73b28f4207e8b45.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx"
+        },
+        {
+          "name": "酷狗概念版去广告",
+          "description": "移除广告服务模块、播放器广告，精简乐库及搜索页面",
+          "file": "6e8792b3e0ea4cfb.sgmodule",
+          "path": "6ee4d08b2155/6e8792b3e0ea4cfb.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KuGouYouth_remove_ads.lpx"
+        },
+        {
+          "name": "酷狗铃声去广告",
+          "description": "移除开屏广告，移除歌曲列表、播放器、搜索界面广告，移除悬浮广告和弹窗广告",
+          "file": "39179ac82f036cc2.sgmodule",
+          "path": "6ee4d08b2155/39179ac82f036cc2.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx"
+        },
+        {
+          "name": "酷狗音乐去广告",
+          "description": "移除开屏广告、应用各类弹窗、各类横幅广告、评论区广告和播放器界面广告",
+          "file": "4c21f338d07f74d0.sgmodule",
+          "path": "6ee4d08b2155/4c21f338d07f74d0.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx"
+        },
+        {
+          "name": "酷我音乐去广告",
+          "description": "移除开屏广告、各类弹窗、悬浮窗、各类横幅广告、信息流广告、歌词评论区广告和播放器界面广告，精简侧边栏",
+          "file": "6fd74c87c287768e.sgmodule",
+          "path": "6ee4d08b2155/6fd74c87c287768e.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Kuwo_remove_ads.lpx"
+        },
+        {
+          "name": "猫耳FM去广告",
+          "description": "移除开屏广告、青少年模式弹窗、首页顶部入口，替换底栏的直播入口为发现入口",
+          "file": "c2083b596cfe4d2a.sgmodule",
+          "path": "6ee4d08b2155/c2083b596cfe4d2a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CatEarFM_remove_ads.lpx"
+        },
+        {
+          "name": "蜻蜓FM去广告",
+          "description": "移除开屏广告、信息流广告、各类相关内容推荐，精简我的页面",
+          "file": "4c5e28543c7d0cbc.sgmodule",
+          "path": "6ee4d08b2155/4c5e28543c7d0cbc.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx"
+        },
+        {
+          "name": "汽水音乐去广告",
+          "description": "移除开屏广告、弹窗广告、播放器推广、歌曲详情界面视频推广、播放页面的歌曲视频，精简首页和我的页面",
+          "file": "e0f76a3db79c0dff.sgmodule",
+          "path": "6ee4d08b2155/e0f76a3db79c0dff.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx"
+        },
+        {
+          "name": "全民K歌去广告",
+          "description": "移除开屏广告、歌房页面弹窗广告、消息页广告和我的页面广告",
+          "file": "ffedd711ad79128e.sgmodule",
+          "path": "6ee4d08b2155/ffedd711ad79128e.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QQKSong_remove_ads.lpx"
+        },
+        {
+          "name": "网易云音乐去广告",
+          "description": "过滤网易云音乐广告，并允许自定义界面",
+          "file": "482a3e55719d5926.sgmodule",
+          "path": "6ee4d08b2155/482a3e55719d5926.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx"
+        },
+        {
+          "name": "小宇宙去广告",
+          "description": "移除开屏广告、搜索框推荐词和AI总结",
+          "file": "727c5e8cbbd13806.sgmodule",
+          "path": "6ee4d08b2155/727c5e8cbbd13806.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CosmosPodcast_remove_ads.lpx"
+        },
+        {
+          "name": "喜马拉雅去广告",
+          "description": "移除开屏广告、播放器广告、各类推荐内容，精简频道和我的页面",
+          "file": "1bb1606c6d9dd1a3.sgmodule",
+          "path": "6ee4d08b2155/1bb1606c6d9dd1a3.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx"
+        }
+      ]
+    },
+    {
+      "key": "6ee4d08b2155:default-travel-collection.sgmodule",
+      "id": "merged:6ee4d08b2155:default-travel-collection.sgmodule",
+      "name": "地图出行去广告",
+      "description": "地图出行去广告，包含：12306去广告、百度地图去广告、滴答出行去广告、滴滴出行去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-travel-collection.sgmodule",
+      "path": "6ee4d08b2155/default-travel-collection.sgmodule",
+      "legacyFile": "地图出行去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/地图出行去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "12306去广告",
+          "description": "过滤12306应用内广告及开屏广告",
+          "file": "2c3cf505b181f69a.sgmodule",
+          "path": "6ee4d08b2155/2c3cf505b181f69a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx"
+        },
+        {
+          "name": "百度地图去广告",
+          "description": "移除开屏广告、出行页面推广、周边页面推广、打车页面推广，精简我的页面。此插件需要IPA签名方可使用，App Store用户请勿使用此插件，务必点击下方主页链接查看详细教程",
+          "file": "0aff3d6c3e310ef4.sgmodule",
+          "path": "6ee4d08b2155/0aff3d6c3e310ef4.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx"
+        },
+        {
+          "name": "滴答出行去广告",
+          "description": "移除开屏广告、弹窗广告、横幅广告，精简底栏和我的页面",
+          "file": "8fd424cca20c973b.sgmodule",
+          "path": "6ee4d08b2155/8fd424cca20c973b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DidaPincheTaxi_remove_ads.lpx"
+        },
+        {
+          "name": "滴滴出行去广告",
+          "description": "移除开屏广告、弹窗广告、横幅推广，精简底栏和我的页面",
+          "file": "19409bb4c063bc89.sgmodule",
+          "path": "6ee4d08b2155/19409bb4c063bc89.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx"
+        },
+        {
+          "name": "飞猪旅行去广告",
+          "description": "移除开屏广告、精简我的页面",
+          "file": "b016847f05d5b7e3.sgmodule",
+          "path": "6ee4d08b2155/b016847f05d5b7e3.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TaobaoTravel_remove_ads.lpx"
+        },
+        {
+          "name": "高德地图去广告",
+          "description": "过滤高德地图开屏广告、各页面推广，精简我的页面",
+          "file": "701f0da9de16a80f.sgmodule",
+          "path": "6ee4d08b2155/701f0da9de16a80f.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx"
+        },
+        {
+          "name": "航旅纵横去广告",
+          "description": "过滤航旅纵横广告",
+          "file": "5bd4d2b97f535fc9.sgmodule",
+          "path": "6ee4d08b2155/5bd4d2b97f535fc9.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx"
+        },
+        {
+          "name": "两步路户外助手去广告",
+          "description": "移除开屏广告、弹窗广告，精简我的页面",
+          "file": "450d3f9da366546b.sgmodule",
+          "path": "6ee4d08b2155/450d3f9da366546b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/2bulu_remove_ads.lpx"
+        },
+        {
+          "name": "萝卜快跑去广告",
+          "description": "移除开屏广告、弹窗广告、横幅广告、新用户活动皮肤，保留优惠活动",
+          "file": "045fb64f627b975a.sgmodule",
+          "path": "6ee4d08b2155/045fb64f627b975a.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/RoboTaxi_remove_ads.lpx"
+        },
+        {
+          "name": "马蜂窝去广告",
+          "description": "移除首页信息流广告、商城横幅推广、我的页面弹窗",
+          "file": "dda0d7a4f0c63af2.sgmodule",
+          "path": "6ee4d08b2155/dda0d7a4f0c63af2.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx"
+        },
+        {
+          "name": "行者户外去广告",
+          "description": "移除弹窗广告、发现页面横幅推广的推广金刚位，移除我的页面横幅推广",
+          "file": "1c25638543ec475b.sgmodule",
+          "path": "6ee4d08b2155/1c25638543ec475b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OnTheWay_remove_ads.lpx"
+        }
+      ]
+    },
+    {
       "key": "6ee4d08b2155:cdeeba4b9501261b.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx",
       "name": "HTTPDNS拦截器",
@@ -144,7 +609,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:348b2404315c2a6a.sgmodule",
@@ -169,7 +637,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:7e72b29ec238bf70.sgmodule",
@@ -304,7 +775,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:2c3cf505b181f69a.sgmodule",
@@ -327,7 +803,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:f112a0609f7c35a5.sgmodule",
@@ -416,7 +897,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:4534c47c742b247f.sgmodule",
@@ -818,7 +1304,11 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集、音乐媒体去广告",
+      "mergedIntoList": [
+        "去广告合集",
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:65e1e7c934be0e7d.sgmodule",
@@ -862,7 +1352,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:e77d1c20659b62ba.sgmodule",
@@ -978,7 +1473,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:8b4a6fc2dee7195a.sgmodule",
@@ -1090,7 +1590,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:e7237a77670bea6e.sgmodule",
@@ -1247,7 +1752,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:1c33ea084d0b1d80.sgmodule",
@@ -1386,7 +1896,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:625c85d40a79cf5f.sgmodule",
@@ -1433,7 +1948,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:ba8028e7d19333b8.sgmodule",
@@ -1640,7 +2160,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:bba36377e903761b.sgmodule",
@@ -1665,7 +2190,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:128e1d3510ed5fb6.sgmodule",
@@ -1710,7 +2240,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:563cc144cf6b1998.sgmodule",
@@ -1757,7 +2292,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:79bc6a0554247839.sgmodule",
@@ -1985,7 +2523,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:8fd424cca20c973b.sgmodule",
@@ -2007,7 +2550,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:19409bb4c063bc89.sgmodule",
@@ -2031,7 +2579,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:6b1e899b378ae116.sgmodule",
@@ -2125,7 +2678,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:dcdd9d178a3b57d3.sgmodule",
@@ -2171,7 +2729,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:b620c0e504c58ab4.sgmodule",
@@ -2240,7 +2801,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:72b1b8abc6964a97.sgmodule",
@@ -2402,7 +2968,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:630c8784421104e6.sgmodule",
@@ -2447,7 +3018,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:1f9dac0f2eaec373.sgmodule",
@@ -2469,7 +3045,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:65c0b8794197974c.sgmodule",
@@ -2511,6 +3092,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/HantingHotels_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:7c47c6d79dcc8066.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
+      "name": "慧生活798去广告",
+      "description": "移除开屏广告、横幅广告，精简底栏",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "7c47c6d79dcc8066.sgmodule",
+      "path": "6ee4d08b2155/7c47c6d79dcc8066.sgmodule",
+      "legacyFile": "慧生活798去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/慧生活798去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -2699,7 +3303,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:e15d73fd8e2925c1.sgmodule",
@@ -2722,7 +3331,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:6a5fb35d977526b3.sgmodule",
@@ -2885,7 +3499,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:51026b688da4a3ba.sgmodule",
@@ -2907,7 +3526,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:b5b63a9fb9edb53b.sgmodule",
@@ -2932,7 +3556,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:1e222d923a1e8abb.sgmodule",
@@ -2999,7 +3626,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:39179ac82f036cc2.sgmodule",
@@ -3021,7 +3653,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:4c21f338d07f74d0.sgmodule",
@@ -3044,7 +3681,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:5832ec2e1eae40a4.sgmodule",
@@ -3089,7 +3731,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:05e3e662124c9127.sgmodule",
@@ -3134,7 +3781,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:045fb64f627b975a.sgmodule",
@@ -3156,7 +3808,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:dda0d7a4f0c63af2.sgmodule",
@@ -3179,7 +3836,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:d889f8b9c867cf89.sgmodule",
@@ -3203,7 +3865,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:c0bb1affa46b1059.sgmodule",
@@ -3249,7 +3916,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:28d5a4d813023571.sgmodule",
@@ -3570,7 +4242,11 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集、综合电商去广告",
+      "mergedIntoList": [
+        "去广告合集",
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:b0ec73beb78373e5.sgmodule",
@@ -3592,7 +4268,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:662df8a72256b836.sgmodule",
@@ -3615,7 +4296,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:84073e0a6d5c3b7f.sgmodule",
@@ -3734,7 +4420,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:e0f76a3db79c0dff.sgmodule",
@@ -3757,7 +4448,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:a66852bae9759157.sgmodule",
@@ -3804,7 +4500,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:8f20e54abb24f097.sgmodule",
@@ -3826,7 +4527,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:9a2ed093b1d3e926.sgmodule",
@@ -3848,7 +4554,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:63342f9070a5bb50.sgmodule",
@@ -3873,7 +4584,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:28613bc5e302fe9b.sgmodule",
@@ -4012,7 +4728,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:b4c0b25e638f8c89.sgmodule",
@@ -4081,7 +4802,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:5b5e0d66a9c41007.sgmodule",
@@ -4126,7 +4852,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:4e8ae447cb1e86ef.sgmodule",
@@ -4378,7 +5109,11 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集、音乐媒体去广告",
+      "mergedIntoList": [
+        "去广告合集",
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:c8cae264bd90cb17.sgmodule",
@@ -4539,7 +5274,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:8315bd36aaf01ea1.sgmodule",
@@ -4586,7 +5324,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:507f189031d71e83.sgmodule",
@@ -4676,7 +5419,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:eb13716763856cba.sgmodule",
@@ -4721,7 +5469,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:17eefae01e92a6b6.sgmodule",
@@ -4814,7 +5567,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:72323a8c9d15eef2.sgmodule",
@@ -4948,7 +5704,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:1bb1606c6d9dd1a3.sgmodule",
@@ -4972,7 +5733,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:1c25638543ec475b.sgmodule",
@@ -4995,7 +5761,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:bd51d6fb011c385d.sgmodule",
@@ -5157,6 +5928,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:59d8904fbcd1f43b.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
+      "name": "易校园去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告、悬浮广告、文末广告、消息广告、校园头条，精简首页金刚位和我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "59d8904fbcd1f43b.sgmodule",
+      "path": "6ee4d08b2155/59d8904fbcd1f43b.sgmodule",
+      "legacyFile": "易校园去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/易校园去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:0b05f23f708fe58d.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/YoudaoTrans_remove_ads.lpx",
       "name": "有道翻译官去广告",
@@ -5221,7 +6015,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "视频媒体去广告",
+      "mergedIntoList": [
+        "视频媒体去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:895e18cceafdc640.sgmodule",
@@ -5312,7 +6111,10 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集"
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:efa615aeb1362694.sgmodule",
@@ -5542,7 +6344,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "6ee4d08b2155:7dbd20d6e7912ef9.sgmodule",
@@ -5613,6 +6420,150 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "1a51661d4c51:default-ecommerce-collection.sgmodule",
+      "id": "merged:1a51661d4c51:default-ecommerce-collection.sgmodule",
+      "name": "综合电商去广告",
+      "description": "综合电商去广告，包含：什么值得买、闲鱼净化[JQ版]。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-ecommerce-collection.sgmodule",
+      "path": "1a51661d4c51/default-ecommerce-collection.sgmodule",
+      "legacyFile": "综合电商去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/综合电商去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "什么值得买",
+          "description": "广告屏蔽：什么值得买",
+          "file": "7f4be2554b2f82f9.sgmodule",
+          "path": "1a51661d4c51/7f4be2554b2f82f9.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf"
+        },
+        {
+          "name": "闲鱼净化[JQ版]",
+          "description": "广告屏蔽：闲鱼净化[JQ版]",
+          "file": "137edffbedc7dad4.sgmodule",
+          "path": "1a51661d4c51/137edffbedc7dad4.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/GoofishAds.conf"
+        }
+      ]
+    },
+    {
+      "key": "1a51661d4c51:default-music-collection.sgmodule",
+      "id": "merged:1a51661d4c51:default-music-collection.sgmodule",
+      "name": "音乐媒体去广告",
+      "description": "音乐媒体去广告，包含：Spotify会员、酷我SVIP+净化、喜马拉雅去广告、网易云去广告、汽水音乐净化[JQ版] 卸载重装、小宇宙FM去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-music-collection.sgmodule",
+      "path": "1a51661d4c51/default-music-collection.sgmodule",
+      "legacyFile": "音乐媒体去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/音乐媒体去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "Spotify会员",
+          "description": "1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放",
+          "file": "bcad63b065c762b8.sgmodule",
+          "path": "1a51661d4c51/bcad63b065c762b8.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf"
+        },
+        {
+          "name": "酷我SVIP+净化",
+          "description": "用于 酷我SVIP+净化 的 Surge 模块。",
+          "file": "c0db9b84490d4655.sgmodule",
+          "path": "1a51661d4c51/c0db9b84490d4655.sgmodule",
+          "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js"
+        },
+        {
+          "name": "喜马拉雅去广告",
+          "description": "广告屏蔽：喜马拉雅去广告",
+          "file": "1f025c9ee85e9f9c.sgmodule",
+          "path": "1a51661d4c51/1f025c9ee85e9f9c.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf"
+        },
+        {
+          "name": "网易云去广告",
+          "description": "广告屏蔽：网易云去广告",
+          "file": "29a24d4f0042073a.sgmodule",
+          "path": "1a51661d4c51/29a24d4f0042073a.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/NeteaseAds.conf"
+        },
+        {
+          "name": "汽水音乐净化[JQ版] 卸载重装",
+          "description": "广告屏蔽：汽水音乐净化[JQ版] 卸载重装",
+          "file": "bca172c68778a4f0.sgmodule",
+          "path": "1a51661d4c51/bca172c68778a4f0.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf"
+        },
+        {
+          "name": "小宇宙FM去广告",
+          "description": "广告屏蔽：小宇宙FM去广告",
+          "file": "a884c583da1bcd41.sgmodule",
+          "path": "1a51661d4c51/a884c583da1bcd41.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/XiaoYuZhouAds.conf"
+        }
+      ]
+    },
+    {
+      "key": "1a51661d4c51:default-travel-collection.sgmodule",
+      "id": "merged:1a51661d4c51:default-travel-collection.sgmodule",
+      "name": "地图出行去广告",
+      "description": "地图出行去广告，包含：12306去广告、高德地图去广告 [卸载重装]、滴滴出行、车来了净化。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "default-travel-collection.sgmodule",
+      "path": "1a51661d4c51/default-travel-collection.sgmodule",
+      "legacyFile": "地图出行去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/地图出行去广告.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "12306去广告",
+          "description": "广告屏蔽：12306去广告",
+          "file": "cc44f1eacf14bdff.sgmodule",
+          "path": "1a51661d4c51/cc44f1eacf14bdff.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Scripts/master/12306.js"
+        },
+        {
+          "name": "高德地图去广告 [卸载重装]",
+          "description": "广告屏蔽：高德地图去广告 [卸载重装]",
+          "file": "071b6af61cffd55d.sgmodule",
+          "path": "1a51661d4c51/071b6af61cffd55d.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/AmapAds.conf"
+        },
+        {
+          "name": "滴滴出行",
+          "description": "广告屏蔽：滴滴出行",
+          "file": "023afbfb8bcd15eb.sgmodule",
+          "path": "1a51661d4c51/023afbfb8bcd15eb.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.snippet"
+        },
+        {
+          "name": "车来了净化",
+          "description": "广告屏蔽：车来了净化",
+          "file": "dbcd95fd8408b0e6.sgmodule",
+          "path": "1a51661d4c51/dbcd95fd8408b0e6.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/CheLaiLeAds.conf"
+        }
+      ]
+    },
+    {
       "key": "1a51661d4c51:d93dffb5a6c22d90.sgmodule",
       "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
       "name": "序号",
@@ -5655,7 +6606,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:258cb71891b5ad08.sgmodule",
@@ -5700,7 +6656,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:75f5fee4d32dc14d.sgmodule",
@@ -5973,7 +6934,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:b6a1865597f43964.sgmodule",
@@ -6063,7 +7029,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:bee38cf74f563f87.sgmodule",
@@ -6113,7 +7084,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:29a24d4f0042073a.sgmodule",
@@ -6136,7 +7112,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:7dc2b8713c0a4c5f.sgmodule",
@@ -6251,7 +7232,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:55dc6d1910ff29ef.sgmodule",
@@ -6296,7 +7282,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:c795cc591092f2df.sgmodule",
@@ -6457,7 +7448,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "综合电商去广告",
+      "mergedIntoList": [
+        "综合电商去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:bca172c68778a4f0.sgmodule",
@@ -6479,7 +7475,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:a884c583da1bcd41.sgmodule",
@@ -6501,7 +7502,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:dbcd95fd8408b0e6.sgmodule",
@@ -6525,7 +7531,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "地图出行去广告",
+      "mergedIntoList": [
+        "地图出行去广告"
+      ]
     },
     {
       "key": "1a51661d4c51:a7330c5e989e2451.sgmodule",

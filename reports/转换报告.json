@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T12:04:30.808Z",
+  "generatedAt": "2026-07-01T15:20:17.324Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -2389,6 +2389,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/HantingHotels_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:7c47c6d79dcc8066.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
+      "name": "慧生活798去广告",
+      "description": "移除开屏广告、横幅广告，精简底栏",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "7c47c6d79dcc8066.sgmodule",
+      "path": "6ee4d08b2155/7c47c6d79dcc8066.sgmodule",
+      "legacyFile": "慧生活798去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/慧生活798去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -5019,6 +5042,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Yitian_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:59d8904fbcd1f43b.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
+      "name": "易校园去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告、悬浮广告、文末广告、消息广告、校园头条，精简首页金刚位和我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "59d8904fbcd1f43b.sgmodule",
+      "path": "6ee4d08b2155/59d8904fbcd1f43b.sgmodule",
+      "legacyFile": "易校园去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/易校园去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",

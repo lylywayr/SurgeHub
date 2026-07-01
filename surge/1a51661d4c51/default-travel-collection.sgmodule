@@ -1,0 +1,115 @@
+#!name=地图出行去广告
+#!desc=地图出行去广告，包含：12306去广告、高德地图去广告 [卸载重装]、滴滴出行、车来了净化。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=12306去广告:"",高德地图去广告_卸载重装:"",滴滴出行:"",车来了净化:""
+#!arguments-desc=12306去广告: 【12306去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告_卸载重装: 【高德地图去广告 [卸载重装]】开关：留空启用，填 # 关闭此子模块。\n滴滴出行: 【滴滴出行】开关：留空启用，填 # 关闭此子模块。\n车来了净化: 【车来了净化】开关：留空启用，填 # 关闭此子模块。
+
+[Script]
+# 12306去广告
+{{{12306去广告}}}12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://github.com/ddgksf2013/Scripts/raw/master/12306.js, requires-body=true, max-size=-1, timeout=60
+# 高德地图去广告 [卸载重装]
+# > 高德地图_amdc处理@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amdc = type=http-response, pattern=^http:\/\/amdc\.m\.taobao\.com, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amdc.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_底部tab栏角标@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/message\/notice\/list, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_首页右中广告@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_附近页面@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_打车页面处理@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/promotion-web\/resource, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_首页底部处理@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_开屏广告@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/valueadded\/alimama\/splash_screen, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_首页顶部推广@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/msgbox\/pull, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_我的页面@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaas, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# > 高德地图_搜索框热词@ddgksf2013
+{{{高德地图去广告_卸载重装}}}amap = type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/new_hotword, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js, requires-body=true, max-size=-1, timeout=60
+# 车来了净化
+# > 去除底栏@ddgksf2013
+{{{车来了净化}}}chelaile = type=http-response, pattern=^https?:\/\/.*chelaile\.net\.cn\/goocity\/city!, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/chelaile.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+# 12306去广告
+{{{12306去广告}}}hostname = %APPEND% ad.12306.cn
+# 高德地图去广告 [卸载重装]
+{{{高德地图去广告_卸载重装}}}hostname = %APPEND% m5.amap.com, m5-zb.amap.com, center.amap.com, amap-aos-info-nogw.amap.com, ai.amap.com
+# 滴滴出行
+{{{滴滴出行}}}hostname = %APPEND% 117.51.168.*, 113.46.225.*, common.diditaxi.com.cn, freight.xiaojukeji.com, daijia.kuaidadi.com, 162.14.157.*, ct.xiaojukeji.com, res.xiaojukeji.com, conf.diditaxi.com.cn, api.udache.com, 123.207.209.*, 112.53.55.225, 120.241.142.*, 120.241.143.*, 116.85.*, 139.199.240.84, mapi.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, ddpay.xiaojukeji.com
+# 车来了净化
+{{{车来了净化}}}hostname = %APPEND% web.chelaile.net.cn, api.chelaile.net.cn, cdn.api.chelaile.net.cn, cdn.web.chelaile.net.cn, atrace.chelaile.net.cn
+
+[Rule]
+# 高德地图去广告 [卸载重装]
+{{{高德地图去广告_卸载重装}}}DOMAIN-SUFFIX,optimus-ads.amap.com,DIRECT
+# 滴滴出行
+{{{滴滴出行}}}DOMAIN,gwp.xiaojukeji.com,REJECT
+{{{滴滴出行}}}IP-CIDR,139.199.244.6/32,REJECT
+{{{滴滴出行}}}IP-CIDR,113.46.225.9/32,REJECT
+{{{滴滴出行}}}IP-CIDR,139.199.244.7/32,REJECT
+{{{滴滴出行}}}IP-CIDR,113.46.225.8/32,REJECT
+{{{滴滴出行}}}IP-CIDR,123.207.209.39/32,REJECT
+{{{滴滴出行}}}IP-CIDR,123.207.209.60/32,REJECT
+{{{滴滴出行}}}IP-CIDR,139.199.240.15/32,REJECT
+{{{滴滴出行}}}IP-CIDR,139.199.240.12/32,REJECT
+{{{滴滴出行}}}IP-CIDR,116.85.3.37/32,REJECT
+{{{滴滴出行}}}IP-CIDR,162.14.157.2/32,REJECT
+{{{滴滴出行}}}IP-CIDR,162.14.157.24/32,REJECT
+{{{滴滴出行}}}IP-CIDR,116.85.1.0/32,REJECT
+{{{滴滴出行}}}IP-CIDR,116.85.1.17/32,REJECT
+{{{滴滴出行}}}IP-CIDR,116.85.1.22/32,REJECT
+{{{滴滴出行}}}IP-CIDR,116.85.3.25/32,REJECT
+
+[URL Rewrite]
+# 高德地图去广告 [卸载重装]
+# > 高德地图_通用广告请求@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
+# 车来了净化
+# > 我的页面@ddgksf2013
+{{{车来了净化}}}^https?:\/\/.*chelaile\.net\.cn\/goocity\/flowPos\/listByPos - reject
+
+[Map Local]
+# 高德地图去广告 [卸载重装]
+# > 高德地图_开屏请求@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/aos\/alimama\/splash_screen data-type=text data=" " status-code=200
+# > 高德地图_首页底部信息流@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# > 高德地图_路线规划下方广告@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# > 高德地图_Tip请求@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/boss\/order_web\/\w{8}_information data-type=text data=" " status-code=200
+# > 高德地图_搜索框scene@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# > 高德地图_首页左上角gif@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif data-type=tiny-gif status-code=200
+# > 高德地图_左下天气@ddgksf2013
+{{{高德地图去广告_卸载重装}}}^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 滴滴出行
+{{{滴滴出行}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/getMulti\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/xpget data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/freight\.xiaojukeji\.com\/gateway data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/daijia\.kuaidadi\.com:443\/gateway data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/slow data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/api\.udache\.com\/gulfstream\/watson\/v1\/bubble\/getBubble data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/getInsActivityV2 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴出行}}}^https:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 车来了净化
+# > 详情页@ddgksf2013
+{{{车来了净化}}}^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html data-type=text data=" " status-code=200
+# > 通用广告@ddgksf2013
+{{{车来了净化}}}^https?:\/\/.*chelaile\.net\.cn\/(api\/)?adpub data-type=text data=" " status-code=200
+# > IPdir处理@ddgksf2013
+{{{车来了净化}}}^https?:\/\/124\.70\.194\.16\/(ip|adpub) data-type=text data=" " status-code=200
+# > 我的页面@ddgksf2013
+{{{车来了净化}}}^https?:\/\/124\.70\.194\.16\/goocity\/flowPos\/listByPos data-type=text data=" " status-code=200
+# > 公交详情页@ddgksf2013
+{{{车来了净化}}}^https?:\/\/web\.chelaile\.net\.cn\/api\/operative_position\/infoflow data-type=text data=" " status-code=200
+# > 隐私跟踪@ddgksf2013
+{{{车来了净化}}}^https?:\/\/atrace\.chelaile\.net\.cn\/(wx_preloadAd|adAnalysis) data-type=text data=" " status-code=200

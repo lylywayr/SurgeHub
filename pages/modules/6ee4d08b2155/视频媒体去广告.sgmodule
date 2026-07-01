@@ -1,0 +1,256 @@
+#!name=视频媒体去广告
+#!desc=视频媒体去广告，包含：555电影去广告、CC直播去广告、ReelShort去广告、TubeMax去广告、YouTube去广告、爱奇艺去广告、哔哩哔哩漫画去广告、哔哩哔哩去广告、斗鱼去广告、快手去广告、快影去广告、芒果TV去广告、皮皮虾去广告、腾讯视频去广告、香港抖音去广告、优酷视频去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=555电影去广告:"",CC直播去广告:"",ReelShort去广告:"",TubeMax去广告:"",YouTube去广告:"",爱奇艺去广告:"",哔哩哔哩漫画去广告:"",哔哩哔哩去广告:"",斗鱼去广告:"",快手去广告:"",快影去广告:"",芒果TV去广告:"",皮皮虾去广告:"",腾讯视频去广告:"",香港抖音去广告:"",优酷视频去广告:"",隐藏上传按钮_用于隐藏YouTube底栏的上传按钮:false,隐藏Shorts按钮_用于隐藏YouTube底栏的Shorts按钮:false,隐藏选段按钮_用于隐藏YouTube_Music底栏的选段按钮:false,字幕翻译语言_需要把YouTube字幕翻译翻译为何种语言:"zh-Hans",歌词翻译语言_需要把YouTube_Music字幕翻译翻译为何种语言:"zh-Hans",启用调试模式_此插件的调试模式:false,动态_中_最常访问_的显示方式_auto_仅当列表中存在直播状态时显示_show_始终显示_hide_始终隐藏:"show",移除评论区置顶广告:true,优化评论区加载异常_尝试解决评论区加载异常的问题:true,空降助手_用于跳过视频中的广告:false,日志等级_脚本的日志输出等级:"off"
+#!arguments-desc=555电影去广告: 【555电影去广告】开关：留空启用，填 # 关闭此子模块。\nCC直播去广告: 【CC直播去广告】开关：留空启用，填 # 关闭此子模块。\nReelShort去广告: 【ReelShort去广告】开关：留空启用，填 # 关闭此子模块。\nTubeMax去广告: 【TubeMax去广告】开关：留空启用，填 # 关闭此子模块。\nYouTube去广告: 【YouTube去广告】开关：留空启用，填 # 关闭此子模块。\n爱奇艺去广告: 【爱奇艺去广告】开关：留空启用，填 # 关闭此子模块。\n哔哩哔哩漫画去广告: 【哔哩哔哩漫画去广告】开关：留空启用，填 # 关闭此子模块。\n哔哩哔哩去广告: 【哔哩哔哩去广告】开关：留空启用，填 # 关闭此子模块。\n斗鱼去广告: 【斗鱼去广告】开关：留空启用，填 # 关闭此子模块。\n快手去广告: 【快手去广告】开关：留空启用，填 # 关闭此子模块。\n快影去广告: 【快影去广告】开关：留空启用，填 # 关闭此子模块。\n芒果TV去广告: 【芒果TV去广告】开关：留空启用，填 # 关闭此子模块。\n皮皮虾去广告: 【皮皮虾去广告】开关：留空启用，填 # 关闭此子模块。\n腾讯视频去广告: 【腾讯视频去广告】开关：留空启用，填 # 关闭此子模块。\n香港抖音去广告: 【香港抖音去广告】开关：留空启用，填 # 关闭此子模块。\n优酷视频去广告: 【优酷视频去广告】开关：留空启用，填 # 关闭此子模块。\n隐藏上传按钮_用于隐藏YouTube底栏的上传按钮: 【YouTube去广告】隐藏上传按钮 用于隐藏YouTube底栏的上传按钮（原参数名：blockUpload）\n隐藏Shorts按钮_用于隐藏YouTube底栏的Shorts按钮: 【YouTube去广告】隐藏Shorts按钮 用于隐藏YouTube底栏的Shorts按钮（原参数名：blockShorts）\n隐藏选段按钮_用于隐藏YouTube_Music底栏的选段按钮: 【YouTube去广告】隐藏选段按钮 用于隐藏YouTube Music底栏的选段按钮（原参数名：blockImmersive）\n字幕翻译语言_需要把YouTube字幕翻译翻译为何种语言: 【YouTube去广告】字幕翻译语言 需要把YouTube字幕翻译翻译为何种语言（原参数名：captionLang）\n歌词翻译语言_需要把YouTube_Music字幕翻译翻译为何种语言: 【YouTube去广告】歌词翻译语言 需要把YouTube Music字幕翻译翻译为何种语言（原参数名：lyricLang）\n启用调试模式_此插件的调试模式: 【YouTube去广告】启用调试模式 此插件的调试模式（原参数名：debug）\n动态_中_最常访问_的显示方式_auto_仅当列表中存在直播状态时显示_show_始终显示_hide_始终隐藏: 【哔哩哔哩去广告】[动态]中[最常访问]的显示方式 auto：仅当列表中存在直播状态时显示；show：始终显示；hide：始终隐藏。（原参数名：displayUpList）\n移除评论区置顶广告: 【哔哩哔哩去广告】移除评论区置顶广告（原参数名：purifyComment）\n优化评论区加载异常_尝试解决评论区加载异常的问题: 【哔哩哔哩去广告】优化评论区加载异常 尝试解决评论区加载异常的问题（原参数名：optimizeRequest）\n空降助手_用于跳过视频中的广告: 【哔哩哔哩去广告】空降助手 用于跳过视频中的广告（原参数名：sponsorBlock）\n日志等级_脚本的日志输出等级: 【哔哩哔哩去广告】日志等级 脚本的日志输出等级（原参数名：logLevel）
+
+[MITM]
+# 555电影去广告
+{{{555电影去广告}}}hostname = %APPEND% app-v1.ecoliving168.com, 852b95d36.xwlpk.cn
+# CC直播去广告
+{{{CC直播去广告}}}hostname = %APPEND% api.cc.163.com, cc.163.com, mshare.cc.163.com, appapi.cc.163.com
+# ReelShort去广告
+{{{ReelShort去广告}}}hostname = %APPEND% v-api.crazymaplestudios.com, d1k8g7qaebqd28.cloudfront.net
+# TubeMax去广告
+{{{TubeMax去广告}}}hostname = %APPEND% *.i18n-pglstatp.com
+# YouTube去广告
+{{{YouTube去广告}}}hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com
+# 爱奇艺去广告
+{{{爱奇艺去广告}}}hostname = %APPEND% -i.vip.iqiyi.com, *.iqiyi.com
+# 哔哩哔哩漫画去广告
+{{{哔哩哔哩漫画去广告}}}hostname = %APPEND% manga.bilibili.com
+# 哔哩哔哩去广告
+{{{哔哩哔哩去广告}}}hostname = %APPEND% grpc.biliapi.net, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, line3-h5-mobile-api.biligame.com
+# 斗鱼去广告
+{{{斗鱼去广告}}}hostname = %APPEND% rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn
+# 快手去广告
+{{{快手去广告}}}hostname = %APPEND% az*-api.ksapisrv.com, az4-api-idc.ksapisrv.com, az*-api-idc.ksapisrv.com, apissl.gifshow.com, apissl.ksapisrv.com, az*-api-js.gifshow.com, az*-live.ksapisrv.com
+# 快影去广告
+{{{快影去广告}}}hostname = %APPEND% api.kmovie.gifshow.com
+# 芒果TV去广告
+{{{芒果TV去广告}}}hostname = %APPEND% dc?.bz.mgtv.com, mobileso.bz.mgtv.com, damang.api.mgtv.com, hb-boom.api.mgtv.com, mobile.api.mgtv.com, mobile.api.hunantv.com, me.bz.mgtv.com, mobile-thor.api.mgtv.com
+# 皮皮虾去广告
+{{{皮皮虾去广告}}}hostname = %APPEND% api.pipix.com, api5-lq.pipix.com
+# 腾讯视频去广告
+{{{腾讯视频去广告}}}hostname = %APPEND% vv.video.qq.com
+# 香港抖音去广告
+{{{香港抖音去广告}}}hostname = %APPEND% aweme.snssdk.com, api5-normal-m.amemv.com
+# 优酷视频去广告
+{{{优酷视频去广告}}}hostname = %APPEND% push.m.youku.com, un-acs.youku.com
+
+[URL Rewrite]
+# CC直播去广告
+{{{CC直播去广告}}}^https:\/\/cc\.163\.com\/act\/m\/daily\/ad_ - reject
+# TubeMax去广告
+{{{TubeMax去广告}}}^https:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg - reject
+# 斗鱼去广告
+{{{斗鱼去广告}}}^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) $1$5$6 307
+# 香港抖音去广告
+{{{香港抖音去广告}}}^https:\/\/api5-normal-lq\.amemv\.com\/api\/ad\/ - reject
+{{{香港抖音去广告}}}^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/api\/ad\/ - reject
+{{{香港抖音去广告}}}^https:\/\/zlink\.ugsdk\.cn\/ad\/ - reject
+
+[Map Local]
+# CC直播去广告
+{{{CC直播去广告}}}^http:\/\/mshare\.cc\.163\.com\/mshare\/startadv_mobile_v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{CC直播去广告}}}^https:\/\/appapi\.cc\.163\.com\/v\d\/mixfloatingwindow\/floating_windows\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{CC直播去广告}}}^http:\/\/api\.cc\.163\.com\/v1\/mpopuprecommend\/exit_room_conf$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# ReelShort去广告
+{{{ReelShort去广告}}}^https:\/\/(v-api\.crazymaplestudios\.com|d1k8g7qaebqd28\.cloudfront\.net)\/api\/video\/app\/getSplashScreenConfig$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{ReelShort去广告}}}^https:\/\/(v-api\.crazymaplestudios\.com|d1k8g7qaebqd28\.cloudfront\.net)\/api\/video\/hall\/landingPage$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{ReelShort去广告}}}^https:\/\/(v-api\.crazymaplestudios\.com|d1k8g7qaebqd28\.cloudfront\.net)\/api\/video\/book\/getPayModeV2$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# YouTube去广告
+{{{YouTube去广告}}}^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data=" " status-code=200
+# 爱奇艺去广告
+{{{爱奇艺去广告}}}^https?:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{爱奇艺去广告}}}^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{爱奇艺去广告}}}^https?:\/\/iface2\.iqiyi\.com\/ivos\/interact\/video\/data\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{爱奇艺去广告}}}^https?:\/\/iface2\.iqiyi\.com\/video\/3\.0\/v_interface_proxy\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{爱奇艺去广告}}}^https?:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 哔哩哔哩漫画去广告
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetActivityTab data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetBubbles data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/SearchBanner data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/bookshelf\.v\d\.Bookshelf\/ListEmptyRecommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/bookshelf\.v\d\.Bookshelf\/NovelRecommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/novel\.v\d\.Novel\/MoreRecommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/AppInit data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩漫画去广告}}}^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 哔哩哔哩去广告
+{{{哔哩哔哩去广告}}}^https:\/\/line3-h5-mobile-api\.biligame\.com\/game\/live\/large_card_material\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩去广告}}}^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩去广告}}}^https:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive\? data-type=text data="{"code":0,"data":{"closeType":"close_win","container":[],"showTime":""},"message":"success"}" status-code=200 header="Content-Type:text/plain"
+{{{哔哩哔哩去广告}}}^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab(?:\/v2)?)|v2\/search\/square|vip\/ads\/materials)\? data-type=text data="{"code":-404,"message":"-404","ttl":1,"data":null}" status-code=200 header="Content-Type:text/plain"
+{{{哔哩哔哩去广告}}}^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus$ data-type=base64 data="AAAAABMKEQgCEgl0ZWVuYWdlcnMgAioA" header="Content-Type:text/plain"
+{{{哔哩哔哩去广告}}}^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ data-type=base64 data="AAAAACEaHeaQnOe0ouinhumikeOAgeeVquWJp+aIlnVw5Li7KAE=" header="Content-Type:text/plain"
+{{{哔哩哔哩去广告}}}^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.(view\.v1\.View\/TFInfo|viewunite\.v1\.View\/(PlayPause|ViewEndPage))$ data-type=base64 data="AAAAAAA=" header="Content-Type:text/plain"
+# 斗鱼去广告
+{{{斗鱼去广告}}}^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 快手去广告
+{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/nearby\/widget\/info\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/taskCenter\/task\/report\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/live\/feed\/info\/simplelive\/card\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 快影去广告
+{{{快影去广告}}}^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/get\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快影去广告}}}^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getBannerByType\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快影去广告}}}^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/merchant\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{快影去广告}}}^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/activity\/pendant\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 芒果TV去广告
+{{{芒果TV去广告}}}^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/skin\/config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/ads\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^https:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^https:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{芒果TV去广告}}}^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 皮皮虾去广告
+{{{皮皮虾去广告}}}^https:\/\/api(5-lq)?\.pipix\.com\/api\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{皮皮虾去广告}}}^https:\/\/api(5-lq)?\.pipix\.com\/bds\/banner\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{皮皮虾去广告}}}^https:\/\/api(5-lq)?\.pipix\.com\/bds\/feed\/follow_feed\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 腾讯视频去广告
+{{{腾讯视频去广告}}}^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+# ReelShort去广告
+{{{ReelShort去广告}}}body_rewrite_14 = type=http-response, pattern=^https:\/\/(v-api\.crazymaplestudios\.com|d1k8g7qaebqd28\.cloudfront\.net)\/api\/video\/book\/getBookDetailV2$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.ad_vip%22%5D%5D%5D
+{{{ReelShort去广告}}}body_rewrite_16 = type=http-response, pattern=^https:\/\/(v-api\.crazymaplestudios\.com|d1k8g7qaebqd28\.cloudfront\.net)\/api\/video\/hall\/infoV3$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.search_keyword_list%22%5D%5D%5D
+# YouTube去广告
+{{{YouTube去广告}}}YouTube去广告 = type=http-response, pattern=^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$, script-path=https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js, requires-body=true, binary-body-mode=true, argument="[{{{隐藏上传按钮_用于隐藏YouTube底栏的上传按钮}}},{{{隐藏Shorts按钮_用于隐藏YouTube底栏的Shorts按钮}}},{{{隐藏选段按钮_用于隐藏YouTube_Music底栏的选段按钮}}},{{{字幕翻译语言_需要把YouTube字幕翻译翻译为何种语言}}},{{{歌词翻译语言_需要把YouTube_Music字幕翻译翻译为何种语言}}},{{{启用调试模式_此插件的调试模式}}}]"
+# 爱奇艺去广告
+{{{爱奇艺去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_home\/3\.0\/qy_home\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22base.statistics%22%5D%5D%5D
+{{{爱奇艺去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22kv_pair.activity_tab%22%5D%5D%5D
+{{{爱奇艺去广告}}}body_rewrite_33 = type=http-response, pattern=^https?:\/\/iface2\.iqiyi\.com\/views_menus\/3\.0\/bottom_theme\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22theme_list%22%5D%5D%5D
+{{{爱奇艺去广告}}}body_rewrite_36 = type=http-response, pattern=^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/common_switch\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22content.resource.cast_device_ad%22%5D%5D%2C%5B%22json-replace%22%2C%5B%5B%22content.switchs.app_ad.app_ad_enable%22%2C0%5D%2C%5B%22content.switchs.app_ad.app_ad_duration%22%2C0%5D%2C%5B%22content.switchs.ios_tech.kPreadAdHintSwitch%22%2C0%5D%2C%5B%22content.switchs.ios_tech.ad_download%22%2C0%5D%2C%5B%22content.switchs.m_qiyi_ios_tech.KFocusAdVideoPlayTimesIn4G%22%2C0%5D%5D%5D%5D
+{{{爱奇艺去广告}}}body_rewrite_38 = type=http-response, pattern=^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22adSlots%22%5D%5D%5D
+{{{爱奇艺去广告}}}body_rewrite_39 = type=http-response, pattern=^https?:\/\/search\.video\.iqiyi\.com\/q\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data%22%5D%5D%5D
+# 哔哩哔哩漫画去广告
+{{{哔哩哔哩漫画去广告}}}移除顶部标签 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs, script-path=https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js, requires-body=true
+{{{哔哩哔哩漫画去广告}}}精简我的页面 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf, script-path=https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js, requires-body=true
+# 哔哩哔哩去广告
+{{{哔哩哔哩去广告}}}body_rewrite_36 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.common_equip%22%5D%5D%5D
+{{{哔哩哔哩去广告}}}空降助手 = type=http-request, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js, requires-body=true, binary-body-mode=true, timeout=10, argument=[{{{日志等级_脚本的日志输出等级}}}]
+{{{哔哩哔哩去广告}}}请求处理 = type=http-request, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.viewunite\.v1\.View\/View|main\.community\.reply\.v1\.Reply\/MainList)$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js, requires-body=true, binary-body-mode=true, timeout=10, argument="[{{{移除评论区置顶广告}}}, {{{日志等级_脚本的日志输出等级}}}]"
+{{{哔哩哔哩去广告}}}ProtoBuf处理 = type=http-response, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.(?:show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(?:unite)?\.v1\.View\/(?:View|ViewProgress|RelatesFeed)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js, requires-body=true, binary-body-mode=true, argument="[{{{动态_中_最常访问_的显示方式_auto_仅当列表中存在直播状态时显示_show_始终显示_hide_始终隐藏}}}, {{{移除评论区置顶广告}}}, {{{空降助手_用于跳过视频中的广告}}}, {{{日志等级_脚本的日志输出等级}}}]"
+{{{哔哩哔哩去广告}}}移除直播间广告 = type=http-response, pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/(?:app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(?:Room|User))\?, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js, requires-body=true
+# 斗鱼去广告
+{{{斗鱼去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.pendant_a%22%2C%22data.entrance_d%22%5D%5D%5D
+{{{斗鱼去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/update.+keyCodeSet=flow_config, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22greatGodGameSitterSwitch%22%2C0%5D%2C%5B%22followMoreAnchorEntrance%22%2C0%5D%2C%5B%22sdklivebanner%22%2C0%5D%2C%5B%22homeActFloatSwitch%22%2C0%5D%2C%5B%22bringGoodsSwitch%22%2C0%5D%2C%5B%22qqGameSwitch%22%2C0%5D%5D%5D%5D
+{{{斗鱼去广告}}}移除首页轮播图和视频流广告 = type=http-response, pattern=^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3, script-path=https://kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js, requires-body=true
+# 快手去广告
+{{{快手去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/system\/startup\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22reskinConfig%22%2C%22sidebarExSquareStyle.moreList%22%2C%22sidebarExSquareStyle.topList%22%5D%5D%5D
+{{{快手去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/(apissl|az\d-live|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/live\/feed\/square\/refresh\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banners%22%5D%5D%5D
+{{{快手去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/user\/profile\/v2\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22postRecommends%22%5D%5D%5D
+{{{快手去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/im\/wd\/top\/navigation\/getRecommendedSession\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.operationRecommendationList%22%5D%5D%5D
+# 芒果TV去广告
+{{{芒果TV去广告}}}body_rewrite_32 = type=http-response, pattern=^https?:\/\/mobile\.api\.(mgtv|hunantv)\.com\/mobile\/config\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.dc_adConfig%22%2C0%5D%2C%5B%22data.XmsellSwitch%22%2C0%5D%2C%5B%22data.screenshot_share_switch%22%2C0%5D%2C%5B%22data.playerUseHttpDNS%22%2C0%5D%2C%5B%22data.damang_tab%22%2C0%5D%2C%5B%22data.relative_ads%22%2C0%5D%2C%5B%22data.second_floor_guide_switch%22%2C0%5D%2C%5B%22data.progress_bar_ad_switch%22%2C0%5D%2C%5B%22data.XmVideoB%22%2C0%5D%2C%5B%22data.damang_duanju_tab%22%2C0%5D%2C%5B%22data.playview_box_ad_switch%22%2C0%5D%2C%5B%22data.topBarSwitch%22%2C0%5D%2C%5B%22data.VIPSDKB2%22%2C0%5D%5D%5D%5D
+{{{芒果TV去广告}}}body_rewrite_35 = type=http-response, pattern=^https?:\/\/dc\d?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/index\/\w, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22adInfo%22%5D%5D%5D
+{{{芒果TV去广告}}}body_rewrite_37 = type=http-response, pattern=^https:\/\/mobile-thor\.api\.mgtv\.com\/v\d+\/vod\/info\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.config.ad%22%2C%22data.config.vipNav%22%2C%22data.template.skinList%22%2C%22data.template.theme%22%5D%5D%5D
+# 腾讯视频去广告
+{{{腾讯视频去广告}}}移除广告 = type=http-request, pattern=^https?:\/\/vv\.video\.qq\.com\/getvinfo, script-path=https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js, requires-body=true, argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0"
+# 香港抖音去广告
+{{{香港抖音去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/((aweme\.snssdk\.com|api5-normal-m\.amemv\.com)|api5-normal-m\.amemv\.com)\/aweme\/homepage\/sidebar_data\/\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data_map.recently_apps%22%2C%22data_map.recently_users%22%5D%5D%5D
+{{{香港抖音去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/aweme\/homepage\/render\/\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.tab_config%22%5D%5D%5D
+{{{香港抖音去广告}}}body_rewrite_25 = type=http-response, pattern=^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/tfe\/api\/request_combine\/v1\/\?need_personal_recommend, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%5B%5C%22%2Fservice%2Fsettings%2Fv3%2F%5C%22%5D.body.data.settings.homepage_two_session_tab_skin_2025%22%2Cfalse%5D%2C%5B%22data%5B%5C%22%2Fservice%2Fsettings%2Fv3%2F%5C%22%5D.body.data.settings.homepage_tab_skin_enable%22%2Cfalse%5D%5D%5D%5D
+# 优酷视频去广告
+{{{优酷视频去广告}}}body_rewrite_37 = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.data.ad%22%2C%22data.data.watermark%22%2C%22data.data.ykad%22%5D%5D%5D
+{{{优酷视频去广告}}}body_rewrite_38 = type=http-response, pattern=^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.tipContent%22%2C%22data.tipContentNew%22%5D%5D%5D
+
+[Rule]
+# TubeMax去广告
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,adjust.com,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,applvn.com,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,app-measurement.com,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,pangle.io,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,applovin.com,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,appier.net,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,adsmoloco.com,REJECT
+{{{TubeMax去广告}}}DOMAIN-SUFFIX,adcanvas.com,REJECT
+# YouTube去广告
+{{{YouTube去广告}}}AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC)),REJECT
+{{{YouTube去广告}}}AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC)),REJECT
+# 爱奇艺去广告
+{{{爱奇艺去广告}}}IP-CIDR,103.44.59.54/32,REJECT,no-resolve
+{{{爱奇艺去广告}}}IP-CIDR,111.63.147.158/32,REJECT,no-resolve
+{{{爱奇艺去广告}}}IP-CIDR,116.211.198.237/32,REJECT,no-resolve
+{{{爱奇艺去广告}}}DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
+{{{爱奇艺去广告}}}DOMAIN,api.iqiyi.com,REJECT
+{{{爱奇艺去广告}}}DOMAIN,access.if.iqiyi.com,REJECT
+# 哔哩哔哩去广告
+{{{哔哩哔哩去广告}}}DOMAIN,api.biliapi.com,REJECT
+{{{哔哩哔哩去广告}}}DOMAIN,app.biliapi.com,REJECT
+{{{哔哩哔哩去广告}}}DOMAIN,api.biliapi.net,REJECT
+{{{哔哩哔哩去广告}}}DOMAIN,app.biliapi.net,REJECT
+{{{哔哩哔哩去广告}}}AND,((DOMAIN-SUFFIX,chat.bilibili.com),(OR,((DOMAIN-KEYWORD,stun),(DOMAIN-KEYWORD,tracker)))),REJECT
+# 斗鱼去广告
+{{{斗鱼去广告}}}URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list",REJECT
+{{{斗鱼去广告}}}AND,((DEST-PORT,18000),(PROTOCOL,STUN)),REJECT
+{{{斗鱼去广告}}}DOMAIN,stun1.douyucdn.cn,REJECT
+{{{斗鱼去广告}}}DOMAIN,stun1.qvb.qcloud.com,REJECT
+# 芒果TV去广告
+{{{芒果TV去广告}}}DOMAIN,credits.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,credits2.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,credits3.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,dflow.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,encounter.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,floor.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,layer.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,mob.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,rc-topic-api.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,rprain.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,rprain.log.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN,vip.bz.mgtv.com,REJECT
+{{{芒果TV去广告}}}DOMAIN-SUFFIX,da.mgtv.com,REJECT
+# 腾讯视频去广告
+{{{腾讯视频去广告}}}DOMAIN,adsmind.gdtimg.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,info4.video.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,info6.video.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,ios.video.mpush.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,otheve.beacon.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,pgdt.gtimg.cn,REJECT
+{{{腾讯视频去广告}}}DOMAIN,tpns.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN,vv6.video.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN-SUFFIX,gdt.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN-SUFFIX,l.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN-KEYWORD,trace.qq.com,REJECT
+{{{腾讯视频去广告}}}DOMAIN-KEYWORD,trace.video.qq.com,REJECT
+{{{腾讯视频去广告}}}IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+{{{腾讯视频去广告}}}URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+",REJECT
+{{{腾讯视频去广告}}}URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+",REJECT
+{{{腾讯视频去广告}}}URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+",REJECT
+# 香港抖音去广告
+{{{香港抖音去广告}}}AND,((IP-CIDR,101.126.58.201/32,no-resolve),(DEST-PORT,6443)),REJECT
+{{{香港抖音去广告}}}AND,((IP-CIDR,110.249.199.75/32,no-resolve),(DEST-PORT,6443)),REJECT
+{{{香港抖音去广告}}}AND,((IP-CIDR,111.225.147.191/32,no-resolve),(DEST-PORT,6443)),REJECT
+{{{香港抖音去广告}}}AND,((IP-CIDR,111.63.61.101/32,no-resolve),(DEST-PORT,6443)),REJECT
+{{{香港抖音去广告}}}AND,((IP-CIDR,220.243.141.0/32,no-resolve),(DEST-PORT,6443)),REJECT
+{{{香港抖音去广告}}}AND,((OR,((DOMAIN-SUFFIX,bytegecko.com),(DOMAIN-SUFFIX,byteeffecttos.com))),(DOMAIN-KEYWORD,ncdn)),REJECT
+# 优酷视频去广告
+{{{优酷视频去广告}}}DOMAIN,push.m.youku.com,DIRECT
+{{{优酷视频去广告}}}DOMAIN,un-acs.youku.com,DIRECT
+{{{优酷视频去广告}}}DOMAIN,dorangesource.alicdn.com,DIRECT
+{{{优酷视频去广告}}}DOMAIN,h-adashx.ut.taobao.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,adx-core.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,adx-open-service.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,yk-ssp.ad.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,cad.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,ykad-data.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,amdc.m.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,youku-crm-product.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,dr-danmu.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,group-ssl-danmu-ori.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,m.atm.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,mc.atm.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,vali-g1.cp31.ott.cibntv.net,REJECT
+{{{优酷视频去广告}}}DOMAIN,vali-ugc.cp31.ott.cibntv.net,REJECT
+{{{优酷视频去广告}}}DOMAIN-SUFFIX,iyes.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,adsmind.ugdtimg.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,pre-acs.youku.com,REJECT
+{{{优酷视频去广告}}}DOMAIN,youku-acs.m.taobao.com,REJECT
+
+[Header Rewrite]
+# 哔哩哔哩去广告
+{{{哔哩哔哩去广告}}}http-response ^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.(interface\.v1\.(Teenagers\/ModeStatus|Search\/DefaultWords)|view\.v1\.View\/TFInfo|viewunite\.v1\.View\/ViewEndPage)$ header-add 'grpc-status' '0'

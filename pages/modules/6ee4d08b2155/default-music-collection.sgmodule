@@ -1,0 +1,275 @@
+#!name=音乐媒体去广告
+#!desc=音乐媒体去广告，包含：QQ音乐去广告、Spotify去广告、波点音乐去广告、酷狗概念版去广告、酷狗铃声去广告、酷狗音乐去广告、酷我音乐去广告、猫耳FM去广告、蜻蜓FM去广告、汽水音乐去广告、全民K歌去广告、网易云音乐去广告、小宇宙去广告、喜马拉雅去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=QQ音乐去广告:"",Spotify去广告:"",波点音乐去广告:"",酷狗概念版去广告:"",酷狗铃声去广告:"",酷狗音乐去广告:"",酷我音乐去广告:"",猫耳FM去广告:"",蜻蜓FM去广告:"",汽水音乐去广告:"",全民K歌去广告:"",网易云音乐去广告:"",小宇宙去广告:"",喜马拉雅去广告:"",移除底栏创建按钮_此开关控制是否移除底栏创建按钮:false,启用Apple设备接力_此开关控制是否使用Apple设备接力:true,隐藏底栏_漫游标签:false,隐藏底部_笔记标签:false,隐藏底部_发现标签:false,隐藏首页_问候语:false,隐藏首页_排行榜:false,隐藏首页_每日推荐:false,隐藏首页_推荐歌单:false,隐藏首页_最近常听:false,隐藏首页_雷达歌单:false,隐藏首页_音乐合伙人:false,隐藏首页_推荐专属歌单:false,隐藏首页_你的专属歌单:false
+#!arguments-desc=QQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\nSpotify去广告: 【Spotify去广告】开关：留空启用，填 # 关闭此子模块。\n波点音乐去广告: 【波点音乐去广告】开关：留空启用，填 # 关闭此子模块。\n酷狗概念版去广告: 【酷狗概念版去广告】开关：留空启用，填 # 关闭此子模块。\n酷狗铃声去广告: 【酷狗铃声去广告】开关：留空启用，填 # 关闭此子模块。\n酷狗音乐去广告: 【酷狗音乐去广告】开关：留空启用，填 # 关闭此子模块。\n酷我音乐去广告: 【酷我音乐去广告】开关：留空启用，填 # 关闭此子模块。\n猫耳FM去广告: 【猫耳FM去广告】开关：留空启用，填 # 关闭此子模块。\n蜻蜓FM去广告: 【蜻蜓FM去广告】开关：留空启用，填 # 关闭此子模块。\n汽水音乐去广告: 【汽水音乐去广告】开关：留空启用，填 # 关闭此子模块。\n全民K歌去广告: 【全民K歌去广告】开关：留空启用，填 # 关闭此子模块。\n网易云音乐去广告: 【网易云音乐去广告】开关：留空启用，填 # 关闭此子模块。\n小宇宙去广告: 【小宇宙去广告】开关：留空启用，填 # 关闭此子模块。\n喜马拉雅去广告: 【喜马拉雅去广告】开关：留空启用，填 # 关闭此子模块。\n移除底栏创建按钮_此开关控制是否移除底栏创建按钮: 【Spotify去广告】移除底栏创建按钮 此开关控制是否移除底栏创建按钮（原参数名：tab）\n启用Apple设备接力_此开关控制是否使用Apple设备接力: 【Spotify去广告】启用Apple设备接力 此开关控制是否使用Apple设备接力（原参数名：useractivity）\n隐藏底栏_漫游标签: 【网易云音乐去广告】[隐藏底栏]漫游标签（原参数名：MY）\n隐藏底部_笔记标签: 【网易云音乐去广告】[隐藏底部]笔记标签（原参数名：DT）\n隐藏底部_发现标签: 【网易云音乐去广告】[隐藏底部]发现标签（原参数名：FX）\n隐藏首页_问候语: 【网易云音乐去广告】[隐藏首页]问候语（原参数名：PRGG）\n隐藏首页_排行榜: 【网易云音乐去广告】[隐藏首页]排行榜（原参数名：PRRK）\n隐藏首页_每日推荐: 【网易云音乐去广告】[隐藏首页]每日推荐（原参数名：PRDRD）\n隐藏首页_推荐歌单: 【网易云音乐去广告】[隐藏首页]推荐歌单（原参数名：PRSCVPT）\n隐藏首页_最近常听: 【网易云音乐去广告】[隐藏首页]最近常听（原参数名：PRST）\n隐藏首页_雷达歌单: 【网易云音乐去广告】[隐藏首页]雷达歌单（原参数名：PRRR）\n隐藏首页_音乐合伙人: 【网易云音乐去广告】[隐藏首页]音乐合伙人（原参数名：HMPR）\n隐藏首页_推荐专属歌单: 【网易云音乐去广告】[隐藏首页]推荐专属歌单（原参数名：PRMST）\n隐藏首页_你的专属歌单: 【网易云音乐去广告】[隐藏首页]你的专属歌单（原参数名：PRCN）
+
+[Rule]
+# QQ音乐去广告
+{{{QQ音乐去广告}}}DOMAIN,adstats.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,ad.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,adcdn.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,adcdn6.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,adexpo.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,adclick.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,mc.tencentmusic.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,monitor.music.qq.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,tmead.y.qq.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,tmeadbak.y.qq.com,REJECT
+{{{QQ音乐去广告}}}DOMAIN,tmeadquic.y.qq.com,REJECT
+# Spotify去广告
+{{{Spotify去广告}}}AND,((DOMAIN-SUFFIX,spotify.com),(PROTOCOL,QUIC)),REJECT
+# 酷狗音乐去广告
+{{{酷狗音乐去广告}}}DOMAIN,ads.service.kugou.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,adstats.tencentmusic.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,adsmind.gdtimg.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,adserviceretry.kugou.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,adserviceretry.kglink.cn,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,ad.tencentmusic.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,adservice.kugou.com,REJECT
+{{{酷狗音乐去广告}}}DOMAIN,splashimgretrybssdl.cloud.kugou.com,REJECT
+{{{酷狗音乐去广告}}}URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html",REJECT
+# 酷我音乐去广告
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/",REJECT-TINYGIF
+{{{酷我音乐去广告}}}IP-CIDR,111.206.98.63/32,REJECT,no-resolve
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox",REJECT-TINYGIF
+{{{酷我音乐去广告}}}URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/",REJECT-TINYGIF
+# 蜻蜓FM去广告
+{{{蜻蜓FM去广告}}}DOMAIN,ad.qtfm.cn,REJECT
+{{{蜻蜓FM去广告}}}DOMAIN,adlaunch.qtfm.cn,REJECT
+# 全民K歌去广告
+{{{全民K歌去广告}}}DOMAIN,adsmind.gdtimg.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,adsmind.ugdtimg.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,c2.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,huatuocode.huatuo.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,info4.video.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,info6.video.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,ios.bugly.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,ios.video.mpush.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,mi.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,otheve.beacon.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,pgdt.gtimg.cn,REJECT
+{{{全民K歌去广告}}}DOMAIN,pgdt.ugdtimg.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,qzs.gdtimg.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,qzs.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,rmonitor.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,sdk.e.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,sdkconfig.video.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,t.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,tmead.y.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,tmeadbak.y.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,tmeadcomm.y.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,tpns.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,v.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,v2.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,win.gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,wup.imtt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN,tpstelemetry.tencent.com,REJECT
+{{{全民K歌去广告}}}DOMAIN-KEYWORD,trace.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN-KEYWORD,trace.video.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN-SUFFIX,gdt.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN-SUFFIX,l.qq.com,REJECT
+{{{全民K歌去广告}}}DOMAIN-SUFFIX,ugdtimg.com,REJECT
+{{{全民K歌去广告}}}IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+{{{全民K歌去广告}}}URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_k_main_page_banner\/",REJECT
+# 网易云音乐去广告
+{{{网易云音乐去广告}}}DOMAIN,iadmat.nosdn.127.net,REJECT
+{{{网易云音乐去广告}}}DOMAIN,iadmatapk.nosdn.127.net,REJECT
+{{{网易云音乐去广告}}}DOMAIN,iadmusicmat.music.126.net,REJECT
+{{{网易云音乐去广告}}}DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+{{{网易云音乐去广告}}}DOMAIN,ipv4.music.163.com,REJECT
+{{{网易云音乐去广告}}}DOMAIN,ipv6.music.163.com,REJECT
+# 喜马拉雅去广告
+{{{喜马拉雅去广告}}}DOMAIN,adse.ximalaya.com,REJECT
+{{{喜马拉雅去广告}}}DOMAIN,adsehera.ximalaya.com,REJECT
+{{{喜马拉雅去广告}}}DOMAIN,adse.wsa.ximalaya.com,REJECT
+{{{喜马拉雅去广告}}}DOMAIN,adbehavior.ximalaya.com,REJECT
+{{{喜马拉雅去广告}}}DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+
+[URL Rewrite]
+# Spotify去广告
+{{{Spotify去广告}}}^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/artistview\/v1\/artist\/(.*)&platform=iphone https://spclient.wg.spotify.com/artistview/v1/artist/$1&platform=ipad header
+# 蜻蜓FM去广告
+{{{蜻蜓FM去广告}}}^https:\/\/app\.qtfm\.cn\/recommendapi\/v\d\/emotion$ - reject
+{{{蜻蜓FM去广告}}}^https:\/\/search\.qtfm\.cn\/v\d\/keyword\/default$ - reject
+# 全民K歌去广告
+{{{全民K歌去广告}}}^https:\/\/tmeadkg\.y\.qq\.com\/maproxy\/getAd$ - reject
+
+[Map Local]
+# Spotify去广告
+{{{Spotify去广告}}}^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/pendragon\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 波点音乐去广告
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/(play|service|advert)\/advert\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/service\/banner\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/ucenter\/vip\/give\/config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/service\/home\/module\?.*&moduleId=6 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/vipEnter\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/popup\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/invitation\/swell\/popup\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/service\/version\/popup\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/invitation\/assist\/popup\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{波点音乐去广告}}}^https:\/\/bd-api\.kuwo\.cn\/api\/pay\/h5\/common\/popup\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 酷狗概念版去广告
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/ads\.service\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/youth\/v1\/start_img\/last\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/ads\.gateway\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^http:\/\/mobilelog\.kugou\.com\/adtrackconfig\.json$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/youth\/v1\/experiment\/get_params\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/youth\/api\/user\/v1\/init\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/youth\/v2\/activity\/task_list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/youth\/v1\/channel\/tab_list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗概念版去广告}}}^https:\/\/gateway\.kugou\.com\/goddess\/v1\/content\/biz_list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 酷狗铃声去广告
+{{{酷狗铃声去广告}}}^http:\/\/api\.ring\.kugou\.com\/user\/notice\/recommend$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 酷狗音乐去广告
+{{{酷狗音乐去广告}}}^https:\/\/fx\.service\.kugou\.com\/mfx-kugoulive\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gzacshow\.kugou\.com\/mfanxing-home\/cdn\/room\/index\/list_v2 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/gzacshow\.kugou\.com\/mfx-rt-show\/cdn\/mo\/show\/headline data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/m1fxgroup\.kugou\.com\/fxsing\/yqc\/alongInfo\/getUserAlongInfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/hwstore\.kugou\.com\/v\d\/get_store_data data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷狗音乐去广告}}}^https:\/\/ep\.kugou\.com\/v\d\/album_shop\/get_entrance_info data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 酷我音乐去广告
+{{{酷我音乐去广告}}}^https:\/\/vip\d\.kuwo\.cn\/commercia\/vipconf\/projectPage\/getPageContent data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷我音乐去广告}}}^https:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/user\/info data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{酷我音乐去广告}}}^https:\/\/appi\.kuwo\.cn\/kuwopay\/personal\/cells data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 猫耳FM去广告
+{{{猫耳FM去广告}}}^https:\/\/data\.missevan\.com\/site\/ad-track$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{猫耳FM去广告}}}^https:\/\/app\.missevan\.com\/x\/recommend\/get-popup$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{猫耳FM去广告}}}^https:\/\/fm\.missevan\.com\/api\/v2\/meta\/banner$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{猫耳FM去广告}}}^https:\/\/fm\.missevan\.com\/api\/v2\/recommended\/top\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{猫耳FM去广告}}}^https:\/\/fm\.missevan\.com\/api\/v2\/chatroom\/sound\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 蜻蜓FM去广告
+{{{蜻蜓FM去广告}}}^https:\/\/app\.qtfm\.cn\/recommendapi\/v8\/ai_assistant_point$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/app\.qtfm\.cn\/m-bff\/v1\/signin\/show_homepage_icon$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/app\.qtfm\.cn\/m-bff\/v1\/user\/task\/play$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/app\.qtfm\.cn\/m-bff\/v\d\/i_listen\/guess_you_like\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/recpage-c\.qtfm\.cn\/v\d\/favorites$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/user\.qtfm\.cn\/u\d\/api\/v\d\/user\/following_podcaster\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/entry\.qtfm\.cn\/api\/v\d\/personal\/\?carrier data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/search\.qtfm\.cn\/v3\/entry$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{蜻蜓FM去广告}}}^https:\/\/woqt2\.qtfm\.cn\/v2\/userConfig\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 汽水音乐去广告
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/commerce\/upsells_config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(api|api5-lq)\.qishui\.com\/luna\/ads\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/ads\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/treasure\/entrance\/config\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/activities\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/media_ads\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/commerce\/upsells\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/commerce\/v2\/commerce_info\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{汽水音乐去广告}}}^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/listen-video\/reminder\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 全民K歌去广告
+{{{全民K歌去广告}}}^https:\/\/wallpaper-\d+\.file\.myqcloud\.com\/dsl\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{全民K歌去广告}}}^https?:\/\/wallpaper-\d+\.file\.myqcloud\.com\/hikari\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{全民K歌去广告}}}^https:\/\/amsweb-cdn-\S+-\d+\.file\.myqcloud\.com\/video\/ad_profile\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{全民K歌去广告}}}^https:\/\/wnsaviator\.kg\.qq\.com\/wnsaviator\/api\/v1\/transMerge\?_webcgikey=get_activity_entry$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 网易云音乐去广告
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:delivery\/(batch-)?deliver|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resniche\/tspopup\/show|resource\/comments?\/musiciansaid\/|user\/sub\/artist) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|rcmd\/keyword\/|specialkeyword\/)) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{网易云音乐去广告}}}^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ data-type=text data="" header="Content-Type:text/plain"
+{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/search\/default data-type=text data="" header="Content-Type:text/plain"
+# 小宇宙去广告
+{{{小宇宙去广告}}}^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小宇宙去广告}}}^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小宇宙去广告}}}^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{小宇宙去广告}}}^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 喜马拉雅去广告
+{{{喜马拉雅去广告}}}^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/discovery-feed\/v\d\/scene\/listen\/refresh\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(m|mwsa)\.ximalaya\.com\/x-web-activity\/signIn\/getHomePageSignInInfo\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/subscribe\/v\d\/subscribe\/tagAlbumList$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/track-feed\/v\d\/chase\/recommend\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/social-web\/follow-stream\/category\/\d+$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-playpage\/playpage\/recommendContentV\d\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-playpage\/playpage\/recommend\/resource\/allocation\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/firework-portal\/v\d+\/sync\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/business-sale-promotion-guide-mobile-web\/popup\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/app-skin-service\/skin\/setting\/info\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(live|livewsa)\.ximalaya\.com\/lamia\/v1\/subscribe\/status$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/subscribe\/v\d\/subscribe\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/purchased\/recommend\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{喜马拉雅去广告}}}^https:\/\/(m|mwsa)\.ximalaya\.com\/community\/square\/v\d\/stream\? data-type=text data="{"data":{"cards":[{"content":{},"type":"RECOMMENDS"}]},"ret":0}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+# Spotify去广告
+{{{Spotify去广告}}}Protobuf处理 = type=http-response, pattern=^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/(?:bootstrap|user-customization-service), script-path=https://kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=5, argument="[{{{移除底栏创建按钮_此开关控制是否移除底栏创建按钮}}},{{{启用Apple设备接力_此开关控制是否使用Apple设备接力}}}]"
+# 波点音乐去广告
+{{{波点音乐去广告}}}body_rewrite_13 = type=http-response, pattern=^https:\/\/bd-api\.kuwo\.cn\/api\/service\/conf\/all\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.groupSign.adStartAppDialog%22%2C%22data.groupSign.adGuideTest%22%2C%22data.groupSign.playTips%22%2C%22data.groupSign.adExitChange%22%2C%22data.conf.adGuidePopCount%22%2C%22data.conf.adDownListOpen%22%5D%5D%2C%5B%22json-replace%22%2C%5B%5B%22data.conf.flowControlConfig.uploadEnable%22%2Cfalse%5D%2C%5B%22data.conf.flowControlConfig.p2pEnable%22%2Cfalse%5D%5D%5D%5D
+{{{波点音乐去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/ab-bodian\.kuwo\.cn\/abtest\/ui\/info\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.mapTestInfo.CommentADPosition%22%2C%22data.mapTestInfo.DiscoverADPosition%22%2C%22data.mapTestInfo.DownloadAd%22%2C%22data.mapTestInfo.FreeModVoiceReminder%22%2C%22data.mapTestInfo.GamesTrans%22%2C%22data.mapTestInfo.bodianmvdialog%22%2C%22data.mapTestInfo.MvTryShowAds%22%2C%22data.mapTestInfo.insert%22%5D%5D%5D
+{{{波点音乐去广告}}}body_rewrite_16 = type=http-response, pattern=^https:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/scene\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.iosP2PCacheEnable%22%2C%22data.warmStartDialog%22%2C%22data.adsNotFinishVipPop4DayInterval%22%5D%5D%2C%5B%22json-replace%22%2C%5B%5B%22data.showShopEntry%22%2Cfalse%5D%2C%5B%22data.iosP2pEnableSendDataLimit%22%2C1%5D%5D%5D%5D
+{{{波点音乐去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/bd-api\.kuwo\.cn\/api\/search\/topic\/word\/list\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.hotTopic%22%2C%22data.searchFind%22%2C%22data.globalJumpInfo%22%2C%22data.hotWord%22%5D%5D%5D
+{{{波点音乐去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/bd-api\.kuwo\.cn\/api\/comments\/v3\/topInfo\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22.data.putao%22%2C%22data.bannerVos%22%5D%5D%5D
+# 猫耳FM去广告
+{{{猫耳FM去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/app\.missevan\.com\/site\/launch\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22info.splash%22%2C%22info.splash_ready%22%5D%5D%5D
+{{{猫耳FM去广告}}}body_rewrite_14 = type=http-response, pattern=^https:\/\/app\.missevan\.com\/site\/config$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22info.tab_bar_live%22%2C%220%22%2C%22info.enable_tab_bar_live_notice%22%2C%22false%22%2C%22info.teenager_popup_mode%22%2C%220%22%5D%5D%2C%5B%22json-del%22%2C%5B%22info.httpdns%22%2C%22info.homepage_top_task_button%22%5D%5D%5D
+{{{猫耳FM去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/app\.missevan\.com\/site\/get-top$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22info.search_words%22%5D%5D%5D
+# 蜻蜓FM去广告
+{{{蜻蜓FM去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/app\.qtfm\.cn\/m-bff\/v\d\/signin\/show_homepage_icon$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.display_icon%22%2Cfalse%5D%5D%5D%5D
+{{{蜻蜓FM去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/app\.qtfm\.cn\/m-bff\/v\d\/channel\/\d{6}\/playpage\/\d{8}, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.related_recommend%22%2C%22data.recommend_bar%22%5D%5D%5D
+{{{蜻蜓FM去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/app\.qtfm\.cn\/m-bff\/v\d\/mylistenpage, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banner%22%5D%5D%5D
+{{{蜻蜓FM去广告}}}body_rewrite_27 = type=http-response, pattern=^https:\/\/app\.qtfm\.cn\/m-bff\/v\d\/subscribed_channels\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.recommends%22%5D%5D%5D
+{{{蜻蜓FM去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/app\.qtfm\.cn\/m-bff\/v1\/channelpage\/\d+$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.vip_recommend%22%2C%22data.recommend_delivery%22%5D%5D%5D
+# 汽水音乐去广告
+{{{汽水音乐去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/tnc\d-(bjlgy|ali[a-z]{2})\d?\.zijieapi\.com\/get_domains\/v\d\/\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.opaque_data_enabled%22%2C0%5D%2C%5B%22data.ttnet_http_dns_enabled%22%2C0%5D%2C%5B%22data.ttnet_quic_enabled%22%2C0%5D%2C%5B%22data.ttnet_tt_http_dns%22%2C0%5D%5D%5D%5D
+{{{汽水音乐去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/me\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22reward_ad_banner%22%5D%5D%5D
+{{{汽水音乐去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/card\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22preview_guide%22%5D%5D%5D
+{{{汽水音乐去广告}}}移除播放页面视频流 = type=http-response, pattern=^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/me\/recently-played-media\?, script-path=https://kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js, requires-body=true
+# 网易云音乐去广告
+{{{网易云音乐去广告}}}评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get), script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
+{{{网易云音乐去广告}}}推荐、home、主页 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)), script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, argument="[{{{隐藏首页_问候语}}},{{{隐藏首页_排行榜}}},{{{隐藏首页_每日推荐}}},{{{隐藏首页_推荐歌单}}},{{{隐藏首页_最近常听}}},{{{隐藏首页_雷达歌单}}},{{{隐藏首页_音乐合伙人}}},{{{隐藏首页_推荐专属歌单}}},{{{隐藏首页_你的专属歌单}}}]"
+{{{网易云音乐去广告}}}底部选项卡 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, argument="[{{{隐藏底栏_漫游标签}}},{{{隐藏底部_笔记标签}}},{{{隐藏底部_发现标签}}}]"
+{{{网易云音乐去广告}}}发现页 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
+{{{网易云音乐去广告}}}我的页面 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
+{{{网易云音乐去广告}}}显示未关注你的人 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
+# 喜马拉雅去广告
+{{{喜马拉雅去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/football-portal\/diff2\/batch\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22json.ad%22%2C%22json.toc%22%5D%5D%5D
+{{{喜马拉雅去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/mobwsa\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/v2\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.playpage.resourceMap.defaultResource%22%2C%22data.playpage.resourceMap.playPageTip%22%5D%5D%5D
+{{{喜马拉雅去广告}}}body_rewrite_35 = type=http-response, pattern=^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/homePage\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.freeListenV2%22%5D%5D%5D
+
+[MITM]
+# Spotify去广告
+{{{Spotify去广告}}}hostname = %APPEND% *-spclient.spotify.com, spclient.wg.spotify.com
+# 波点音乐去广告
+{{{波点音乐去广告}}}hostname = %APPEND% bd-api.kuwo.cn
+# 酷狗概念版去广告
+{{{酷狗概念版去广告}}}hostname = %APPEND% gateway.kugou.com
+# 酷狗铃声去广告
+{{{酷狗铃声去广告}}}hostname = %APPEND% api.ring.kugou.com
+# 酷狗音乐去广告
+{{{酷狗音乐去广告}}}hostname = %APPEND% gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com
+# 酷我音乐去广告
+{{{酷我音乐去广告}}}hostname = %APPEND% appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn
+# 猫耳FM去广告
+{{{猫耳FM去广告}}}hostname = %APPEND% app.missevan.com, data.missevan.com, fm.missevan.com
+# 蜻蜓FM去广告
+{{{蜻蜓FM去广告}}}hostname = %APPEND% app.qtfm.cn, entry.qtfm.cn, recpage-c.qtfm.cn, user.qtfm.cn, search.qtfm.cn, woqt2.qtfm.cn
+# 汽水音乐去广告
+{{{汽水音乐去广告}}}hostname = %APPEND% webcast-open.douyin.com, beta-luna.douyin.com, api.qishui.com, api5-lq.qishui.com, tnc*-*.zijieapi.com
+# 全民K歌去广告
+{{{全民K歌去广告}}}hostname = %APPEND% wallpaper-1258344696.file.myqcloud.com, amsweb-cdn-*-1258344696.file.myqcloud.com, wnsaviator.kg.qq.com, tmeadkg.y.qq.com
+# 网易云音乐去广告
+{{{网易云音乐去广告}}}hostname = %APPEND% interface*.music.163.com
+# 小宇宙去广告
+{{{小宇宙去广告}}}hostname = %APPEND% api.xiaoyuzhoufm.com
+# 喜马拉雅去广告
+{{{喜马拉雅去广告}}}hostname = %APPEND% gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com
