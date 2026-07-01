@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "generatedAt": "2026-07-01T04:10:17.466Z",
+  "generatedAt": "2026-07-01T11:24:56.328Z",
   "total": 298,
   "sources": [
     {
@@ -27,7 +27,7 @@
       "key": "6ee4d08b2155:merged-collection.sgmodule",
       "id": "merged:6ee4d08b2155:merged-collection.sgmodule",
       "name": "去广告合集",
-      "description": "合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。",
+      "description": "合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。",
       "file": "merged-collection.sgmodule",
       "path": "6ee4d08b2155/merged-collection.sgmodule",
       "legacyFile": "去广告合集.sgmodule",
@@ -63,6 +63,13 @@
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx"
         },
         {
+          "name": "网易云音乐去广告",
+          "description": "过滤网易云音乐广告，并允许自定义界面",
+          "file": "482a3e55719d5926.sgmodule",
+          "path": "6ee4d08b2155/482a3e55719d5926.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx"
+        },
+        {
           "name": "番茄小说去广告",
           "description": "移除番茄小说开屏广告、移除文章底部和章末广告、移除听书页面广告、移除悬浮部件和底栏多余的福利标签",
           "file": "1caf93f93b17f174.sgmodule",
@@ -96,6 +103,13 @@
           "file": "8c3c6783be394ea9.sgmodule",
           "path": "6ee4d08b2155/8c3c6783be394ea9.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx"
+        },
+        {
+          "name": "夸克去广告",
+          "description": "移除阅读广告、各页面弹窗及横幅，精简我的页面",
+          "file": "b5b63a9fb9edb53b.sgmodule",
+          "path": "6ee4d08b2155/b5b63a9fb9edb53b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx"
         },
         {
           "name": "掌上英雄联盟去广告",
@@ -2916,7 +2930,9 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集"
     },
     {
       "key": "6ee4d08b2155:1e222d923a1e8abb.sgmodule",
@@ -4360,7 +4376,9 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集"
     },
     {
       "key": "6ee4d08b2155:c8cae264bd90cb17.sgmodule",
