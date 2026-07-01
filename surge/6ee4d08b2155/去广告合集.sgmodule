@@ -1,8 +1,8 @@
 #!name=去广告合集
-#!desc=合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块原参数已加前缀迁移到合集参数。
+#!desc=合并模块，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「hub.kelee.one」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块参数按模块顺序保留原参数名，重名时自动追加序号。
 #!author=SurgeHub 自动合并
-#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",网易云音乐去广告:"",网易云音乐去广告_MY:false,网易云音乐去广告_DT:false,网易云音乐去广告_FX:false,网易云音乐去广告_PRGG:false,网易云音乐去广告_PRRK:false,网易云音乐去广告_PRDRD:false,网易云音乐去广告_PRSCVPT:false,网易云音乐去广告_PRST:false,网易云音乐去广告_PRRR:false,网易云音乐去广告_HMPR:false,网易云音乐去广告_PRMST:false,网易云音乐去广告_PRCN:false,番茄小说去广告:"",小红书去广告:"",拼多多去广告:"",菜鸟去广告:"",微信外部链接解锁:"",夸克去广告:"",掌上英雄联盟去广告:""
-#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n网易云音乐去广告: 【网易云音乐去广告】开关：留空启用，填 # 关闭此子模块。\n网易云音乐去广告_MY: 【网易云音乐去广告】参数 MY：MY\n网易云音乐去广告_DT: 【网易云音乐去广告】参数 DT：DT\n网易云音乐去广告_FX: 【网易云音乐去广告】参数 FX：FX\n网易云音乐去广告_PRGG: 【网易云音乐去广告】参数 PRGG：PRGG\n网易云音乐去广告_PRRK: 【网易云音乐去广告】参数 PRRK：PRRK\n网易云音乐去广告_PRDRD: 【网易云音乐去广告】参数 PRDRD：PRDRD\n网易云音乐去广告_PRSCVPT: 【网易云音乐去广告】参数 PRSCVPT：PRSCVPT\n网易云音乐去广告_PRST: 【网易云音乐去广告】参数 PRST：PRST\n网易云音乐去广告_PRRR: 【网易云音乐去广告】参数 PRRR：PRRR\n网易云音乐去广告_HMPR: 【网易云音乐去广告】参数 HMPR：HMPR\n网易云音乐去广告_PRMST: 【网易云音乐去广告】参数 PRMST：PRMST\n网易云音乐去广告_PRCN: 【网易云音乐去广告】参数 PRCN：PRCN\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n小红书去广告: 【小红书去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。\n夸克去广告: 【夸克去广告】开关：留空启用，填 # 关闭此子模块。\n掌上英雄联盟去广告: 【掌上英雄联盟去广告】开关：留空启用，填 # 关闭此子模块。
+#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",番茄小说去广告:"",小红书去广告:"",拼多多去广告:"",菜鸟去广告:"",微信外部链接解锁:"",夸克去广告:"",掌上英雄联盟去广告:""
+#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n小红书去广告: 【小红书去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。\n夸克去广告: 【夸克去广告】开关：留空启用，填 # 关闭此子模块。\n掌上英雄联盟去广告: 【掌上英雄联盟去广告】开关：留空启用，填 # 关闭此子模块。
 
 [Rule]
 # HTTPDNS拦截器
@@ -477,13 +477,6 @@
 {{{QQ音乐去广告}}}DOMAIN,tmead.y.qq.com,REJECT
 {{{QQ音乐去广告}}}DOMAIN,tmeadbak.y.qq.com,REJECT
 {{{QQ音乐去广告}}}DOMAIN,tmeadquic.y.qq.com,REJECT
-# 网易云音乐去广告
-{{{网易云音乐去广告}}}DOMAIN,iadmat.nosdn.127.net,REJECT
-{{{网易云音乐去广告}}}DOMAIN,iadmatapk.nosdn.127.net,REJECT
-{{{网易云音乐去广告}}}DOMAIN,iadmusicmat.music.126.net,REJECT
-{{{网易云音乐去广告}}}DOMAIN,iadmusicmatvideo.music.126.net,REJECT
-{{{网易云音乐去广告}}}DOMAIN,ipv4.music.163.com,REJECT
-{{{网易云音乐去广告}}}DOMAIN,ipv6.music.163.com,REJECT
 # 番茄小说去广告
 {{{番茄小说去广告}}}DOMAIN,zlink.ugsdk.cn,REJECT
 {{{番茄小说去广告}}}DOMAIN,mon.toutiaocloud.net,REJECT
@@ -560,14 +553,6 @@
 {{{HTTPDNS拦截器}}}^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{HTTPDNS拦截器}}}^https:\/\/ucdc\d?-upaas\.uc\.cn\/api\/v\d\/dns_query\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{HTTPDNS拦截器}}}^https:\/\/gw-cn\.jiaoliuqu\.com\/taqu-im-broadcast-srv\/v\d\/Comet\/get\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-# 网易云音乐去广告
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:delivery\/(batch-)?deliver|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resniche\/tspopup\/show|resource\/comments?\/musiciansaid\/|user\/sub\/artist) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|rcmd\/keyword\/|specialkeyword\/)) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{网易云音乐去广告}}}^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ data-type=text data="" header="Content-Type:text/plain"
-{{{网易云音乐去广告}}}^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/search\/default data-type=text data="" header="Content-Type:text/plain"
 # 小红书去广告
 {{{小红书去广告}}}^https:\/\/ci\.xiaohongshu\.com\/system_config\/watermark data-type=tiny-gif status-code=200
 {{{小红书去广告}}}^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -611,8 +596,6 @@
 {{{HTTPDNS拦截器}}}hostname = %APPEND% appconf.mail.163.com, msglb.91160.com, ucdc2-upaas.uc.cn, gw-cn.jiaoliuqu.com
 # 广告平台拦截器
 {{{广告平台拦截器}}}hostname = %APPEND% video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com
-# 网易云音乐去广告
-{{{网易云音乐去广告}}}hostname = %APPEND% interface*.music.163.com
 # 小红书去广告
 {{{小红书去广告}}}hostname = %APPEND% ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com
 # 拼多多去广告
@@ -627,13 +610,6 @@
 {{{掌上英雄联盟去广告}}}hostname = %APPEND% mlol.qt.qq.com
 
 [Script]
-# 网易云音乐去广告
-{{{网易云音乐去广告}}}评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get), script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
-{{{网易云音乐去广告}}}推荐、home、主页 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)), script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, argument="[{{{网易云音乐去广告_PRGG}}},{{{网易云音乐去广告_PRRK}}},{{{网易云音乐去广告_PRDRD}}},{{{网易云音乐去广告_PRSCVPT}}},{{{网易云音乐去广告_PRST}}},{{{网易云音乐去广告_PRRR}}},{{{网易云音乐去广告_HMPR}}},{{{网易云音乐去广告_PRMST}}},{{{网易云音乐去广告_PRCN}}}]"
-{{{网易云音乐去广告}}}底部选项卡 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, argument="[{{{网易云音乐去广告_MY}}},{{{网易云音乐去广告_DT}}},{{{网易云音乐去广告_FX}}}]"
-{{{网易云音乐去广告}}}发现页 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
-{{{网易云音乐去广告}}}我的页面 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
-{{{网易云音乐去广告}}}显示未关注你的人 = type=http-response, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get, script-path=https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20
 # 小红书去广告
 {{{小红书去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/banner_list$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%22%2C%7B%7D%5D%5D%5D%5D
 {{{小红书去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/hot_list$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data.items%22%2C%5B%5D%5D%5D%5D%5D
