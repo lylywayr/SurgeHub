@@ -435,6 +435,7 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,qidianad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,kuaichuanad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,statisticslinks.com,REJECT
+{{{广告平台拦截器}}}DOMAIN,adx.zuoyebang.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,tradplusad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,fancyapi.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,medproad.com,REJECT

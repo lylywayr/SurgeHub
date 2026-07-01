@@ -1,7 +1,7 @@
 {
   "version": 9,
-  "generatedAt": "2026-06-30T22:20:00.761Z",
-  "total": 296,
+  "generatedAt": "2026-07-01T04:10:35.043Z",
+  "total": 298,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 241,
-      "accepted": 241
+      "discovered": 243,
+      "accepted": 243
     },
     {
       "id": "1a51661d4c51",
@@ -1146,6 +1146,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:2c5f74b41d9a9812.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx",
+      "name": "WakeUp课程表去广告",
+      "description": "移除横幅广告、弹窗广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "2c5f74b41d9a9812.sgmodule",
+      "path": "6ee4d08b2155/2c5f74b41d9a9812.sgmodule",
+      "legacyFile": "WakeUp课程表去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/WakeUp课程表去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:3e88752734ff0440.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx",
       "name": "WARP节点查询",
@@ -2246,6 +2269,30 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "hub.kelee.one",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:fe8804678c947e66.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/ifengNews_remove_ads.lpx",
+      "name": "凤凰新闻去广告",
+      "description": "移除皮肤、开屏广告、信息流广告、文末广告、视频流广告、评论区广告，移除信息流订阅号文章、文末推荐阅读，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "medium",
+      "file": "fe8804678c947e66.sgmodule",
+      "path": "6ee4d08b2155/fe8804678c947e66.sgmodule",
+      "legacyFile": "凤凰新闻去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/凤凰新闻去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ifengNews_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "hub.kelee.one",
       "sourceSiteUrl": "https://hub.kelee.one",

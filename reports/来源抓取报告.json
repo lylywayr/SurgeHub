@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:18:44.773Z",
+  "generatedAt": "2026-07-01T04:09:19.905Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "content-first",
       "descriptionPolicy": "content-first",
-      "discovered": 241,
-      "accepted": 241,
+      "discovered": 243,
+      "accepted": 243,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 241
+          "found": 243
         },
         {
           "type": "sitemap.xml",
@@ -473,6 +473,15 @@
       "sourceSite": "hub.kelee.one"
     },
     {
+      "name": "WakeUp课程表去广告",
+      "description": "移除横幅广告、弹窗广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
       "name": "WARP节点查询",
       "description": "显示WARP节点的详细信息，请在所有节点页面选择一个节点长按，出现菜单后进行测试",
       "nameSource": "original-metadata",
@@ -911,6 +920,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx",
+      "sourceSite": "hub.kelee.one"
+    },
+    {
+      "name": "凤凰新闻去广告",
+      "description": "移除皮肤、开屏广告、信息流广告、文末广告、视频流广告、评论区广告，移除信息流订阅号文章、文末推荐阅读，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ifengNews_remove_ads.lpx",
       "sourceSite": "hub.kelee.one"
     },
     {
