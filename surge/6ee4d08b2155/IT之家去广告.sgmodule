@@ -8,6 +8,7 @@
 #!homepage=https://hub.kelee.one
 #!date=2026-06-01 17:11:35
 #!arguments=removePinnedArticles:false,removeAllBanners:false
+#!arguments-desc=removePinnedArticles: 移除置顶文章 启用后将移除置顶文章\nremoveAllBanners: 移除全部横幅 启用后将移除全部横幅
 
 [URL Rewrite]
 ^https?:\/\/dat\.ruanmei\.com\/ithome\/money\/acd\.json$ - reject

@@ -8,6 +8,7 @@
 #!homepage=https://hub.kelee.one
 #!date=2026-06-01 17:11:35
 #!arguments=CaptureAccountToken:false,RunTask:"false",RunMonitor:"true",TaskCron:"0 0/2 * * * ?",TaskMonitor:"0 * * * * ?"
+#!arguments-desc=CaptureAccountToken: 捕获账号令牌 此开关控制插件是否捕获账户令牌\nRunTask: 自动加入TF 此开关控制是否启动定时任务\nRunMonitor: 监控TF位置 此开关控制是否启动定时任务\nTaskCron: 加入TF定时参数 这里需要输入符合CRON表达式的参数\nTaskMonitor: 监控TF定时参数 这里需要输入符合CRON表达式的参数
 
 [Script]
 获取账号令牌 = type=http-request, pattern=^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$, script-path=https://kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js

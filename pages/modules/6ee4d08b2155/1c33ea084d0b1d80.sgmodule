@@ -9,6 +9,7 @@
 #!homepage=https://hub.kelee.one
 #!date=2026-06-01 17:11:35
 #!arguments=Type:"Official",AutoCC:true,ShowOnly:true,Position:"Forward"
+#!arguments-desc=Type: 字幕类型 请选择要使用的字幕，双语字幕将使用您选择类型呈现。\nAutoCC: 自动显示翻译字幕 开启后总是自动开启显示字幕\nShowOnly: 仅显示“自动翻译”字幕 开启后仅显示“自动翻译”后的字幕，不显原文字幕。\nPosition: 原文字幕位置 原文字幕的显示位置
 
 [Script]
 JSON·YouTube播放器请求 = type=http-request, pattern=^https?:\/\/(www|m|tv)\.youtube\.com\/youtubei\/v1\/player\?(.*), script-path=https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js, requires-body=true, argument="[{{{Type}}},{{{AutoCC}}},{{{ShowOnly}}},{{{Position}}}]"

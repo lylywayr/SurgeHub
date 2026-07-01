@@ -8,6 +8,7 @@
 #!homepage=https://hub.kelee.one
 #!date=2026-06-01 17:11:35
 #!arguments=MY:false,DT:false,FX:false,PRGG:false,PRRK:false,PRDRD:false,PRSCVPT:false,PRST:false,PRRR:false,HMPR:false,PRMST:false,PRCN:false
+#!arguments-desc=MY: [隐藏底栏]漫游标签\nDT: [隐藏底部]笔记标签\nFX: [隐藏底部]发现标签\nPRGG: [隐藏首页]问候语\nPRRK: [隐藏首页]排行榜\nPRDRD: [隐藏首页]每日推荐\nPRSCVPT: [隐藏首页]推荐歌单\nPRST: [隐藏首页]最近常听\nPRRR: [隐藏首页]雷达歌单\nHMPR: [隐藏首页]音乐合伙人\nPRMST: [隐藏首页]推荐专属歌单\nPRCN: [隐藏首页]你的专属歌单
 
 [Rule]
 DOMAIN,iadmat.nosdn.127.net,REJECT

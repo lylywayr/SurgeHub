@@ -8,6 +8,7 @@
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/Resource/Markdown/WPS/README.md
 #!date=2026-06-01 17:11:35
 #!arguments=CaptureCookie:false,AK:"",SK:"",DAY:"1",MAX_RETRIES:"5",CRONEXP:"0 8 * * *"
+#!arguments-desc=CaptureCookie: 捕获Cookie 此开关控制插件是否捕获Cookie\nAK: 百度API Key 这里需要输入有效的百度API Key\nSK: 百度Secret Key 这里需要输入有效的百度Secret Key\nDAY: 兑换天数 每日签到时自动兑换的天数，可不做更改。\nMAX_RETRIES: 失败重试次数 仅允许填写阿拉伯数字\nCRONEXP: 定时参数 这里需要输入符合CRON表达式的参数
 
 [Script]
 捕获Cookie = type=http-request, pattern=^https:\/\/moapi\.wps\.cn\/app\/ios\/v1\/app$, script-path=https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js, requires-body=true
