@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T15:28:41.818Z",
+  "generatedAt": "2026-07-06T01:29:05.000Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 245,
-      "accepted": 245,
+      "discovered": 257,
+      "accepted": 257,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 245
+          "found": 257
         },
         {
           "type": "sitemap.xml",
@@ -37,7 +37,7 @@
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
       "discovered": 62,
-      "accepted": 56,
+      "accepted": 57,
       "discovery": [
         {
           "type": "墨魚手記官方 README（main）",
@@ -203,6 +203,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "e充电去广告",
+      "description": "移除开屏广告、活动及发现页面，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/EasyCharge_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "Fileball网盘挂载",
       "description": "支持挂载阿里云盘、夸克网盘和PikPak网盘，点击下方署名查看使用方法",
       "nameSource": "original-metadata",
@@ -308,6 +317,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "OKOK去广告",
+      "description": "移除开屏广告、横幅广告，精简首页，拦截优惠购页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -743,12 +761,30 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "车来了去广告",
+      "description": "清洗配置，移除开屏广告、首页金刚位、文章推荐，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Chelaile_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "成分喵去广告",
       "description": "移除首页推广活动、广告组件请求、移除被查商品购买链接、搜索发现",
       "nameSource": "original-metadata",
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "创维智慧云去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SkyworthDigitalPicamera_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -785,6 +821,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Damai_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "大姨妈月经期助手去广告",
+      "description": "移除信息流广告，精简首页金刚位及我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Dayima_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -977,6 +1022,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "海雀去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告，拦截商城和资讯页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "航旅纵横去广告",
       "description": "过滤航旅纵横广告",
       "nameSource": "original-metadata",
@@ -1118,6 +1172,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WPS_Documents_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "看家王去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ChatCam_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1328,6 +1391,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "每日赛车去广告",
+      "description": "移除开屏广告、信息流广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MeiRiSaiChe_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "美食杰去广告",
       "description": "移除开屏广告和信息流广告",
       "nameSource": "original-metadata",
@@ -1415,6 +1487,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CSG_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "排班日历去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/AxWorkSchedule_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1661,6 +1742,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "天气通去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告，精简底栏及我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TianQiTong_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "天气预报去广告",
       "description": "移除开屏广告、弹窗广告、横幅广告、悬浮挂件，精简我的页面",
       "nameSource": "original-metadata",
@@ -1892,6 +1982,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "小白智慧打印去广告",
+      "description": "移除开屏广告、首页推广金刚位、热门内容推荐、横幅广告、搜索填充词、搜索发现，精简我的页面。账户页面错误是已知问题，无需反馈",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/XiaobaiPrint_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -2144,6 +2243,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iReader_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "直播吧去广告",
+      "description": "移除信息流广告、横幅广告、弹窗广告、皮肤配置、悬浮挂件、热门搜索，移除青少年模式，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -2498,6 +2606,15 @@
       "sourceSite": "墨魚手記"
     },
     {
+      "name": "什么值得买",
+      "description": "广告屏蔽：什么值得买",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "descriptionSource": "墨魚手記官方 README 复写区",
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf",
+      "sourceSite": "墨魚手記"
+    },
+    {
       "name": "微信阅读精简",
       "description": "广告屏蔽：微信阅读精简",
       "nameSource": "墨魚手記官方 README 复写区",
@@ -2783,13 +2900,6 @@
     }
   ],
   "failed": [
-    {
-      "sourceSite": "墨魚手記",
-      "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf",
-      "catalogName": "什么值得买",
-      "catalogDescription": "广告屏蔽：什么值得买",
-      "message": "fetch failed"
-    },
     {
       "sourceSite": "墨魚手記",
       "sourceUrl": "https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet",

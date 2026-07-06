@@ -1,12 +1,14 @@
 #!name=地图出行去广告
-#!desc=地图出行去广告，包含：12306去广告、百度地图去广告、滴答出行去广告、滴滴出行去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!desc=地图出行去广告，包含：12306去广告、百度地图去广告、车来了去广告、滴答出行去广告、滴滴出行去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
 #!author=SurgeHub 自动合并
-#!arguments=12306去广告:"",百度地图去广告:"",滴答出行去广告:"",滴滴出行去广告:"",飞猪旅行去广告:"",高德地图去广告:"",航旅纵横去广告:"",两步路户外助手去广告:"",萝卜快跑去广告:"",马蜂窝去广告:"",行者户外去广告:""
-#!arguments-desc=12306去广告: 【12306去广告】开关：留空启用，填 # 关闭此子模块。\n百度地图去广告: 【百度地图去广告】开关：留空启用，填 # 关闭此子模块。\n滴答出行去广告: 【滴答出行去广告】开关：留空启用，填 # 关闭此子模块。\n滴滴出行去广告: 【滴滴出行去广告】开关：留空启用，填 # 关闭此子模块。\n飞猪旅行去广告: 【飞猪旅行去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n航旅纵横去广告: 【航旅纵横去广告】开关：留空启用，填 # 关闭此子模块。\n两步路户外助手去广告: 【两步路户外助手去广告】开关：留空启用，填 # 关闭此子模块。\n萝卜快跑去广告: 【萝卜快跑去广告】开关：留空启用，填 # 关闭此子模块。\n马蜂窝去广告: 【马蜂窝去广告】开关：留空启用，填 # 关闭此子模块。\n行者户外去广告: 【行者户外去广告】开关：留空启用，填 # 关闭此子模块。
+#!arguments=12306去广告:"",百度地图去广告:"",车来了去广告:"",滴答出行去广告:"",滴滴出行去广告:"",飞猪旅行去广告:"",高德地图去广告:"",航旅纵横去广告:"",两步路户外助手去广告:"",萝卜快跑去广告:"",马蜂窝去广告:"",行者户外去广告:""
+#!arguments-desc=12306去广告: 【12306去广告】开关：留空启用，填 # 关闭此子模块。\n百度地图去广告: 【百度地图去广告】开关：留空启用，填 # 关闭此子模块。\n车来了去广告: 【车来了去广告】开关：留空启用，填 # 关闭此子模块。\n滴答出行去广告: 【滴答出行去广告】开关：留空启用，填 # 关闭此子模块。\n滴滴出行去广告: 【滴滴出行去广告】开关：留空启用，填 # 关闭此子模块。\n飞猪旅行去广告: 【飞猪旅行去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n航旅纵横去广告: 【航旅纵横去广告】开关：留空启用，填 # 关闭此子模块。\n两步路户外助手去广告: 【两步路户外助手去广告】开关：留空启用，填 # 关闭此子模块。\n萝卜快跑去广告: 【萝卜快跑去广告】开关：留空启用，填 # 关闭此子模块。\n马蜂窝去广告: 【马蜂窝去广告】开关：留空启用，填 # 关闭此子模块。\n行者户外去广告: 【行者户外去广告】开关：留空启用，填 # 关闭此子模块。
 
 [Rule]
 # 12306去广告
 {{{12306去广告}}}DOMAIN,ad.12306.cn,DIRECT
+# 车来了去广告
+{{{车来了去广告}}}DOMAIN,ad.chelaile.net.cn,REJECT
 # 滴滴出行去广告
 {{{滴滴出行去广告}}}DOMAIN,gwp.xiaojukeji.com,REJECT
 {{{滴滴出行去广告}}}AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
@@ -31,6 +33,8 @@
 {{{百度地图去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/(client\/)?usersystem\/mine\/page\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%22%2C%7B%7D%5D%5D%5D%5D
 {{{百度地图去广告}}}body_rewrite_16 = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads&type=user_home_new_service, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22ads%22%5D%5D%5D
 {{{百度地图去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/living\/nearby\/api\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22Result.cards%5B1%5D%22%2C%22Result.cards%5B4%5D%22%2C%22Result.cards%5B5%5D%22%2C%22Result.cards%5B9%5D%22%5D%5D%5D
+# 车来了去广告
+{{{车来了去广告}}}清洗配置 = type=http-response, pattern=^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?, script-path=https://kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js, requires-body=true
 # 滴滴出行去广告
 {{{滴滴出行去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/other\/fast\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.disorder_cards.communicate_card%22%2C%22data.disorder_cards.not_login_bottom_bar%22%2C%22data.disorder_cards.riding_code_card%22%2C%22data.order_cards.car_owner_widget_card%22%2C%22data.order_cards.marketing_card%22%2C%22data.order_cards.super_banner_card%22%2C%22data.disorder_cards.car_icon.data.icon_info_new_agreement%22%5D%5D%5D
 {{{滴滴出行去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.mult_home_banner%22%5D%5D%5D
@@ -65,6 +69,8 @@
 {{{12306去广告}}}hostname = %APPEND% ad.12306.cn, mobile.12306.cn
 # 百度地图去广告
 {{{百度地图去广告}}}hostname = %APPEND% afd.baidu.com, newclient.map.baidu.com, yongche.baidu.com, ecom.map.baidu.com
+# 车来了去广告
+{{{车来了去广告}}}hostname = %APPEND% api.chelaile.net.cn, web.chelaile.net.cn, cdn.web.chelaile.net.cn, image3.chelaile.net.cn
 # 滴答出行去广告
 {{{滴答出行去广告}}}hostname = %APPEND% capis.didapinche.com
 # 滴滴出行去广告
@@ -93,6 +99,14 @@
 {{{百度地图去广告}}}^https:\/\/yongche\.baidu\.com\/goorder\/passenger\/baseinfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{百度地图去广告}}}^https:\/\/ecom\.map\.baidu\.com\/ad-ops\/afd\/popup\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{百度地图去广告}}}^https:\/\/maphotel\.baidu\.com\/hotel\/goextranet\/activity\/detail\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 车来了去广告
+{{{车来了去广告}}}^https:\/\/image3\.chelaile\.net\.cn\/hw6u6LYY\.png$ data-type=tiny-gif status-code=200
+{{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/goocity\/flowPos\/home\? data-type=text data="**YGKJ{"jsonr":{"status":"00","data":{"advertList":[{"id":106,"title":"站点地图","iconUrl":"https://image3.chelaile.net.cn/89iIqxaM.png","linkUrl":"","adType":5,"showRedDot":0,"updateTime":0,"appId":"","appPath":"","bubbleOrder":0,"h5Type":0},{"id":1,"title":"地铁","iconUrl":"https://image3.chelaile.net.cn/rewrLCWY.png","linkUrl":"https://web.chelaile.net.cn/metro/index.html?h5_stats_referer=icon","adType":2,"showRedDot":0,"updateTime":0,"appId":"","appPath":"","bubbleOrder":0,"h5Type":0}]}YGKJ##" status-code=200 header="Content-Type:application/json"
+{{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/goocity\/flowPos\/listByPos\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
+{{{车来了去广告}}}^https:\/\/web\.chelaile\.net\.cn\/api\/operative_position\/infoflow\/getInfo\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
+{{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/led-weather\/v\d\/condition_brief\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
+{{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/goocity\/config\/notices\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
+{{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/encourage\/activity\/control\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
 # 滴答出行去广告
 {{{滴答出行去广告}}}^https:\/\/capis\.didapinche\.com\/adbase\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 滴滴出行去广告
@@ -134,3 +148,7 @@
 {{{马蜂窝去广告}}}^https:\/\/mapi\.mafengwo\.cn\/user\/growth\/get_growth_tip\/v1\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 行者户外去广告
 {{{行者户外去广告}}}^https:\/\/www\.imxingzhe\.com\/api\/v1\/pop\/window\/\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[URL Rewrite]
+# 车来了去广告
+{{{车来了去广告}}}^https:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html\? - reject

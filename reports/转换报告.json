@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T15:30:24.195Z",
+  "generatedAt": "2026-07-06T01:29:23.783Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -370,6 +370,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:367265e6d4244937.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/EasyCharge_remove_ads.lpx",
+      "name": "e充电去广告",
+      "description": "移除开屏广告、活动及发现页面，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "367265e6d4244937.sgmodule",
+      "path": "6ee4d08b2155/367265e6d4244937.sgmodule",
+      "legacyFile": "e充电去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/e充电去广告.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/EasyCharge_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:f3f96ea79b9b4944.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx",
       "name": "Fileball网盘挂载",
@@ -633,6 +656,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:81131da78f76901e.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
+      "name": "OKOK去广告",
+      "description": "移除开屏广告、横幅广告，精简首页，拦截优惠购页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "81131da78f76901e.sgmodule",
+      "path": "6ee4d08b2155/81131da78f76901e.sgmodule",
+      "legacyFile": "OKOK去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/OKOK去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -1731,6 +1777,31 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:edfd5b5bedea3b1d.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Chelaile_remove_ads.lpx",
+      "name": "车来了去广告",
+      "description": "清洗配置，移除开屏广告、首页金刚位、文章推荐，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "edfd5b5bedea3b1d.sgmodule",
+      "path": "6ee4d08b2155/edfd5b5bedea3b1d.sgmodule",
+      "legacyFile": "车来了去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/车来了去广告.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Chelaile_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:e023b550591ee07c.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx",
       "name": "成分喵去广告",
@@ -1748,6 +1819,28 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:9a93852e8655dfa3.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/SkyworthDigitalPicamera_remove_ads.lpx",
+      "name": "创维智慧云去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "9a93852e8655dfa3.sgmodule",
+      "path": "6ee4d08b2155/9a93852e8655dfa3.sgmodule",
+      "legacyFile": "创维智慧云去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/创维智慧云去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SkyworthDigitalPicamera_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -1816,6 +1909,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Damai_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:51c8f11581c24cd4.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Dayima_remove_ads.lpx",
+      "name": "大姨妈月经期助手去广告",
+      "description": "移除信息流广告，精简首页金刚位及我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "51c8f11581c24cd4.sgmodule",
+      "path": "6ee4d08b2155/51c8f11581c24cd4.sgmodule",
+      "legacyFile": "大姨妈月经期助手去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/大姨妈月经期助手去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Dayima_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -2305,6 +2421,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:36fa584e98740929.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx",
+      "name": "海雀去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告，拦截商城和资讯页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "36fa584e98740929.sgmodule",
+      "path": "6ee4d08b2155/36fa584e98740929.sgmodule",
+      "legacyFile": "海雀去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/海雀去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:5bd4d2b97f535fc9.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx",
       "name": "航旅纵横去广告",
@@ -2642,6 +2781,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WPS_Documents_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:c755871a244115f3.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/ChatCam_remove_ads.lpx",
+      "name": "看家王去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "c755871a244115f3.sgmodule",
+      "path": "6ee4d08b2155/c755871a244115f3.sgmodule",
+      "legacyFile": "看家王去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/看家王去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ChatCam_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -3174,6 +3336,28 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:a768b9c737ea614c.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/MeiRiSaiChe_remove_ads.lpx",
+      "name": "每日赛车去广告",
+      "description": "移除开屏广告、信息流广告",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "a768b9c737ea614c.sgmodule",
+      "path": "6ee4d08b2155/a768b9c737ea614c.sgmodule",
+      "legacyFile": "每日赛车去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/每日赛车去广告.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MeiRiSaiChe_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:591d2226823189ae.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/MeiShiJie_remove_ads.lpx",
       "name": "美食杰去广告",
@@ -3395,6 +3579,28 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CSG_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:e1acdede26719f77.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/AxWorkSchedule_remove_ads.lpx",
+      "name": "排班日历去广告",
+      "description": "移除开屏广告、横幅广告",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "e1acdede26719f77.sgmodule",
+      "path": "6ee4d08b2155/e1acdede26719f77.sgmodule",
+      "legacyFile": "排班日历去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/排班日历去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/AxWorkSchedule_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -4026,6 +4232,28 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:8319806f562a38e8.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/TianQiTong_remove_ads.lpx",
+      "name": "天气通去广告",
+      "description": "移除开屏广告、横幅广告、弹窗广告，精简底栏及我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "8319806f562a38e8.sgmodule",
+      "path": "6ee4d08b2155/8319806f562a38e8.sgmodule",
+      "legacyFile": "天气通去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/天气通去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TianQiTong_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:4e8ae447cb1e86ef.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
       "name": "天气预报去广告",
@@ -4611,6 +4839,30 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:229116a304f2a7dc.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/XiaobaiPrint_remove_ads.lpx",
+      "name": "小白智慧打印去广告",
+      "description": "移除开屏广告、首页推广金刚位、热门内容推荐、横幅广告、搜索填充词、搜索发现，精简我的页面。账户页面错误是已知问题，无需反馈",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "229116a304f2a7dc.sgmodule",
+      "path": "6ee4d08b2155/229116a304f2a7dc.sgmodule",
+      "legacyFile": "小白智慧打印去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/小白智慧打印去广告.sgmodule",
+      "sections": [
+        "Rule",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/XiaobaiPrint_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -5245,6 +5497,29 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iReader_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:f24b934d509f4269.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx",
+      "name": "直播吧去广告",
+      "description": "移除信息流广告、横幅广告、弹窗广告、皮肤配置、悬浮挂件、热门搜索，移除青少年模式，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "f24b934d509f4269.sgmodule",
+      "path": "6ee4d08b2155/f24b934d509f4269.sgmodule",
+      "legacyFile": "直播吧去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/直播吧去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -6137,6 +6412,29 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://gist.githubusercontent.com/ddgksf2013/bb1dadbd32f67c68772caebcc70b0a33/raw/pipixia.adblock.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:7f4be2554b2f82f9.sgmodule",
+      "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf",
+      "name": "什么值得买",
+      "description": "广告屏蔽：什么值得买",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "7f4be2554b2f82f9.sgmodule",
+      "path": "1a51661d4c51/7f4be2554b2f82f9.sgmodule",
+      "legacyFile": "什么值得买.sgmodule",
+      "legacyPath": "1a51661d4c51/什么值得买.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",

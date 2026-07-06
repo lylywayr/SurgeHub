@@ -5,7 +5,7 @@
 #!tag=去广告, 依赖
 #!loon_version=3.4.0(962)
 #!homepage=https://hub.kelee.one
-#!date=2026-07-01 10:51:11
+#!date=2026-07-04 18:02:50
 
 [Rule]
 DOMAIN-KEYWORD,adstrategy,REJECT
@@ -65,7 +65,12 @@ DOMAIN-SUFFIX,popadshop.com,REJECT
 DOMAIN-SUFFIX,admobile.vip,REJECT
 DOMAIN-SUFFIX,yksdks.com,REJECT
 DOMAIN-SUFFIX,dutils.com,REJECT
+DOMAIN,init.sms.mob.com,DIRECT
+DOMAIN,sdkapi.sms.mob.com,DIRECT
+DOMAIN,code.sms.mob.com,DIRECT
 DOMAIN-SUFFIX,mob.com,REJECT
+DOMAIN,smartop-sdkapi.jiguang.cn,DIRECT
+DOMAIN,sdk.verification.jiguang.cn,DIRECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
@@ -309,6 +314,14 @@ DOMAIN-SUFFIX,qidianad.com,REJECT
 DOMAIN-SUFFIX,kuaichuanad.com,REJECT
 DOMAIN-SUFFIX,statisticslinks.com,REJECT
 DOMAIN,adx.zuoyebang.com,REJECT
+DOMAIN-SUFFIX,cxwlad.com,REJECT
+DOMAIN-SUFFIX,ad.gameley.com,REJECT
+DOMAIN-SUFFIX,yiweiads.com,REJECT
+DOMAIN-SUFFIX,adx.52qumao.com,REJECT
+DOMAIN-SUFFIX,hzjizhun.cn,REJECT
+DOMAIN-SUFFIX,hzjizhun.com,REJECT
+DOMAIN-SUFFIX,sogaha.cn,REJECT
+DOMAIN,zxid-m.mobileservice.cn,REJECT
 DOMAIN-SUFFIX,tradplusad.com,REJECT
 DOMAIN-SUFFIX,fancyapi.com,REJECT
 DOMAIN-SUFFIX,medproad.com,REJECT

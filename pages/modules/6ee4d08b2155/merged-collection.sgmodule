@@ -12,6 +12,8 @@
 {{{HTTPDNS拦截器}}}USER-AGENT,"httpsdns*",REJECT
 {{{HTTPDNS拦截器}}}USER-AGENT,"Httpdns*",REJECT
 {{{HTTPDNS拦截器}}}USER-AGENT,"Httpsdns*",REJECT
+{{{HTTPDNS拦截器}}}AND,((URL-REGEX,"^http:\/\/119\.29\.29\.90\/d\?"),(USER-AGENT,"%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C*")),DIRECT
+{{{HTTPDNS拦截器}}}AND,((URL-REGEX,"^http:\/\/119\.28\.28\.90\/d\?"),(USER-AGENT,"%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C*")),DIRECT
 {{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?:\/v?[0-9]+)?\/(?:sign_)?(?:(?:d|ss)[46]?|resolve)\?",REJECT
 {{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/\[[0-9a-fA-F:]+\](?:\/v?[0-9]+)?\/(?:sign_)?(?:(?:d|ss)[46]?|resolve)\?",REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT
@@ -207,7 +209,12 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,admobile.vip,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,yksdks.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,dutils.com,REJECT
+{{{广告平台拦截器}}}DOMAIN,init.sms.mob.com,DIRECT
+{{{广告平台拦截器}}}DOMAIN,sdkapi.sms.mob.com,DIRECT
+{{{广告平台拦截器}}}DOMAIN,code.sms.mob.com,DIRECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,mob.com,REJECT
+{{{广告平台拦截器}}}DOMAIN,smartop-sdkapi.jiguang.cn,DIRECT
+{{{广告平台拦截器}}}DOMAIN,sdk.verification.jiguang.cn,DIRECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,jiguang.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,jpush.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,jpush.io,REJECT
@@ -436,6 +443,14 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,kuaichuanad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,statisticslinks.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,adx.zuoyebang.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,cxwlad.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,ad.gameley.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,yiweiads.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,adx.52qumao.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,hzjizhun.cn,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,hzjizhun.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,sogaha.cn,REJECT
+{{{广告平台拦截器}}}DOMAIN,zxid-m.mobileservice.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,tradplusad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,fancyapi.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,medproad.com,REJECT
