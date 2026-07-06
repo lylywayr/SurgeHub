@@ -12,6 +12,7 @@
     h2 { margin: 0; font-size: 22px; }
     h3 { margin: 0 0 8px; font-size: 18px; overflow-wrap: anywhere; }
     .summary, .notice p, .source-heading p, .filename, .detail, .description, .empty-state p { color: #6e6e73; line-height: 1.6; }
+    .sync-time { margin: 0 0 14px; font-size: 14px; color: #6e6e73; }
     .notice, .sources, .selector, .source-group, .module-card { background: #fff; border-radius: 14px; box-shadow: 0 1px 3px rgba(0, 0, 0, .08); }
     .notice, .sources, .selector { padding: 18px; margin: 16px 0; }
     .notice strong { display: block; margin-bottom: 8px; }
@@ -50,7 +51,7 @@
       body { background: #111; color: #f5f5f7; }
       .notice, .sources, .selector, .source-group { background: #1c1c1e; }
       .module-card { background: #27272a; }
-      .summary, .notice p, .source-heading p, .filename, .detail, .description, .empty-state p, .sources span, footer { color: #a1a1a6; }
+      .summary, .notice p, .source-heading p, .filename, .detail, .description, .empty-state p, .sources span, footer, .sync-time { color: #a1a1a6; }
       .file { color: #8ec5ff; background: #1b3554; }
       .merged { color: #9fe9b7; background: #163c25; }
       .included { color: #ffd982; background: #4a3914; }
@@ -66,6 +67,7 @@
     <header>
       <h1>SurgeHub</h1>
       <p class="summary">共 319 个自动整理的 Surge 模块，支持 Surge 与 Egern。</p>
+      <p class="sync-time">同步上游时间：2026-07-06 14:46:49 Asia/Shanghai</p>
     </header>
     <section class="notice">
       <strong>使用说明</strong>
@@ -4573,7 +4575,7 @@
   </div>
 </article></div>
 </section></div>
-    <footer>由 GitHub Actions 自动同步、识别、转换、同来源合并与发布。</footer>
+    <footer>由 GitHub Actions 自动同步、识别、转换、同来源合并与发布。同步上游时间：2026-07-06 14:46:49 Asia/Shanghai</footer>
   </main>
   <script>
     const 菜单 = document.getElementById("source-menu");
