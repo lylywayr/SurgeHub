@@ -81,6 +81,7 @@
 # 哔哩哔哩去广告
 {{{哔哩哔哩去广告}}}^https:\/\/line3-h5-mobile-api\.biligame\.com\/game\/live\/large_card_material\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{哔哩哔哩去广告}}}^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{哔哩哔哩去广告}}}^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list\? data-type=text data="{"code":0,"message":"OK","ttl":1,"data":{"max_time":0,"min_interval":31536000,"pull_interval":31536000,"keep_ids":[],"show":[],"list":[{}],"splash_request_id":""}}" status-code=200 header="Content-Type:text/plain"
 {{{哔哩哔哩去广告}}}^https:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive\? data-type=text data="{"code":0,"data":{"closeType":"close_win","container":[],"showTime":""},"message":"success"}" status-code=200 header="Content-Type:text/plain"
 {{{哔哩哔哩去广告}}}^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab(?:\/v2)?)|v2\/search\/square|vip\/ads\/materials)\? data-type=text data="{"code":-404,"message":"-404","ttl":1,"data":null}" status-code=200 header="Content-Type:text/plain"
 {{{哔哩哔哩去广告}}}^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus$ data-type=base64 data="AAAAABMKEQgCEgl0ZWVuYWdlcnMgAioA" header="Content-Type:text/plain"
@@ -130,7 +131,7 @@
 {{{哔哩哔哩漫画去广告}}}移除顶部标签 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs, script-path=https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js, requires-body=true
 {{{哔哩哔哩漫画去广告}}}精简我的页面 = type=http-response, pattern=^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf, script-path=https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js, requires-body=true
 # 哔哩哔哩去广告
-{{{哔哩哔哩去广告}}}body_rewrite_36 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.common_equip%22%5D%5D%5D
+{{{哔哩哔哩去广告}}}body_rewrite_38 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.common_equip%22%5D%5D%5D
 {{{哔哩哔哩去广告}}}空降助手 = type=http-request, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js, requires-body=true, binary-body-mode=true, timeout=10, argument=[{{{日志等级_脚本的日志输出等级}}}]
 {{{哔哩哔哩去广告}}}请求处理 = type=http-request, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.viewunite\.v1\.View\/View|main\.community\.reply\.v1\.Reply\/MainList)$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js, requires-body=true, binary-body-mode=true, timeout=10, argument="[{{{移除评论区置顶广告}}}, {{{日志等级_脚本的日志输出等级}}}]"
 {{{哔哩哔哩去广告}}}ProtoBuf处理 = type=http-response, pattern=^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.(?:show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(?:unite)?\.v1\.View\/(?:View|ViewProgress|RelatesFeed)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$, script-path=https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js, requires-body=true, binary-body-mode=true, argument="[{{{动态_中_最常访问_的显示方式_auto_仅当列表中存在直播状态时显示_show_始终显示_hide_始终隐藏}}}, {{{移除评论区置顶广告}}}, {{{空降助手_用于跳过视频中的广告}}}, {{{日志等级_脚本的日志输出等级}}}]"
@@ -183,7 +184,7 @@
 {{{哔哩哔哩去广告}}}DOMAIN,app.biliapi.com,REJECT
 {{{哔哩哔哩去广告}}}DOMAIN,api.biliapi.net,REJECT
 {{{哔哩哔哩去广告}}}DOMAIN,app.biliapi.net,REJECT
-{{{哔哩哔哩去广告}}}AND,((DOMAIN-SUFFIX,chat.bilibili.com),(OR,((DOMAIN-KEYWORD,stun),(DOMAIN-KEYWORD,tracker)))),REJECT
+{{{哔哩哔哩去广告}}}AND,((DOMAIN-SUFFIX,chat.bilibili.com),(OR,((DOMAIN-KEYWORD,stun),(DOMAIN-KEYWORD,tracker),(DOMAIN-KEYWORD,p2p)))),REJECT
 # 斗鱼去广告
 {{{斗鱼去广告}}}URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list",REJECT
 {{{斗鱼去广告}}}AND,((DEST-PORT,18000),(PROTOCOL,STUN)),REJECT
