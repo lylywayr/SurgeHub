@@ -1,0 +1,62 @@
+#!name=去广告合集
+#!desc=去广告合集，包含：墨迹天气去广告、酷安去广告、中国联通去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!author=SurgeHub 自动合并
+#!arguments=墨迹天气去广告:"",酷安去广告:"",中国联通去广告:""
+#!arguments-desc=墨迹天气去广告: 【墨迹天气去广告】开关：留空启用，填 # 关闭此子模块。\n酷安去广告: 【酷安去广告】开关：留空启用，填 # 关闭此子模块。\n中国联通去广告: 【中国联通去广告】开关：留空启用，填 # 关闭此子模块。
+
+[Rule]
+# 墨迹天气去广告
+# > 开屏广告@ddgksf2013
+{{{墨迹天气去广告}}}DOMAIN-SUFFIX,adlaunch.moji.com,REJECT
+# 中国联通去广告
+{{{中国联通去广告}}}DOMAIN-SUFFIX,ad.10010.com,REJECT
+
+[Map Local]
+# 墨迹天气去广告
+# > 首页顶部浮窗推广@ddgksf2013
+{{{墨迹天气去广告}}}^https?:\/\/.*api\.moji\.com\/flycard\/flyCard data-type=text data=" " status-code=200
+# > 首页底部短视频流@ddgksf2013
+{{{墨迹天气去广告}}}^https?:\/\/.*api\.moji\.com\/shortvideo data-type=text data=" " status-code=200
+# > 商品推广@ddgksf2013
+{{{墨迹天气去广告}}}^https?:\/\/.*api\.moji\.com\/json\/advertising_goods data-type=text data=" " status-code=200
+# > 屏蔽时景发现页@ddgksf2013
+{{{墨迹天气去广告}}}^https?:\/\/.*api\.moji\.com\/forum data-type=text data=" " status-code=200
+# > 屏蔽时景关注@ddgksf2013
+{{{墨迹天气去广告}}}^https?:\/\/.*api\.moji\.com\/user\/dynamic_v\d\/json\/someone_interest data-type=text data=" " status-code=200
+# > DNS处理@ddgksf2013
+{{{墨迹天气去广告}}}^https:\/\/tnc.*zijieapi\.com\/get_domains data-type=text data=" " status-code=200
+# 酷安去广告
+# > 酷安_屏蔽热词@ddgksf2013
+{{{酷安去广告}}}^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data=" " status-code=200
+
+[MITM]
+# 墨迹天气去广告
+{{{墨迹天气去广告}}}hostname = %APPEND% *.api.moji.com, tnc*-*.zijieapi.com
+# 酷安去广告
+{{{酷安去广告}}}hostname = %APPEND% api.coolapk.com
+# 中国联通去广告
+{{{中国联通去广告}}}hostname = %APPEND% m.client.10010.com, img.client.10010.com
+
+[Script]
+# 酷安去广告
+# > 酷安_开屏广告@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/main\/init, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+# > 酷安_推广广告@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/dataList, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+# > 酷安_首页广告@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/main\/indexV8, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+# > 酷安_评论广告@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/replyList, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+# > 酷安_商品推广@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/detail, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+# > 酷安_酷品页推广@ddgksf2013
+{{{酷安去广告}}}coolapk = type=http-response, pattern=https://api.coolapk.com/v6/page/dataList\?.*title=%E9%85, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
+
+[URL Rewrite]
+# 中国联通去广告
+# > 广告推送@ddgksf2013
+{{{中国联通去广告}}}^https?:\/\/m\.client\.10010\.com\/mobileserviceimportant\/customer\/querySmartServicekhd.htm - reject
+# > 新人专享@ddgksf2013
+{{{中国联通去广告}}}^https?:\/\/m\.client\.10010\.com\/clientIndex\/api\/v1\/index\/queryIndexExclusiveOffers - reject
+# > 首页瀑布流@ddgksf2013
+{{{中国联通去广告}}}^https?:\/\/img\.client\.10010\.com\/homejingxuan12\/js\/(pubuliu|1homeView) - reject

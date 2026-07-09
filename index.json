@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "generatedAt": "2026-07-07T21:10:19.942Z",
-  "total": 319,
+  "generatedAt": "2026-07-09T09:27:06.597Z",
+  "total": 320,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -27,7 +27,7 @@
       "key": "6ee4d08b2155:merged-collection.sgmodule",
       "id": "merged:6ee4d08b2155:merged-collection.sgmodule",
       "name": "去广告合集",
-      "description": "去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、掌上英雄联盟去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "description": "去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、快手去广告、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
       "file": "merged-collection.sgmodule",
       "path": "6ee4d08b2155/merged-collection.sgmodule",
       "legacyFile": "去广告合集.sgmodule",
@@ -112,11 +112,60 @@
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx"
         },
         {
+          "name": "高德地图去广告",
+          "description": "过滤高德地图开屏广告、各页面推广，精简我的页面",
+          "file": "701f0da9de16a80f.sgmodule",
+          "path": "6ee4d08b2155/701f0da9de16a80f.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx"
+        },
+        {
           "name": "掌上英雄联盟去广告",
           "description": "移除开屏广告、弹窗推广、搜索热搜、搜索热榜、底栏推广图标",
           "file": "a1ffd96d9d123f1c.sgmodule",
           "path": "6ee4d08b2155/a1ffd96d9d123f1c.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/LOL_Bible_remove_ads.lpx"
+        },
+        {
+          "name": "京东去广告",
+          "description": "移除京东开屏广告，精简我的页面产品推广",
+          "file": "1cb057b9c6ee1491.sgmodule",
+          "path": "6ee4d08b2155/1cb057b9c6ee1491.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx"
+        },
+        {
+          "name": "京东比价",
+          "description": "首次使用需安装慢慢买应用，之后点击进入[我的]页面以捕获Cookie，捕获成功后方可在商品详情页面查看比价内容",
+          "file": "8a5c57fe89d1cbb6.sgmodule",
+          "path": "6ee4d08b2155/8a5c57fe89d1cbb6.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx"
+        },
+        {
+          "name": "快手去广告",
+          "description": "移除开屏广告、视频流广告、底栏皮肤、右下角悬浮推广，精简我的页面",
+          "file": "c7cbd325ba40d96f.sgmodule",
+          "path": "6ee4d08b2155/c7cbd325ba40d96f.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx"
+        },
+        {
+          "name": "墨迹天气去广告",
+          "description": "移除天气页面横幅、工具栏，移除时景关注页面推荐，精简我的页面",
+          "file": "c8e39bc83910e44b.sgmodule",
+          "path": "6ee4d08b2155/c8e39bc83910e44b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx"
+        },
+        {
+          "name": "淘宝去广告",
+          "description": "过滤淘宝开屏广告",
+          "file": "7b56bbd9149e7a66.sgmodule",
+          "path": "6ee4d08b2155/7b56bbd9149e7a66.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx"
+        },
+        {
+          "name": "酷安去广告",
+          "description": "过滤酷安广告",
+          "file": "d7f5c5d58394698b.sgmodule",
+          "path": "6ee4d08b2155/d7f5c5d58394698b.sgmodule",
+          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx"
         }
       ]
     },
@@ -3098,8 +3147,9 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "地图出行去广告",
+      "mergedInto": "去广告合集、地图出行去广告",
       "mergedIntoList": [
+        "去广告合集",
         "地图出行去广告"
       ]
     },
@@ -3430,7 +3480,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:1cb057b9c6ee1491.sgmodule",
@@ -3456,8 +3511,9 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "综合电商去广告",
+      "mergedInto": "去广告合集、综合电商去广告",
       "mergedIntoList": [
+        "去广告合集",
         "综合电商去广告"
       ]
     },
@@ -3675,8 +3731,9 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "视频媒体去广告",
+      "mergedInto": "去广告合集、视频媒体去广告",
       "mergedIntoList": [
+        "去广告合集",
         "视频媒体去广告"
       ]
     },
@@ -3778,7 +3835,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:6e8792b3e0ea4cfb.sgmodule",
@@ -4300,7 +4362,12 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "6ee4d08b2155:a1f5754948cdb4cf.sgmodule",
@@ -4948,8 +5015,9 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "综合电商去广告",
+      "mergedInto": "去广告合集、综合电商去广告",
       "mergedIntoList": [
+        "去广告合集",
         "综合电商去广告"
       ]
     },
@@ -6707,6 +6775,47 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "1a51661d4c51:merged-collection.sgmodule",
+      "id": "merged:1a51661d4c51:merged-collection.sgmodule",
+      "name": "去广告合集",
+      "description": "去广告合集，包含：墨迹天气去广告、酷安去广告、中国联通去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "file": "merged-collection.sgmodule",
+      "path": "1a51661d4c51/merged-collection.sgmodule",
+      "legacyFile": "去广告合集.sgmodule",
+      "legacyPath": "1a51661d4c51/去广告合集.sgmodule",
+      "sourceType": "merged-surge-module",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "sourceUrl": null,
+      "convertedBy": "SurgeHub 同来源自动合并",
+      "status": "合并模块",
+      "isMergedCollection": true,
+      "mergedModules": [
+        {
+          "name": "墨迹天气去广告",
+          "description": "广告屏蔽：墨迹天气去广告",
+          "file": "a7330c5e989e2451.sgmodule",
+          "path": "1a51661d4c51/a7330c5e989e2451.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/MoJiWeatherAds.conf"
+        },
+        {
+          "name": "酷安去广告",
+          "description": "广告屏蔽：酷安去广告",
+          "file": "d85d8ec0ca43cfb2.sgmodule",
+          "path": "1a51661d4c51/d85d8ec0ca43cfb2.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js"
+        },
+        {
+          "name": "中国联通去广告",
+          "description": "广告屏蔽：中国联通去广告",
+          "file": "102d3d12e08cbd1d.sgmodule",
+          "path": "1a51661d4c51/102d3d12e08cbd1d.sgmodule",
+          "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/ChinaUnicomAds.conf"
+        }
+      ]
+    },
+    {
       "key": "1a51661d4c51:default-ecommerce-collection.sgmodule",
       "id": "merged:1a51661d4c51:default-ecommerce-collection.sgmodule",
       "name": "综合电商去广告",
@@ -7294,7 +7403,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "1a51661d4c51:cc44f1eacf14bdff.sgmodule",
@@ -7846,7 +7960,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "1a51661d4c51:e8ef419bbdab00ee.sgmodule",
@@ -7914,7 +8033,12 @@
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "去广告合集",
+      "mergedIntoList": [
+        "去广告合集"
+      ]
     },
     {
       "key": "1a51661d4c51:3a2f0cf97fedf33a.sgmodule",
