@@ -110,7 +110,7 @@
 # 京东外卖去广告
 {{{京东外卖去广告}}}hostname = %APPEND% color.jddj.com, api.m.jd.com
 # 拼多多去广告
-{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com
+{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com, m.pinduoduo.net
 # 朴朴超市去广告
 {{{朴朴超市去广告}}}hostname = %APPEND% j1.pupuapi.com
 # 瑞幸咖啡去广告
@@ -173,6 +173,7 @@
 {{{拼多多去广告}}}body_rewrite_54 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22bottom_section_list%22%2C%22ui.bottom_section%22%2C%22ui.live_section.float_info%22%5D%5D%5D
 {{{拼多多去广告}}}body_rewrite_55 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_detail_group\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.goods_list%22%5D%5D%5D
 {{{拼多多去广告}}}body_rewrite_56 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/order\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22marketing_banner_vo%22%2C%22shipping.banner_above_recommend%22%5D%5D%5D
+{{{拼多多去广告}}}移除扫码取件页面商品推荐及弹窗 = type=http-response, pattern=^https:\/\/m\.pinduoduo\.net\/mdkd\/package\?from_app_scan, script-path=https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js, requires-body=true
 # 朴朴超市去广告
 {{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true
 {{{朴朴超市去广告}}}移除朴朴超市广告 = type=http-response, pattern=^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner, script-path=https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js, requires-body=true

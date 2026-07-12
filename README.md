@@ -6,7 +6,7 @@
 >
 > 不同来源仓库的模块严格分开：不会跨来源合并、去重或同名覆盖。合集也只会合并同一来源内的模块。
 >
-> 同步上游时间：2026-07-09 17:27:06 Asia/Shanghai
+> 同步上游时间：2026-07-12 23:11:09 Asia/Shanghai
 
 ## 转换来源
 
@@ -37,7 +37,7 @@
 
 | 序号 | 模块名称 | 中文简介 | 状态 | Surge 安装 | Egern 安装 | 原文件 |
 |---:|---|---|---|---|---|---|
-| 1 | 去广告合集 | 去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、快手去广告、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。 | 合并模块：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、快手去广告、墨迹天气去广告、淘宝去广告、酷安去广告 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Amerged-collection.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Amerged-collection.sgmodule&client=egern) | — |
+| 1 | 去广告合集 | 去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。 | 合并模块：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、墨迹天气去广告、淘宝去广告、酷安去广告 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Amerged-collection.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Amerged-collection.sgmodule&client=egern) | — |
 | 2 | 综合电商去广告 | 综合电商去广告，包含：得物去广告、盒马去广告、京东去广告、京东外卖去广告、拼多多去广告、朴朴超市去广告、瑞幸咖啡去广告、省钱快报去广告、什么值得买去广告、淘宝去广告、天猫校园去广告、沃尔玛去广告、闲鱼去广告、转转去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。 | 合并模块：得物去广告、盒马去广告、京东去广告、京东外卖去广告、拼多多去广告、朴朴超市去广告、瑞幸咖啡去广告、省钱快报去广告、什么值得买去广告、淘宝去广告、天猫校园去广告、沃尔玛去广告、闲鱼去广告、转转去广告 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-ecommerce-collection.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-ecommerce-collection.sgmodule&client=egern) | — |
 | 3 | 视频媒体去广告 | 视频媒体去广告，包含：555电影去广告、CC直播去广告、ReelShort去广告、TubeMax去广告、YouTube去广告、爱奇艺去广告、哔哩哔哩漫画去广告、哔哩哔哩去广告、斗鱼去广告、快手去广告、快影去广告、芒果TV去广告、皮皮虾去广告、腾讯视频去广告、香港抖音去广告、优酷视频去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。 | 合并模块：555电影去广告、CC直播去广告、ReelShort去广告、TubeMax去广告、YouTube去广告、爱奇艺去广告、哔哩哔哩漫画去广告、哔哩哔哩去广告、斗鱼去广告、快手去广告、快影去广告、芒果TV去广告、皮皮虾去广告、腾讯视频去广告、香港抖音去广告、优酷视频去广告 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-video-collection.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-video-collection.sgmodule&client=egern) | — |
 | 4 | 音乐媒体去广告 | 音乐媒体去广告，包含：QQ音乐去广告、Spotify去广告、波点音乐去广告、酷狗概念版去广告、酷狗铃声去广告、酷狗音乐去广告、酷我音乐去广告、猫耳FM去广告、蜻蜓FM去广告、汽水音乐去广告、全民K歌去广告、网易云音乐去广告、小宇宙去广告、喜马拉雅去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。 | 合并模块：QQ音乐去广告、Spotify去广告、波点音乐去广告、酷狗概念版去广告、酷狗铃声去广告、酷狗音乐去广告、酷我音乐去广告、猫耳FM去广告、蜻蜓FM去广告、汽水音乐去广告、全民K歌去广告、网易云音乐去广告、小宇宙去广告、喜马拉雅去广告 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-music-collection.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Adefault-music-collection.sgmodule&client=egern) | — |
@@ -170,7 +170,7 @@
 | 131 | 快对去广告 | 移除开屏广告、横幅推广，精简我的页面 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A6a1cac7bd241378e.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A6a1cac7bd241378e.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/KuaiDuiZuoYe_remove_ads.lpx) |
 | 132 | 快捷搜索 | 为Safari提供快速切换搜索引擎的能力，在插件列表中点击此插件上的链接查看使用方法 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A610fcb7881a5be8b.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A610fcb7881a5be8b.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx) |
 | 133 | 快看漫画去广告 | 移除开屏广告、悬浮窗、漫画广告、社区广告、各类弹窗，精简顶部标签、我的页面 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A1f39fa7dc5b53965.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A1f39fa7dc5b53965.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/KuaiKanComic_remove_ads.lpx) |
-| 134 | 快手去广告 | 移除开屏广告、视频流广告、底栏皮肤、右下角悬浮推广，精简我的页面 | 已进行合并（已包含于「去广告合集、视频媒体去广告」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ac7cbd325ba40d96f.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ac7cbd325ba40d96f.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx) |
+| 134 | 快手去广告 | 移除开屏广告、视频流广告、底栏皮肤、右下角悬浮推广，精简我的页面 | 已进行合并（已包含于「视频媒体去广告」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ac7cbd325ba40d96f.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ac7cbd325ba40d96f.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx) |
 | 135 | 快影去广告 | 移除开屏广告、信息流推广、横幅推广，移除悬浮部件 | 已进行合并（已包含于「视频媒体去广告」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A51026b688da4a3ba.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A51026b688da4a3ba.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx) |
 | 136 | 夸克去广告 | 移除阅读广告、各页面弹窗及横幅，精简我的页面 | 已进行合并（已包含于「去广告合集」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ab5b63a9fb9edb53b.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Ab5b63a9fb9edb53b.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx) |
 | 137 | 夸克扫描王去广告 | 移除弹窗广告、横幅广告，精简我的页面 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A1e222d923a1e8abb.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A1e222d923a1e8abb.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/QuarkScanking_remove_ads.lpx) |
@@ -371,7 +371,7 @@
 
 ## 更新信息
 
-- 同步上游时间：2026-07-09 17:27:06 Asia/Shanghai
+- 同步上游时间：2026-07-12 23:11:09 Asia/Shanghai
 - 同步时间源：`SURGEHUB_BUILD_TIME`（工作流启动时固定）
 - 模块数量：320
 - 转换引擎：Script Hub Rewrite-Parser

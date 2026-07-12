@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "generatedAt": "2026-07-09T09:27:06.597Z",
+  "generatedAt": "2026-07-12T15:11:09.315Z",
   "total": 320,
   "sources": [
     {
@@ -27,7 +27,7 @@
       "key": "6ee4d08b2155:merged-collection.sgmodule",
       "id": "merged:6ee4d08b2155:merged-collection.sgmodule",
       "name": "去广告合集",
-      "description": "去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、快手去广告、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "description": "去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
       "file": "merged-collection.sgmodule",
       "path": "6ee4d08b2155/merged-collection.sgmodule",
       "legacyFile": "去广告合集.sgmodule",
@@ -138,13 +138,6 @@
           "file": "8a5c57fe89d1cbb6.sgmodule",
           "path": "6ee4d08b2155/8a5c57fe89d1cbb6.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx"
-        },
-        {
-          "name": "快手去广告",
-          "description": "移除开屏广告、视频流广告、底栏皮肤、右下角悬浮推广，精简我的页面",
-          "file": "c7cbd325ba40d96f.sgmodule",
-          "path": "6ee4d08b2155/c7cbd325ba40d96f.sgmodule",
-          "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx"
         },
         {
           "name": "墨迹天气去广告",
@@ -1844,8 +1837,6 @@
       "legacyFile": "YouTube去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/YouTube去广告.sgmodule",
       "sections": [
-        "Rule",
-        "Map Local",
         "Script",
         "MITM"
       ],
@@ -3731,9 +3722,8 @@
       "sourceSiteUrl": "https://hub.kelee.one",
       "convertedBy": "Script Hub 转换",
       "status": "已进入合并",
-      "mergedInto": "去广告合集、视频媒体去广告",
+      "mergedInto": "视频媒体去广告",
       "mergedIntoList": [
-        "去广告合集",
         "视频媒体去广告"
       ]
     },

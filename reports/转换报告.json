@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T09:27:06.597Z",
+  "generatedAt": "2026-07-12T15:11:09.315Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -1165,8 +1165,6 @@
       "legacyFile": "YouTube去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/YouTube去广告.sgmodule",
       "sections": [
-        "Rule",
-        "Map Local",
         "Script",
         "MITM"
       ],

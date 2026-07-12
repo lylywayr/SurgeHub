@@ -1,8 +1,8 @@
 #!name=去广告合集
-#!desc=去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、快手去广告、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!desc=去广告合集，包含：HTTPDNS拦截器、广告平台拦截器、QQ音乐去广告、网易云音乐去广告、番茄小说去广告、小红书去广告、拼多多去广告、菜鸟去广告、微信外部链接解锁、夸克去广告、高德地图去广告、掌上英雄联盟去广告、京东去广告、京东比价、墨迹天气去广告、淘宝去广告、酷安去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
 #!author=SurgeHub 自动合并
-#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",网易云音乐去广告:"",番茄小说去广告:"",小红书去广告:"",拼多多去广告:"",菜鸟去广告:"",微信外部链接解锁:"",夸克去广告:"",高德地图去广告:"",掌上英雄联盟去广告:"",京东去广告:"",京东比价:"",快手去广告:"",墨迹天气去广告:"",淘宝去广告:"",酷安去广告:"",隐藏底栏_漫游标签:false,隐藏底部_笔记标签:false,隐藏底部_发现标签:false,隐藏首页_问候语:false,隐藏首页_排行榜:false,隐藏首页_每日推荐:false,隐藏首页_推荐歌单:false,隐藏首页_最近常听:false,隐藏首页_雷达歌单:false,隐藏首页_音乐合伙人:false,隐藏首页_推荐专属歌单:false,隐藏首页_你的专属歌单:false
-#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n网易云音乐去广告: 【网易云音乐去广告】开关：留空启用，填 # 关闭此子模块。\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n小红书去广告: 【小红书去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。\n夸克去广告: 【夸克去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n掌上英雄联盟去广告: 【掌上英雄联盟去广告】开关：留空启用，填 # 关闭此子模块。\n京东去广告: 【京东去广告】开关：留空启用，填 # 关闭此子模块。\n京东比价: 【京东比价】开关：留空启用，填 # 关闭此子模块。\n快手去广告: 【快手去广告】开关：留空启用，填 # 关闭此子模块。\n墨迹天气去广告: 【墨迹天气去广告】开关：留空启用，填 # 关闭此子模块。\n淘宝去广告: 【淘宝去广告】开关：留空启用，填 # 关闭此子模块。\n酷安去广告: 【酷安去广告】开关：留空启用，填 # 关闭此子模块。\n隐藏底栏_漫游标签: 【网易云音乐去广告】[隐藏底栏]漫游标签（原参数名：MY）\n隐藏底部_笔记标签: 【网易云音乐去广告】[隐藏底部]笔记标签（原参数名：DT）\n隐藏底部_发现标签: 【网易云音乐去广告】[隐藏底部]发现标签（原参数名：FX）\n隐藏首页_问候语: 【网易云音乐去广告】[隐藏首页]问候语（原参数名：PRGG）\n隐藏首页_排行榜: 【网易云音乐去广告】[隐藏首页]排行榜（原参数名：PRRK）\n隐藏首页_每日推荐: 【网易云音乐去广告】[隐藏首页]每日推荐（原参数名：PRDRD）\n隐藏首页_推荐歌单: 【网易云音乐去广告】[隐藏首页]推荐歌单（原参数名：PRSCVPT）\n隐藏首页_最近常听: 【网易云音乐去广告】[隐藏首页]最近常听（原参数名：PRST）\n隐藏首页_雷达歌单: 【网易云音乐去广告】[隐藏首页]雷达歌单（原参数名：PRRR）\n隐藏首页_音乐合伙人: 【网易云音乐去广告】[隐藏首页]音乐合伙人（原参数名：HMPR）\n隐藏首页_推荐专属歌单: 【网易云音乐去广告】[隐藏首页]推荐专属歌单（原参数名：PRMST）\n隐藏首页_你的专属歌单: 【网易云音乐去广告】[隐藏首页]你的专属歌单（原参数名：PRCN）
+#!arguments=HTTPDNS拦截器:"",广告平台拦截器:"",QQ音乐去广告:"",网易云音乐去广告:"",番茄小说去广告:"",小红书去广告:"",拼多多去广告:"",菜鸟去广告:"",微信外部链接解锁:"",夸克去广告:"",高德地图去广告:"",掌上英雄联盟去广告:"",京东去广告:"",京东比价:"",墨迹天气去广告:"",淘宝去广告:"",酷安去广告:"",隐藏底栏_漫游标签:false,隐藏底部_笔记标签:false,隐藏底部_发现标签:false,隐藏首页_问候语:false,隐藏首页_排行榜:false,隐藏首页_每日推荐:false,隐藏首页_推荐歌单:false,隐藏首页_最近常听:false,隐藏首页_雷达歌单:false,隐藏首页_音乐合伙人:false,隐藏首页_推荐专属歌单:false,隐藏首页_你的专属歌单:false
+#!arguments-desc=HTTPDNS拦截器: 【HTTPDNS拦截器】开关：留空启用，填 # 关闭此子模块。\n广告平台拦截器: 【广告平台拦截器】开关：留空启用，填 # 关闭此子模块。\nQQ音乐去广告: 【QQ音乐去广告】开关：留空启用，填 # 关闭此子模块。\n网易云音乐去广告: 【网易云音乐去广告】开关：留空启用，填 # 关闭此子模块。\n番茄小说去广告: 【番茄小说去广告】开关：留空启用，填 # 关闭此子模块。\n小红书去广告: 【小红书去广告】开关：留空启用，填 # 关闭此子模块。\n拼多多去广告: 【拼多多去广告】开关：留空启用，填 # 关闭此子模块。\n菜鸟去广告: 【菜鸟去广告】开关：留空启用，填 # 关闭此子模块。\n微信外部链接解锁: 【微信外部链接解锁】开关：留空启用，填 # 关闭此子模块。\n夸克去广告: 【夸克去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n掌上英雄联盟去广告: 【掌上英雄联盟去广告】开关：留空启用，填 # 关闭此子模块。\n京东去广告: 【京东去广告】开关：留空启用，填 # 关闭此子模块。\n京东比价: 【京东比价】开关：留空启用，填 # 关闭此子模块。\n墨迹天气去广告: 【墨迹天气去广告】开关：留空启用，填 # 关闭此子模块。\n淘宝去广告: 【淘宝去广告】开关：留空启用，填 # 关闭此子模块。\n酷安去广告: 【酷安去广告】开关：留空启用，填 # 关闭此子模块。\n隐藏底栏_漫游标签: 【网易云音乐去广告】[隐藏底栏]漫游标签（原参数名：MY）\n隐藏底部_笔记标签: 【网易云音乐去广告】[隐藏底部]笔记标签（原参数名：DT）\n隐藏底部_发现标签: 【网易云音乐去广告】[隐藏底部]发现标签（原参数名：FX）\n隐藏首页_问候语: 【网易云音乐去广告】[隐藏首页]问候语（原参数名：PRGG）\n隐藏首页_排行榜: 【网易云音乐去广告】[隐藏首页]排行榜（原参数名：PRRK）\n隐藏首页_每日推荐: 【网易云音乐去广告】[隐藏首页]每日推荐（原参数名：PRDRD）\n隐藏首页_推荐歌单: 【网易云音乐去广告】[隐藏首页]推荐歌单（原参数名：PRSCVPT）\n隐藏首页_最近常听: 【网易云音乐去广告】[隐藏首页]最近常听（原参数名：PRST）\n隐藏首页_雷达歌单: 【网易云音乐去广告】[隐藏首页]雷达歌单（原参数名：PRRR）\n隐藏首页_音乐合伙人: 【网易云音乐去广告】[隐藏首页]音乐合伙人（原参数名：HMPR）\n隐藏首页_推荐专属歌单: 【网易云音乐去广告】[隐藏首页]推荐专属歌单（原参数名：PRMST）\n隐藏首页_你的专属歌单: 【网易云音乐去广告】[隐藏首页]你的专属歌单（原参数名：PRCN）
 
 [Rule]
 # HTTPDNS拦截器
@@ -337,6 +337,7 @@
 {{{广告平台拦截器}}}URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch",REJECT
 {{{广告平台拦截器}}}DOMAIN,baichuan-sdk.alicdn.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,acs4baichuan.m.taobao.com,REJECT
+{{{广告平台拦截器}}}DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,api.sm.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN,c.sm.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN,content-understand-strategy.sm.cn,REJECT
@@ -651,11 +652,6 @@
 {{{掌上英雄联盟去广告}}}^https:\/\/mlol\.qt\.qq\.com\/go\/zone\/bottomtab_tip\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 京东去广告
 {{{京东去广告}}}^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-# 快手去广告
-{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/nearby\/widget\/info\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/taskCenter\/task\/report\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{快手去广告}}}^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/live\/feed\/info\/simplelive\/card\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 墨迹天气去广告
 {{{墨迹天气去广告}}}^https:\/\/vdo\.api\.moji\.com\/shortvideo\/card\/subscribe$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{墨迹天气去广告}}}^https:\/\/vdo\.api\.moji\.com\/shortvideo\/video\/index_flow\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -687,7 +683,7 @@
 # 小红书去广告
 {{{小红书去广告}}}hostname = %APPEND% ci.xiaohongshu.com, edith.xiaohongshu.com, rec.xiaohongshu.com, so.xiaohongshu.com, www.xiaohongshu.com
 # 拼多多去广告
-{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com
+{{{拼多多去广告}}}hostname = %APPEND% api.pinduoduo.com, m.pinduoduo.net
 # 菜鸟去广告
 {{{菜鸟去广告}}}hostname = %APPEND% netflow-mtop.cainiao.com, nbcps-mtop.cainiao.com, cn-acs.m.cainiao.com, e2e-mtop.cainiao.com, longquan-mtop.cainiao.com
 # 微信外部链接解锁
@@ -702,8 +698,6 @@
 {{{京东去广告}}}hostname = %APPEND% api.m.jd.com
 # 京东比价
 {{{京东比价}}}hostname = %APPEND% in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com
-# 快手去广告
-{{{快手去广告}}}hostname = %APPEND% az*-api.ksapisrv.com, az4-api-idc.ksapisrv.com, az*-api-idc.ksapisrv.com, apissl.gifshow.com, apissl.ksapisrv.com, az*-api-js.gifshow.com, az*-live.ksapisrv.com
 # 墨迹天气去广告
 {{{墨迹天气去广告}}}hostname = %APPEND% fcard.api.moji.com, vdo.api.moji.com, sns.api.moji.com, mme.api.moji.com, psnlz.api.moji.com
 # 淘宝去广告
@@ -743,6 +737,7 @@
 {{{拼多多去广告}}}body_rewrite_54 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22bottom_section_list%22%2C%22ui.bottom_section%22%2C%22ui.live_section.float_info%22%5D%5D%5D
 {{{拼多多去广告}}}body_rewrite_55 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/order_detail_group\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.goods_list%22%5D%5D%5D
 {{{拼多多去广告}}}body_rewrite_56 = type=http-response, pattern=^https:\/\/api\.pinduoduo\.com\/order\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22marketing_banner_vo%22%2C%22shipping.banner_above_recommend%22%5D%5D%5D
+{{{拼多多去广告}}}移除扫码取件页面商品推荐及弹窗 = type=http-response, pattern=^https:\/\/m\.pinduoduo\.net\/mdkd\/package\?from_app_scan, script-path=https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js, requires-body=true
 # 微信外部链接解锁
 {{{微信外部链接解锁}}}微信外部链接解锁 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js, requires-body=true
 # 夸克去广告
@@ -771,11 +766,6 @@
 # 京东比价
 {{{京东比价}}}捕获令牌 = type=http-request, pattern=^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$, script-path=https://kelee.one/Resource/JavaScript/JD/JD_Price.js, requires-body=true, timeout=10
 {{{京东比价}}}京东比价 = type=http-response, pattern=^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html, script-path=https://kelee.one/Resource/JavaScript/JD/JD_Price.js, requires-body=true, timeout=10
-# 快手去广告
-{{{快手去广告}}}body_rewrite_12 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/system\/startup\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22reskinConfig%22%2C%22sidebarExSquareStyle.moreList%22%2C%22sidebarExSquareStyle.topList%22%5D%5D%5D
-{{{快手去广告}}}body_rewrite_15 = type=http-response, pattern=^https:\/\/(apissl|az\d-live|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/live\/feed\/square\/refresh\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.banners%22%5D%5D%5D
-{{{快手去广告}}}body_rewrite_20 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/user\/profile\/v2\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22postRecommends%22%5D%5D%5D
-{{{快手去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/im\/wd\/top\/navigation\/getRecommendedSession\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.operationRecommendationList%22%5D%5D%5D
 # 淘宝去广告
 {{{淘宝去广告}}}移除淘宝开屏广告 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get), script-path=https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js, requires-body=true
 {{{淘宝去广告}}}移除淘宝开屏广告 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js, requires-body=true
