@@ -232,7 +232,6 @@
 {{{广告平台拦截器}}}DOMAIN,wn.pos.baidu.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,miniapp-ad.cdn.bcebos.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,hm.baidu.com,REJECT
-{{{广告平台拦截器}}}DOMAIN,api.map.baidu.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,dlswbr.baidu.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,miao.baidu.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,union.baidu.cn,REJECT
