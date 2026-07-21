@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:43:30.452Z",
+  "generatedAt": "2026-07-21T20:48:26.057Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -236,15 +236,6 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Foodie_remove_ads.lpx",
-      "sourceSite": "可莉仓库"
-    },
-    {
-      "name": "GitHub加速",
-      "description": "此插件通过重定向至镜像站的方式解决GitHub的RAW资源下载困难的问题，使用前需要配置此插件的镜像源。由于镜像站均为热心网友提供，可能无法保证服务的长期可用性。若开启此插件后无法下载RAW资源，可尝试切换镜像源，或者禁用此插件",
-      "nameSource": "original-metadata",
-      "descriptionSource": "original-description",
-      "sourceType": "loon-plugin",
-      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1037,6 +1028,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "好轻去广告",
+      "description": "移除开屏广告、弹窗广告、横幅推广、商品推广，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YunmaiScale_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {

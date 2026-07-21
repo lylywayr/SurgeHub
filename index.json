@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "generatedAt": "2026-07-14T20:43:30.452Z",
+  "generatedAt": "2026-07-21T20:48:26.057Z",
   "total": 320,
   "sources": [
     {
@@ -1103,29 +1103,6 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Foodie_remove_ads.lpx",
-      "sourceSiteId": "6ee4d08b2155",
-      "sourceSiteName": "可莉仓库",
-      "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "6ee4d08b2155:020eed548ebe9745.sgmodule",
-      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx",
-      "name": "GitHub加速",
-      "description": "此插件通过重定向至镜像站的方式解决GitHub的RAW资源下载困难的问题，使用前需要配置此插件的镜像源。由于镜像站均为热心网友提供，可能无法保证服务的长期可用性。若开启此插件后无法下载RAW资源，可尝试切换镜像源，或者禁用此插件",
-      "nameSource": "original-metadata",
-      "nameConfidence": "low",
-      "file": "020eed548ebe9745.sgmodule",
-      "path": "6ee4d08b2155/020eed548ebe9745.sgmodule",
-      "legacyFile": "GitHub加速.sgmodule",
-      "legacyPath": "6ee4d08b2155/GitHub加速.sgmodule",
-      "sections": [
-        "Rule",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "loon-plugin",
-      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -3216,6 +3193,28 @@
       "mergedIntoList": [
         "地图出行去广告"
       ]
+    },
+    {
+      "key": "6ee4d08b2155:71428a4953e82406.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/YunmaiScale_remove_ads.lpx",
+      "name": "好轻去广告",
+      "description": "移除开屏广告、弹窗广告、横幅推广、商品推广，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "71428a4953e82406.sgmodule",
+      "path": "6ee4d08b2155/71428a4953e82406.sgmodule",
+      "legacyFile": "好轻去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/好轻去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/YunmaiScale_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
     },
     {
       "key": "6ee4d08b2155:1f9dac0f2eaec373.sgmodule",
