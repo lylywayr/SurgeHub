@@ -7,7 +7,7 @@
 #!system_version=15
 #!loon_version=3.4.0(962)
 #!homepage=https://hub.kelee.one
-#!date=2026-07-12 23:43:08
+#!date=2026-07-23 03:47:41
 #!arguments=blockUpload:false,blockShorts:false,blockImmersive:false,captionLang:"zh-Hans",debug:false
 #!arguments-desc=blockUpload: 隐藏上传按钮 用于隐藏YouTube底栏的上传按钮\nblockShorts: 隐藏Shorts按钮 用于隐藏YouTube底栏的Shorts按钮\nblockImmersive: 隐藏选段按钮 用于隐藏YouTube Music底栏的选段按钮\ncaptionLang: 字幕翻译语言 需要把YouTube字幕翻译翻译为何种语言\ndebug: 启用调试模式 此插件的调试模式
 
