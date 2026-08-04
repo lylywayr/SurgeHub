@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "generatedAt": "2026-07-28T20:47:47.502Z",
-  "total": 320,
+  "generatedAt": "2026-08-04T20:54:57.646Z",
+  "total": 322,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 257,
-      "accepted": 257
+      "discovered": 259,
+      "accepted": 259
     },
     {
       "id": "1a51661d4c51",
@@ -43,14 +43,14 @@
       "mergedModules": [
         {
           "name": "HTTPDNS拦截器",
-          "description": "拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作",
+          "description": "此插件是所有去广告插件的依赖，拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作",
           "file": "cdeeba4b9501261b.sgmodule",
           "path": "6ee4d08b2155/cdeeba4b9501261b.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx"
         },
         {
           "name": "广告平台拦截器",
-          "description": "此插件是所有去广告插件的基础，只针对广告平台处理。你依然需要安装其他去广告插件来搭配使用，并确保此插件始终排序在顶部。\\n\\n支持拦截腾讯、字节跳动、快手、百度、邑盟、倍孜、艾狄墨搏、袤博、极光、个推、友盟、阿里巴巴、阿里妈妈、阿里百川、超",
+          "description": "此插件是所有去广告插件的依赖，只针对广告平台处理。你依然需要安装其他去广告插件来搭配使用，并确保此插件始终排序在顶部。\\n\\n支持拦截腾讯、字节跳动、快手、百度、邑盟、倍孜、艾狄墨搏、袤博、极光、个推、友盟、阿里巴巴、阿里妈妈、阿里百川、超",
           "file": "348b2404315c2a6a.sgmodule",
           "path": "6ee4d08b2155/348b2404315c2a6a.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx"
@@ -631,7 +631,7 @@
       "key": "6ee4d08b2155:cdeeba4b9501261b.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx",
       "name": "HTTPDNS拦截器",
-      "description": "拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作",
+      "description": "此插件是所有去广告插件的依赖，拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "cdeeba4b9501261b.sgmodule",
@@ -660,7 +660,7 @@
       "key": "6ee4d08b2155:348b2404315c2a6a.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx",
       "name": "广告平台拦截器",
-      "description": "此插件是所有去广告插件的基础，只针对广告平台处理。你依然需要安装其他去广告插件来搭配使用，并确保此插件始终排序在顶部。\\n\\n支持拦截腾讯、字节跳动、快手、百度、邑盟、倍孜、艾狄墨搏、袤博、极光、个推、友盟、阿里巴巴、阿里妈妈、阿里百川、超",
+      "description": "此插件是所有去广告插件的依赖，只针对广告平台处理。你依然需要安装其他去广告插件来搭配使用，并确保此插件始终排序在顶部。\\n\\n支持拦截腾讯、字节跳动、快手、百度、邑盟、倍孜、艾狄墨搏、袤博、极光、个推、友盟、阿里巴巴、阿里妈妈、阿里百川、超",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "348b2404315c2a6a.sgmodule",
@@ -1584,6 +1584,27 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:a482e93c8295dcfb.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/TelegramRedirect.lpx",
+      "name": "Telegram重定向",
+      "description": "适用于安装了多个不同Telegram客户端的用户，用于在指定客户端中打开公开或私有群组及频道的Telegram短链",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "a482e93c8295dcfb.sgmodule",
+      "path": "6ee4d08b2155/a482e93c8295dcfb.sgmodule",
+      "legacyFile": "Telegram重定向.sgmodule",
+      "legacyPath": "6ee4d08b2155/Telegram重定向.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TelegramRedirect.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -2841,6 +2862,28 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DuiTang_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:5e726346c145a526.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/TCLnScreen_remove_ads.lpx",
+      "name": "多屏互动去广告",
+      "description": "移除开屏广告、横幅推广、搜索填充词，移除广告下发",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "5e726346c145a526.sgmodule",
+      "path": "6ee4d08b2155/5e726346c145a526.sgmodule",
+      "legacyFile": "多屏互动去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/多屏互动去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/TCLnScreen_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
