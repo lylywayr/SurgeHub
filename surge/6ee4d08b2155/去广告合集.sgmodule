@@ -401,6 +401,7 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,xdplt.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,ads.cup.com.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,adjust.com,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,adjust.io,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,adjust.net.in,REJECT
 {{{广告平台拦截器}}}DOMAIN,app-analytics-services.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,odm.app-ads-services.com,REJECT

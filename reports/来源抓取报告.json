@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:57:30.623Z",
+  "generatedAt": "2026-08-25T20:00:47.147Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 259,
-      "accepted": 259,
+      "discovered": 267,
+      "accepted": 267,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 259
+          "found": 267
         },
         {
           "type": "sitemap.xml",
@@ -74,6 +74,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/1.1.1.1.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "5EPlay去广告",
+      "description": "移除开屏广告、弹窗广告、活动角标、商城",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/5EPlay_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -164,6 +173,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/CCLive_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "DJ多多去广告",
+      "description": "移除开屏广告及歌单广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DjDuoDuo_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -389,6 +407,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "Sofascore去广告",
+      "description": "移除横幅及信息流广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Sofascore_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1040,6 +1067,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "哈罗去广告",
+      "description": "移除开屏广告及歌单广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "航旅纵横去广告",
       "description": "过滤航旅纵横广告",
       "nameSource": "original-metadata",
@@ -1190,6 +1226,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/WPS_Documents_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "金十数据去广告",
+      "description": "移除开屏广告、侧滑页面广告、消息广告、浮窗广告、横幅广告、信息流广告、弹窗广告，精简侧滑页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Jin10Data_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1355,6 +1400,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "联掌门户去广告",
+      "description": "移除开屏广告、弹窗，移除首页、服务和发现页面无用内容",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/LZMH_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "萝卜快跑去广告",
       "description": "移除开屏广告、弹窗广告、横幅广告、新用户活动皮肤，保留优惠活动",
       "nameSource": "original-metadata",
@@ -1370,6 +1424,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "马克水印相机去广告",
+      "description": "移除开屏广告，拍摄首页悬浮挂件，侧边栏横幅广告",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/marki_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1496,6 +1559,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/FerrisWheel_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "摩托范去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告、文末广告及相关文章推荐、广告下发，移除我的页面商品推荐，精简搜索页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/MotorFans_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
