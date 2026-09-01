@@ -1,7 +1,7 @@
 {
   "version": 9,
-  "generatedAt": "2026-08-25T20:00:47.147Z",
-  "total": 330,
+  "generatedAt": "2026-09-01T22:03:48.296Z",
+  "total": 335,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 267,
-      "accepted": 267
+      "discovered": 272,
+      "accepted": 272
     },
     {
       "id": "1a51661d4c51",
@@ -1345,6 +1345,27 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:81035382d27bc20b.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/PICOOC_remove_ads.lpx",
+      "name": "PICOOC去广告",
+      "description": "移除开屏广告、悬浮广告，拦截发现页，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "81035382d27bc20b.sgmodule",
+      "path": "6ee4d08b2155/81035382d27bc20b.sgmodule",
+      "legacyFile": "PICOOC去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/PICOOC去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PICOOC_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -3681,7 +3702,7 @@
       "key": "6ee4d08b2155:e2954a2bd2261019.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Jin10Data_remove_ads.lpx",
       "name": "金十数据去广告",
-      "description": "移除开屏广告、侧滑页面广告、消息广告、浮窗广告、横幅广告、信息流广告、弹窗广告，精简侧滑页面",
+      "description": "移除开屏广告、侧滑页面广告、消息广告、浮窗广告、横幅广告、信息流广告、弹窗广告",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "e2954a2bd2261019.sgmodule",
@@ -4883,6 +4904,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:4fb0b1348ecc0df4.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Qbb_remove_ads.lpx",
+      "name": "亲宝宝去广告",
+      "description": "移除开屏广告、弹窗广告、广告下发、用户行为上报，精简搜索页、育儿页和我的页面，拦截商城页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "4fb0b1348ecc0df4.sgmodule",
+      "path": "6ee4d08b2155/4fb0b1348ecc0df4.sgmodule",
+      "legacyFile": "亲宝宝去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/亲宝宝去广告.sgmodule",
+      "sections": [
+        "Rule",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Qbb_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:4c5e28543c7d0cbc.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx",
       "name": "蜻蜓FM去广告",
@@ -5694,6 +5738,27 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:175c12417ab05258.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx",
+      "name": "微店去广告",
+      "description": "移除开屏广告、弹窗广告、猜你喜欢、猜你想搜、关注推荐，精简搜索页和我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "175c12417ab05258.sgmodule",
+      "path": "6ee4d08b2155/175c12417ab05258.sgmodule",
+      "legacyFile": "微店去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/微店去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:2894925abce8141d.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/WPForum_remove_ads.lpx",
       "name": "威锋去广告",
@@ -6299,6 +6364,27 @@
       "mergedIntoList": [
         "地图出行去广告"
       ]
+    },
+    {
+      "key": "6ee4d08b2155:660b108b5abe7296.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/SinaStock_remove_ads.lpx",
+      "name": "新浪财经去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告、信息流广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "660b108b5abe7296.sgmodule",
+      "path": "6ee4d08b2155/660b108b5abe7296.sgmodule",
+      "legacyFile": "新浪财经去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/新浪财经去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SinaStock_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
     },
     {
       "key": "6ee4d08b2155:bd51d6fb011c385d.sgmodule",
@@ -6945,6 +7031,27 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:e6d021c8670155b5.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
+      "name": "最美壁纸去广告",
+      "description": "移除开屏广告、悬浮广告、横幅广告、轮播图广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "e6d021c8670155b5.sgmodule",
+      "path": "6ee4d08b2155/e6d021c8670155b5.sgmodule",
+      "legacyFile": "最美壁纸去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/最美壁纸去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",

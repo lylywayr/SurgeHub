@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:00:47.147Z",
+  "generatedAt": "2026-09-01T22:03:48.296Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 267,
-      "accepted": 267,
+      "discovered": 272,
+      "accepted": 272,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 267
+          "found": 272
         },
         {
           "type": "sitemap.xml",
@@ -335,6 +335,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "PICOOC去广告",
+      "description": "移除开屏广告、悬浮广告，拦截发现页，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/PICOOC_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -1230,7 +1239,7 @@
     },
     {
       "name": "金十数据去广告",
-      "description": "移除开屏广告、侧滑页面广告、消息广告、浮窗广告、横幅广告、信息流广告、弹窗广告，精简侧滑页面",
+      "description": "移除开屏广告、侧滑页面广告、消息广告、浮窗广告、横幅广告、信息流广告、弹窗广告",
       "nameSource": "original-metadata",
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
@@ -1670,6 +1679,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "亲宝宝去广告",
+      "description": "移除开屏广告、弹窗广告、广告下发、用户行为上报，精简搜索页、育儿页和我的页面，拦截商城页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Qbb_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "蜻蜓FM去广告",
       "description": "移除开屏广告、信息流广告、各类相关内容推荐，精简我的页面",
       "nameSource": "original-metadata",
@@ -1967,6 +1985,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "微店去广告",
+      "description": "移除开屏广告、弹窗广告、猜你喜欢、猜你想搜、关注推荐，精简搜索页和我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "威锋去广告",
       "description": "移除开屏广告、信息流广告、文末广告、首页轮播图推广",
       "nameSource": "original-metadata",
@@ -2189,6 +2216,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/OnTheWay_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "新浪财经去广告",
+      "description": "移除开屏广告、弹窗广告、横幅广告、信息流广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/SinaStock_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
@@ -2441,6 +2477,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "最美壁纸去广告",
+      "description": "移除开屏广告、悬浮广告、横幅广告、轮播图广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {
