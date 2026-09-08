@@ -145,6 +145,10 @@
 {{{HTTPDNS拦截器}}}IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 {{{HTTPDNS拦截器}}}IP-CIDR6,240c:409f:1000::/128,REJECT,no-resolve
 {{{HTTPDNS拦截器}}}DOMAIN,hd.xiaojukeji.com,REJECT
+{{{HTTPDNS拦截器}}}IP-CIDR,116.85.2.41/32,REJECT,no-resolve
+{{{HTTPDNS拦截器}}}IP-CIDR,116.85.3.39/32,REJECT,no-resolve
+{{{HTTPDNS拦截器}}}IP-CIDR,123.207.209.142/32,REJECT,no-resolve
+{{{HTTPDNS拦截器}}}IP-CIDR,139.199.240.84/32,REJECT,no-resolve
 {{{HTTPDNS拦截器}}}DOMAIN,serveraddr.service.kugou.com,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,twns.p2ptun.qq.com,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,tp2p.kg.qq.com,REJECT
@@ -271,6 +275,7 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,gdt.qq.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,l.qq.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,imtmp.net,REJECT
+{{{广告平台拦截器}}}DOMAIN-SUFFIX,gdtimg.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,ugdtimg.com,REJECT
 {{{广告平台拦截器}}}IP-CIDR,47.110.187.87/32,REJECT,no-resolve
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,opadlink.com,REJECT

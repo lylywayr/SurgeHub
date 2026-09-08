@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:03:48.296Z",
+  "generatedAt": "2026-09-08T22:01:54.347Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -1702,6 +1702,27 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:da3456d5af2ec8aa.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "name": "比心去广告",
+      "description": "移除弹窗广告、悬浮广告、横幅广告、轮播图广告，精简搜索页及我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "da3456d5af2ec8aa.sgmodule",
+      "path": "6ee4d08b2155/da3456d5af2ec8aa.sgmodule",
+      "legacyFile": "比心去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/比心去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:e73b28f4207e8b45.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx",
       "name": "波点音乐去广告",
@@ -2092,14 +2113,14 @@
     {
       "key": "6ee4d08b2155:19409bb4c063bc89.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx",
-      "name": "滴滴出行去广告",
-      "description": "移除开屏广告、弹窗广告、横幅推广，精简底栏和我的页面",
+      "name": "滴滴去广告",
+      "description": "移除开屏广告、弹窗广告、横幅推广，精简我的页面",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "19409bb4c063bc89.sgmodule",
       "path": "6ee4d08b2155/19409bb4c063bc89.sgmodule",
-      "legacyFile": "滴滴出行去广告.sgmodule",
-      "legacyPath": "6ee4d08b2155/滴滴出行去广告.sgmodule",
+      "legacyFile": "滴滴去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/滴滴去广告.sgmodule",
       "sections": [
         "Rule",
         "Map Local",

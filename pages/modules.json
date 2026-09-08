@@ -1,7 +1,7 @@
 {
   "version": 9,
-  "generatedAt": "2026-09-01T22:03:48.296Z",
-  "total": 335,
+  "generatedAt": "2026-09-08T22:01:54.347Z",
+  "total": 336,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 272,
-      "accepted": 272
+      "discovered": 273,
+      "accepted": 273
     },
     {
       "id": "1a51661d4c51",
@@ -527,7 +527,7 @@
       "key": "6ee4d08b2155:default-travel-collection.sgmodule",
       "id": "merged:6ee4d08b2155:default-travel-collection.sgmodule",
       "name": "地图出行去广告",
-      "description": "地图出行去广告，包含：12306去广告、百度地图去广告、车来了去广告、滴答出行去广告、滴滴出行去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "description": "地图出行去广告，包含：12306去广告、百度地图去广告、车来了去广告、滴答出行去广告、滴滴去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
       "file": "default-travel-collection.sgmodule",
       "path": "6ee4d08b2155/default-travel-collection.sgmodule",
       "legacyFile": "地图出行去广告.sgmodule",
@@ -570,8 +570,8 @@
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DidaPincheTaxi_remove_ads.lpx"
         },
         {
-          "name": "滴滴出行去广告",
-          "description": "移除开屏广告、弹窗广告、横幅推广，精简底栏和我的页面",
+          "name": "滴滴去广告",
+          "description": "移除开屏广告、弹窗广告、横幅推广，精简我的页面",
           "file": "19409bb4c063bc89.sgmodule",
           "path": "6ee4d08b2155/19409bb4c063bc89.sgmodule",
           "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx"
@@ -2392,6 +2392,27 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "6ee4d08b2155:da3456d5af2ec8aa.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "name": "比心去广告",
+      "description": "移除弹窗广告、悬浮广告、横幅广告、轮播图广告，精简搜索页及我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "da3456d5af2ec8aa.sgmodule",
+      "path": "6ee4d08b2155/da3456d5af2ec8aa.sgmodule",
+      "legacyFile": "比心去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/比心去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "6ee4d08b2155:e73b28f4207e8b45.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx",
       "name": "波点音乐去广告",
@@ -2807,14 +2828,14 @@
     {
       "key": "6ee4d08b2155:19409bb4c063bc89.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx",
-      "name": "滴滴出行去广告",
-      "description": "移除开屏广告、弹窗广告、横幅推广，精简底栏和我的页面",
+      "name": "滴滴去广告",
+      "description": "移除开屏广告、弹窗广告、横幅推广，精简我的页面",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "19409bb4c063bc89.sgmodule",
       "path": "6ee4d08b2155/19409bb4c063bc89.sgmodule",
-      "legacyFile": "滴滴出行去广告.sgmodule",
-      "legacyPath": "6ee4d08b2155/滴滴出行去广告.sgmodule",
+      "legacyFile": "滴滴去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/滴滴去广告.sgmodule",
       "sections": [
         "Rule",
         "Map Local",

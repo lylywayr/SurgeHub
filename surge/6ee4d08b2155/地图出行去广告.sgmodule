@@ -1,19 +1,18 @@
 #!name=地图出行去广告
-#!desc=地图出行去广告，包含：12306去广告、百度地图去广告、车来了去广告、滴答出行去广告、滴滴出行去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
+#!desc=地图出行去广告，包含：12306去广告、百度地图去广告、车来了去广告、滴答出行去广告、滴滴去广告、飞猪旅行去广告、高德地图去广告、航旅纵横去广告、两步路户外助手去广告、萝卜快跑去广告、马蜂窝去广告、行者户外去广告。仅合并来源「可莉仓库」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。
 #!author=SurgeHub 自动合并
-#!arguments=12306去广告:"",百度地图去广告:"",车来了去广告:"",滴答出行去广告:"",滴滴出行去广告:"",飞猪旅行去广告:"",高德地图去广告:"",航旅纵横去广告:"",两步路户外助手去广告:"",萝卜快跑去广告:"",马蜂窝去广告:"",行者户外去广告:""
-#!arguments-desc=12306去广告: 【12306去广告】开关：留空启用，填 # 关闭此子模块。\n百度地图去广告: 【百度地图去广告】开关：留空启用，填 # 关闭此子模块。\n车来了去广告: 【车来了去广告】开关：留空启用，填 # 关闭此子模块。\n滴答出行去广告: 【滴答出行去广告】开关：留空启用，填 # 关闭此子模块。\n滴滴出行去广告: 【滴滴出行去广告】开关：留空启用，填 # 关闭此子模块。\n飞猪旅行去广告: 【飞猪旅行去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n航旅纵横去广告: 【航旅纵横去广告】开关：留空启用，填 # 关闭此子模块。\n两步路户外助手去广告: 【两步路户外助手去广告】开关：留空启用，填 # 关闭此子模块。\n萝卜快跑去广告: 【萝卜快跑去广告】开关：留空启用，填 # 关闭此子模块。\n马蜂窝去广告: 【马蜂窝去广告】开关：留空启用，填 # 关闭此子模块。\n行者户外去广告: 【行者户外去广告】开关：留空启用，填 # 关闭此子模块。
+#!arguments=12306去广告:"",百度地图去广告:"",车来了去广告:"",滴答出行去广告:"",滴滴去广告:"",飞猪旅行去广告:"",高德地图去广告:"",航旅纵横去广告:"",两步路户外助手去广告:"",萝卜快跑去广告:"",马蜂窝去广告:"",行者户外去广告:""
+#!arguments-desc=12306去广告: 【12306去广告】开关：留空启用，填 # 关闭此子模块。\n百度地图去广告: 【百度地图去广告】开关：留空启用，填 # 关闭此子模块。\n车来了去广告: 【车来了去广告】开关：留空启用，填 # 关闭此子模块。\n滴答出行去广告: 【滴答出行去广告】开关：留空启用，填 # 关闭此子模块。\n滴滴去广告: 【滴滴去广告】开关：留空启用，填 # 关闭此子模块。\n飞猪旅行去广告: 【飞猪旅行去广告】开关：留空启用，填 # 关闭此子模块。\n高德地图去广告: 【高德地图去广告】开关：留空启用，填 # 关闭此子模块。\n航旅纵横去广告: 【航旅纵横去广告】开关：留空启用，填 # 关闭此子模块。\n两步路户外助手去广告: 【两步路户外助手去广告】开关：留空启用，填 # 关闭此子模块。\n萝卜快跑去广告: 【萝卜快跑去广告】开关：留空启用，填 # 关闭此子模块。\n马蜂窝去广告: 【马蜂窝去广告】开关：留空启用，填 # 关闭此子模块。\n行者户外去广告: 【行者户外去广告】开关：留空启用，填 # 关闭此子模块。
 
 [Rule]
 # 12306去广告
 {{{12306去广告}}}DOMAIN,ad.12306.cn,DIRECT
 # 车来了去广告
 {{{车来了去广告}}}DOMAIN,ad.chelaile.net.cn,REJECT
-# 滴滴出行去广告
-{{{滴滴出行去广告}}}DOMAIN,gwp.xiaojukeji.com,REJECT
-{{{滴滴出行去广告}}}AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
-{{{滴滴出行去广告}}}AND,((IP-ASN,55990,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
-{{{滴滴出行去广告}}}AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
+# 滴滴去广告
+{{{滴滴去广告}}}DOMAIN,gwp.xiaojukeji.com,REJECT
+{{{滴滴去广告}}}DOMAIN,gwpgz.diditaxi.com.cn,REJECT
+{{{滴滴去广告}}}DOMAIN,adtrack.xiaojukeji.com,REJECT
 # 高德地图去广告
 {{{高德地图去广告}}}DOMAIN,amap-aos-info-nogw.amap.com,REJECT
 {{{高德地图去广告}}}DOMAIN,free-aos-cdn-image.amap.com,REJECT
@@ -35,11 +34,14 @@
 {{{百度地图去广告}}}body_rewrite_23 = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/living\/nearby\/api\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22Result.cards%5B1%5D%22%2C%22Result.cards%5B4%5D%22%2C%22Result.cards%5B5%5D%22%2C%22Result.cards%5B9%5D%22%5D%5D%5D
 # 车来了去广告
 {{{车来了去广告}}}清洗配置 = type=http-response, pattern=^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?, script-path=https://kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js, requires-body=true
-# 滴滴出行去广告
-{{{滴滴出行去广告}}}body_rewrite_21 = type=http-response, pattern=^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/other\/fast\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.disorder_cards.communicate_card%22%2C%22data.disorder_cards.not_login_bottom_bar%22%2C%22data.disorder_cards.riding_code_card%22%2C%22data.order_cards.car_owner_widget_card%22%2C%22data.order_cards.marketing_card%22%2C%22data.order_cards.super_banner_card%22%2C%22data.disorder_cards.car_icon.data.icon_info_new_agreement%22%5D%5D%5D
-{{{滴滴出行去广告}}}body_rewrite_22 = type=http-response, pattern=^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.mult_home_banner%22%5D%5D%5D
-{{{滴滴出行去广告}}}body_rewrite_29 = type=http-response, pattern=^https:\/\/daijia\.kuaidadi\.com:443\/gateway\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.variantInfo%22%5D%5D%5D
-{{{滴滴出行去广告}}}body_rewrite_32 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com:443\/gateway\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.didi-bike-homepage-popup%22%2C%22data.variantInfo%22%5D%5D%5D
+# 滴滴去广告
+{{{滴滴去广告}}}body_rewrite_17 = type=http-response, pattern=^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/slow\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.order_cards.new_loss_banner_card%22%2C%22data.order_cards.call_car_card_80%22%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.disorder_cards.communicate_card%22%2C%22data.disorder_cards.not_login_bottom_bar%22%2C%22data.disorder_cards.riding_code_card%22%2C%22data.order_cards%22%2C%22data.disorder_cards.car_icon.data.icon_info_new_agreement%22%5D%5D%2C%5B%22json-del%22%2C%5B%22data.disorder_cards.guess_card%22%2C%22data.disorder_cards.scene_list_card%22%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_24 = type=http-response, pattern=^https:\/\/api\.udache\.com\/gulfstream\/porsche\/v\d\/dache_homepage_layout\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.instances.dache_main_core_icon%22%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_37 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com(:443)?\/gateway\?api=hm\.fa\.querySellCardSummary, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%22%2C%7B%7D%5D%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_38 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com(:443)?\/gateway\?api=hm\.fa\.queryWelfareCenter, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-replace%22%2C%5B%5B%22data%22%2C%7B%7D%5D%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_40 = type=http-response, pattern=^https:\/\/poi\.map\.xiaojukeji\.com\/mapapi\/startinfo\?api_version, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22rec_destination%22%5D%5D%5D
+{{{滴滴去广告}}}body_rewrite_41 = type=http-response, pattern=^https:\/\/poi\.map\.xiaojukeji\.com\/mapapi\/poiinfo\?product_id, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22rec_destination%22%5D%5D%5D
 # 高德地图去广告
 {{{高德地图去广告}}}body_rewrite_18 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.commonMaterial%22%2C%22data.tipsOperationLocation%22%2C%22data.resourcePlacement%22%5D%5D%5D
 {{{高德地图去广告}}}body_rewrite_19 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/homepage\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22history_tags%22%5D%5D%5D
@@ -73,8 +75,8 @@
 {{{车来了去广告}}}hostname = %APPEND% api.chelaile.net.cn, web.chelaile.net.cn, cdn.web.chelaile.net.cn, image3.chelaile.net.cn
 # 滴答出行去广告
 {{{滴答出行去广告}}}hostname = %APPEND% capis.didapinche.com
-# 滴滴出行去广告
-{{{滴滴出行去广告}}}hostname = %APPEND% as.xiaojukeji.com, common.diditaxi.com.cn, conf.diditaxi.com.cn, lion.didialift.com, api.udache.com, ct.xiaojukeji.com, res.xiaojukeji.com, 112.53.55.225, 139.199.240.84, 113.46.225.*, 162.14.157.*, 123.207.209.*, 120.241.142.*, 120.241.143.*, 116.85.*
+# 滴滴去广告
+{{{滴滴去广告}}}hostname = %APPEND% as.xiaojukeji.com, conf.diditaxi.com.cn, common.diditaxi.com.cn, res.xiaojukeji.com, api.udache.com, daijia.kuaidadi.com, htwkop-st.xiaojukeji.com, htwkop.xiaojukeji.com, freight.xiaojukeji.com, poi.map.xiaojukeji.com
 # 飞猪旅行去广告
 {{{飞猪旅行去广告}}}hostname = %APPEND% acs.m.taobao.com
 # 高德地图去广告
@@ -109,13 +111,16 @@
 {{{车来了去广告}}}^https:\/\/api\.chelaile\.net\.cn\/encourage\/activity\/control\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
 # 滴答出行去广告
 {{{滴答出行去广告}}}^https:\/\/capis\.didapinche\.com\/adbase\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-# 滴滴出行去广告
-{{{滴滴出行去广告}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{滴滴出行去广告}}}^https:\/\/lion\.didialift\.com\/broker\/\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{滴滴出行去广告}}}^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/other\/slow\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{滴滴出行去广告}}}^https:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{滴滴出行去广告}}}^https:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-{{{滴滴出行去广告}}}^https:\/\/poi\.map\.xiaojukeji\.com\/mapapi\/recommend\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+# 滴滴去广告
+{{{滴滴去广告}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/daijia\.kuaidadi\.com(:443)?\/gateway\?api=prado\.cms\.delivery\.batch data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/daijia\.kuaidadi\.com(:443)?\/gateway\?api=prado\.cms\.AggregateDeliveryRemoteService\.aggregateDelivery data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/daijia\.kuaidadi\.com(:443)?\/gateway\?api=lj\.c\.p\.queryLevelAndRightsStatus data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/daijia\.kuaidadi\.com(:443)?\/gateway\?api=lj\.cos\.p\.popup data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/api\.udache\.com\/gulfstream\/porsche\/v\d\/pSFCHomePage\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/htwkop-st\.xiaojukeji\.com\/gateway\?api=cms\.htw\.delivery\.batch data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+{{{滴滴去广告}}}^https:\/\/freight\.xiaojukeji\.com\/gateway\?api=freight\.d\.core\.multiDisplayV\d data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 飞猪旅行去广告
 {{{飞猪旅行去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 {{{飞猪旅行去广告}}}^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.predict\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"

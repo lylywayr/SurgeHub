@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:03:48.296Z",
+  "generatedAt": "2026-09-08T22:01:54.347Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 272,
-      "accepted": 272,
+      "discovered": 273,
+      "accepted": 273,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 272
+          "found": 273
         },
         {
           "type": "sitemap.xml",
@@ -734,6 +734,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "比心去广告",
+      "description": "移除弹窗广告、悬浮广告、横幅广告、轮播图广告，精简搜索页及我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "波点音乐去广告",
       "description": "精简应用配置，禁用P2P传输。移除开屏广告、横幅推广、悬浮广告、歌曲广告、商城入口、搜索推广、评论区推广、试听语音提醒",
       "nameSource": "original-metadata",
@@ -896,8 +905,8 @@
       "sourceSite": "可莉仓库"
     },
     {
-      "name": "滴滴出行去广告",
-      "description": "移除开屏广告、弹窗广告、横幅推广，精简底栏和我的页面",
+      "name": "滴滴去广告",
+      "description": "移除开屏广告、弹窗广告、横幅推广，精简我的页面",
       "nameSource": "original-metadata",
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
