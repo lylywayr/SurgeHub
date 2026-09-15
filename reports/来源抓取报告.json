@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T22:01:54.347Z",
+  "generatedAt": "2026-09-15T22:26:13.433Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 273,
-      "accepted": 273,
+      "discovered": 274,
+      "accepted": 274,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 273
+          "found": 274
         },
         {
           "type": "sitemap.xml",
@@ -1274,6 +1274,15 @@
       "sourceSite": "可莉仓库"
     },
     {
+      "name": "口袋壁纸去广告",
+      "description": "移除悬浮广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ShoujiDesk_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
       "name": "快递100去广告",
       "description": "移除横幅广告、弹窗广告，精简首页",
       "nameSource": "original-metadata",
@@ -2490,7 +2499,7 @@
     },
     {
       "name": "最美壁纸去广告",
-      "description": "移除开屏广告、悬浮广告、横幅广告、轮播图广告，精简我的页面",
+      "description": "移除悬浮广告、横幅广告、轮播图广告，精简我的页面",
       "nameSource": "original-metadata",
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",

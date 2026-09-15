@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T22:01:54.347Z",
+  "generatedAt": "2026-09-15T22:26:13.433Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -3022,6 +3022,27 @@
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "6ee4d08b2155:06623e43d6d78530.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/ShoujiDesk_remove_ads.lpx",
+      "name": "口袋壁纸去广告",
+      "description": "移除悬浮广告，精简我的页面",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "06623e43d6d78530.sgmodule",
+      "path": "6ee4d08b2155/06623e43d6d78530.sgmodule",
+      "legacyFile": "口袋壁纸去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/口袋壁纸去广告.sgmodule",
+      "sections": [
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ShoujiDesk_remove_ads.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -6106,7 +6127,7 @@
       "key": "6ee4d08b2155:e6d021c8670155b5.sgmodule",
       "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
       "name": "最美壁纸去广告",
-      "description": "移除开屏广告、悬浮广告、横幅广告、轮播图广告，精简我的页面",
+      "description": "移除悬浮广告、横幅广告、轮播图广告，精简我的页面",
       "nameSource": "original-metadata",
       "nameConfidence": "low",
       "file": "e6d021c8670155b5.sgmodule",
