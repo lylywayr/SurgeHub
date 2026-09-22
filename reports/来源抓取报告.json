@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:26:13.433Z",
+  "generatedAt": "2026-09-22T22:25:00.444Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -7,8 +7,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 274,
-      "accepted": 274,
+      "discovered": 275,
+      "accepted": 275,
       "discovery": [
         {
           "type": "来源首页",
@@ -20,7 +20,7 @@
           "type": "list.json",
           "url": "https://hub.kelee.one/list.json",
           "status": "success",
-          "found": 274
+          "found": 275
         },
         {
           "type": "sitemap.xml",
@@ -1748,6 +1748,15 @@
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx",
+      "sourceSite": "可莉仓库"
+    },
+    {
+      "name": "闪动校园去广告",
+      "description": "精简首页和底部导航",
+      "nameSource": "original-metadata",
+      "descriptionSource": "original-description",
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ShandongSchool_remove_ads.lpx",
       "sourceSite": "可莉仓库"
     },
     {

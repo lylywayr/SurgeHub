@@ -457,6 +457,7 @@
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,hzjizhun.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,sogaha.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN,zxid-m.mobileservice.cn,REJECT
+{{{广告平台拦截器}}}DOMAIN,xadsmartget.adgain.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,tradplusad.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,fancyapi.com,REJECT
 {{{广告平台拦截器}}}DOMAIN-SUFFIX,medproad.com,REJECT

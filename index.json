@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "generatedAt": "2026-09-15T22:26:13.433Z",
-  "total": 337,
+  "generatedAt": "2026-09-22T22:25:00.444Z",
+  "total": 338,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -9,8 +9,8 @@
       "url": "https://hub.kelee.one",
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
-      "discovered": 274,
-      "accepted": 274
+      "discovered": 275,
+      "accepted": 275
     },
     {
       "id": "1a51661d4c51",
@@ -5104,6 +5104,29 @@
       "mergedIntoList": [
         "综合电商去广告"
       ]
+    },
+    {
+      "key": "6ee4d08b2155:a22ce1bf85abe64b.sgmodule",
+      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/ShandongSchool_remove_ads.lpx",
+      "name": "闪动校园去广告",
+      "description": "精简首页和底部导航",
+      "nameSource": "original-metadata",
+      "nameConfidence": "low",
+      "file": "a22ce1bf85abe64b.sgmodule",
+      "path": "6ee4d08b2155/a22ce1bf85abe64b.sgmodule",
+      "legacyFile": "闪动校园去广告.sgmodule",
+      "legacyPath": "6ee4d08b2155/闪动校园去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "loon-plugin",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ShandongSchool_remove_ads.lpx",
+      "sourceSiteId": "6ee4d08b2155",
+      "sourceSiteName": "可莉仓库",
+      "sourceSiteUrl": "https://hub.kelee.one",
+      "convertedBy": "Script Hub 转换"
     },
     {
       "key": "6ee4d08b2155:9a2ed093b1d3e926.sgmodule",
