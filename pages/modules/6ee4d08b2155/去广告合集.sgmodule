@@ -81,6 +81,15 @@
 {{{HTTPDNS拦截器}}}DOMAIN,amdc.alipay.com,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,ucdc.upaas.quark.cn,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,httpdns.danuoyi.tbcache.com,REJECT
+{{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch",REJECT
+{{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/47\.246\.103\.9\/amdc\/mobileDispatch",REJECT
+{{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/47\.246\.103\.10\/amdc\/mobileDispatch",REJECT
+{{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/59\.82\.113\.10\/amdc\/mobileDispatch",REJECT
+{{{HTTPDNS拦截器}}}URL-REGEX,"^http:\/\/59\.82\.113\.219\/amdc\/mobileDispatch",REJECT
+{{{HTTPDNS拦截器}}}DOMAIN,xpis-xcdn.youku.com,REJECT
+{{{HTTPDNS拦截器}}}DOMAIN,pre-xpis-xcdn.youku.com,REJECT
+{{{HTTPDNS拦截器}}}DOMAIN,xpis-tel-xcdn.youku.com,REJECT
+{{{HTTPDNS拦截器}}}DOMAIN,xpis-mob-xcdn.youku.com,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,httpdns.cctv.com,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,httpdns-browser.platform.dbankcloud.cn,REJECT
 {{{HTTPDNS拦截器}}}DOMAIN,httpdns.huaweicloud.com,REJECT
@@ -335,10 +344,10 @@
 {{{广告平台拦截器}}}DOMAIN,opehs.tanx.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,beacon-api.aliyuncs.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,adash.man.aliyuncs.com,REJECT
+{{{广告平台拦截器}}}DOMAIN,adashx.m.taobao.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,applog.uc.cn,REJECT
 {{{广告平台拦截器}}}DOMAIN,atoken.m.taobao.com,REJECT
 {{{广告平台拦截器}}}AND,((DOMAIN-KEYWORD,adash),(DOMAIN-SUFFIX,ut.taobao.com)),REJECT
-{{{广告平台拦截器}}}URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch",REJECT
 {{{广告平台拦截器}}}DOMAIN,baichuan-sdk.alicdn.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,acs4baichuan.m.taobao.com,REJECT
 {{{广告平台拦截器}}}DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
