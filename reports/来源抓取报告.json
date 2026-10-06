@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T23:12:13.459Z",
+  "generatedAt": "2026-10-06T23:16:16.931Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -37,7 +37,7 @@
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
       "discovered": 62,
-      "accepted": 57,
+      "accepted": 44,
       "discovery": [
         {
           "type": "墨魚手記官方 README（main）",
@@ -2525,15 +2525,6 @@
       "sourceSite": "可莉仓库"
     },
     {
-      "name": "序号",
-      "description": "如果有需要的去除广告的APP，可自行在共享表格中添加需求",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "original-description",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
-      "sourceSite": "墨魚手記"
-    },
-    {
       "name": "Spotify会员",
       "description": "1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放",
       "nameSource": "墨魚手記官方 README 复写区",
@@ -2552,42 +2543,6 @@
       "sourceSite": "墨魚手記"
     },
     {
-      "name": "酷我SVIP+净化",
-      "description": "用于 酷我SVIP+净化 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "generated-fallback",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "Nicegram高级版",
-      "description": "用于 Nicegram高级版 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "generated-fallback",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/nicegram.vip.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "RevenueCat多合一",
-      "description": "用于 RevenueCat多合一 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "generated-fallback",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/revenuecat.vip.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "BuyiTunes多合一",
-      "description": "用于 BuyiTunes多合一 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "generated-fallback",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/buyitunes.vip.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
       "name": "Emby解锁",
       "description": "Emby官方客户端内调用外部播放器，该功能需要自行添加Emby服域名的MITM",
       "nameSource": "墨魚手記官方 README 复写区",
@@ -2597,30 +2552,12 @@
       "sourceSite": "墨魚手記"
     },
     {
-      "name": "Goodbility会员",
-      "description": "用于 Goodbility会员 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "generated-fallback",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/goodbility.vip.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
       "name": "微信小程序去广告",
       "description": "广告屏蔽：微信小程序去广告",
       "nameSource": "墨魚手記官方 README 复写区",
       "descriptionSource": "墨魚手記官方 README 复写区",
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "墨鱼去开屏2.0",
-      "description": "广告屏蔽：墨鱼去开屏2.0",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/StartUpAds.conf",
       "sourceSite": "墨魚手記"
     },
     {
@@ -2651,30 +2588,12 @@
       "sourceSite": "墨魚手記"
     },
     {
-      "name": "百度网盘去广告",
-      "description": "广告屏蔽：百度网盘去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/bdpan.ads.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
       "name": "喜马拉雅去广告",
       "description": "广告屏蔽：喜马拉雅去广告",
       "nameSource": "墨魚手記官方 README 复写区",
       "descriptionSource": "墨魚手記官方 README 复写区",
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "小红书去水印",
-      "description": "广告屏蔽：小红书去水印",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
       "sourceSite": "墨魚手記"
     },
     {
@@ -2741,15 +2660,6 @@
       "sourceSite": "墨魚手記"
     },
     {
-      "name": "随手记去广告",
-      "description": "广告屏蔽：随手记去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/suishouji.ads.js",
-      "sourceSite": "墨魚手記"
-    },
-    {
       "name": "Bing首页简化",
       "description": "广告屏蔽：Bing首页简化",
       "nameSource": "墨魚手記官方 README 复写区",
@@ -2810,15 +2720,6 @@
       "descriptionSource": "墨魚手記官方 README 复写区",
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/CaiYunAds.conf",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "知乎去广告[墨鱼自用版]",
-      "description": "广告屏蔽：知乎去广告[墨鱼自用版]",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/zhihu.ads.js",
       "sourceSite": "墨魚手記"
     },
     {
@@ -2891,15 +2792,6 @@
       "descriptionSource": "墨魚手記官方 README 复写区",
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/MoJiWeatherAds.conf",
-      "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "搜图神器净化",
-      "description": "广告屏蔽：搜图神器净化",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/soutushenqi.vip.js",
       "sourceSite": "墨魚手記"
     },
     {
@@ -3027,15 +2919,6 @@
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Snippet/GoogleCAPTCHA.snippet",
       "sourceSite": "墨魚手記"
-    },
-    {
-      "name": "123盘网页去广告",
-      "description": "广告屏蔽：123盘网页去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "descriptionSource": "墨魚手記官方 README 复写区",
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/123pan.ads.js",
-      "sourceSite": "墨魚手記"
     }
   ],
   "skipped": [
@@ -3064,6 +2947,90 @@
   "failed": [
     {
       "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
+      "catalogName": "序号",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js",
+      "catalogName": "酷我SVIP+净化",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/nicegram.vip.js",
+      "catalogName": "Nicegram高级版",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/revenuecat.vip.js",
+      "catalogName": "RevenueCat多合一",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/buyitunes.vip.js",
+      "catalogName": "BuyiTunes多合一",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/goodbility.vip.js",
+      "catalogName": "Goodbility会员",
+      "catalogDescription": "",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/StartUpAds.conf",
+      "catalogName": "墨鱼去开屏2.0",
+      "catalogDescription": "广告屏蔽：墨鱼去开屏2.0",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/bdpan.ads.js",
+      "catalogName": "百度网盘去广告",
+      "catalogDescription": "广告屏蔽：百度网盘去广告",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
+      "catalogName": "小红书去水印",
+      "catalogDescription": "广告屏蔽：小红书去水印",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/suishouji.ads.js",
+      "catalogName": "随手记去广告",
+      "catalogDescription": "广告屏蔽：随手记去广告",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/zhihu.ads.js",
+      "catalogName": "知乎去广告[墨鱼自用版]",
+      "catalogDescription": "广告屏蔽：知乎去广告[墨鱼自用版]",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/soutushenqi.vip.js",
+      "catalogName": "搜图神器净化",
+      "catalogDescription": "广告屏蔽：搜图神器净化",
+      "message": "HTTP 403"
+    },
+    {
+      "sourceSite": "墨魚手記",
       "sourceUrl": "https://raw.githubusercontent.com/VirgilClyne/iRingo/main/snippet/Location.snippet",
       "catalogName": "指南针解锁经纬度",
       "catalogDescription": "广告屏蔽：指南针解锁经纬度",
@@ -3075,6 +3042,13 @@
       "catalogName": "IOS解锁天气服务",
       "catalogDescription": "广告屏蔽：IOS解锁天气服务",
       "message": "HTTP 404"
+    },
+    {
+      "sourceSite": "墨魚手記",
+      "sourceUrl": "https://ddgksf2013.top/scripts/123pan.ads.js",
+      "catalogName": "123盘网页去广告",
+      "catalogDescription": "广告屏蔽：123盘网页去广告",
+      "message": "HTTP 403"
     }
   ]
 }

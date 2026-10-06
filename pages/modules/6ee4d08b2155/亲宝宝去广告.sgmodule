@@ -4,17 +4,12 @@
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Qbb.png
 #!openUrl=https://apps.apple.com/app/id672984826
 #!tag=去广告
-#!loon_version=3.5.1(980)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-08-26 11:08:19
+#!date=2026-10-02 13:57:49
 
 [Rule]
 DOMAIN,apimall.qbb6.com,REJECT
-
-[Script]
-精简我的页面 = type=http-response, pattern=^https:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get\/v\d\?, script-path=https://kelee.one/Resource/JavaScript/Qbb/my.js, requires-body=true
-
-精简育儿页面 = type=http-response, pattern=^https:\/\/apipt\.qbb6\.com\/parenting\/pt\/homepage\/get\/v\d\?, script-path=https://kelee.one/Resource/JavaScript/Qbb/homepage.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.qbb6.com, apicommunity.qbb6.com, apipt.qbb6.com, apiuser.qbb6.com, apimall.qbb6.com

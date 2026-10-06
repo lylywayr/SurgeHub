@@ -4,15 +4,12 @@
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/MeiTu.png
 #!openUrl=https://apps.apple.com/app/id416048305
 #!tag=去广告
-#!loon_version=3.4.0(962)
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
+#!date=2026-10-02 13:57:49
 
 [Rule]
 DOMAIN,adui.tg.meitu.com,REJECT
-
-[Script]
-body_rewrite_14 = type=http-response, pattern=^https:\/\/api\.posters\.meitu\.com\/common\/init\.json, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=%5B%5B%22json-del%22%2C%5B%22data.vip%22%5D%5D%5D
 
 [MITM]
 hostname = %APPEND% api.posters.meitu.com

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T23:12:13.459Z",
+  "generatedAt": "2026-10-06T23:16:16.931Z",
   "selfTest": {
     "status": "success",
     "sections": [
@@ -21,8 +21,6 @@
       "legacyPath": "6ee4d08b2155/HTTPDNS拦截器.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -45,7 +43,6 @@
       "legacyPath": "6ee4d08b2155/广告平台拦截器.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -67,7 +64,6 @@
       "legacyFile": "1.1.1.1配置管理.sgmodule",
       "legacyPath": "6ee4d08b2155/1.1.1.1配置管理.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -89,8 +85,6 @@
       "legacyFile": "5EPlay去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/5EPlay去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -113,8 +107,6 @@
       "legacyPath": "6ee4d08b2155/36氪去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -136,7 +128,6 @@
       "legacyFile": "123云盘去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/123云盘去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -159,7 +150,6 @@
       "legacyPath": "6ee4d08b2155/360摄像机去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -182,7 +172,6 @@
       "legacyPath": "6ee4d08b2155/360智慧生活去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -226,7 +215,6 @@
       "legacyPath": "6ee4d08b2155/12306去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -249,7 +237,6 @@
       "legacyPath": "6ee4d08b2155/Apple天气增强.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -292,7 +279,6 @@
       "legacyFile": "BoxJs.sgmodule",
       "legacyPath": "6ee4d08b2155/BoxJs.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -314,8 +300,6 @@
       "legacyFile": "CC直播去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/CC直播去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -337,7 +321,6 @@
       "legacyFile": "DJ多多去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/DJ多多去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -359,7 +342,6 @@
       "legacyFile": "Dlabel云标签去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/Dlabel云标签去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -381,8 +363,6 @@
       "legacyFile": "DREAME去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/DREAME去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -404,7 +384,6 @@
       "legacyFile": "ECOVACS HOME去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/ECOVACS HOME去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -427,7 +406,6 @@
       "legacyPath": "6ee4d08b2155/e充电去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -449,7 +427,6 @@
       "legacyFile": "Fileball网盘挂载.sgmodule",
       "legacyPath": "6ee4d08b2155/Fileball网盘挂载.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -471,7 +448,6 @@
       "legacyFile": "Follow每日签到.sgmodule",
       "legacyPath": "6ee4d08b2155/Follow每日签到.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -514,7 +490,6 @@
       "legacyFile": "Google搜索重定向.sgmodule",
       "legacyPath": "6ee4d08b2155/Google搜索重定向.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -558,7 +533,6 @@
       "legacyFile": "IPA工具箱助手.sgmodule",
       "legacyPath": "6ee4d08b2155/IPA工具箱助手.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -580,8 +554,6 @@
       "legacyFile": "IT之家去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/IT之家去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -626,8 +598,6 @@
       "legacyPath": "6ee4d08b2155/Keep去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -649,8 +619,6 @@
       "legacyFile": "KOOK去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/KOOK去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -673,7 +641,6 @@
       "legacyPath": "6ee4d08b2155/Line去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -695,8 +662,6 @@
       "legacyFile": "OKOK去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/OKOK去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -760,7 +725,6 @@
       "legacyFile": "QQ链接解锁.sgmodule",
       "legacyPath": "6ee4d08b2155/QQ链接解锁.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -824,8 +788,6 @@
       "legacyFile": "ReelShort去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/ReelShort去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -847,8 +809,6 @@
       "legacyFile": "Roborock去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/Roborock去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -870,7 +830,6 @@
       "legacyFile": "RQrun去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/RQrun去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -892,7 +851,6 @@
       "legacyFile": "Script-Hub.sgmodule",
       "legacyPath": "6ee4d08b2155/Script-Hub.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -914,7 +872,6 @@
       "legacyFile": "Sofascore去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/Sofascore去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -937,8 +894,6 @@
       "legacyPath": "6ee4d08b2155/Soul去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -961,9 +916,6 @@
       "legacyPath": "6ee4d08b2155/Spotify去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -985,7 +937,6 @@
       "legacyFile": "Spotify歌词增强.sgmodule",
       "legacyPath": "6ee4d08b2155/Spotify歌词增强.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1007,7 +958,6 @@
       "legacyFile": "Sub-Store.sgmodule",
       "legacyPath": "6ee4d08b2155/Sub-Store.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1051,7 +1001,6 @@
       "legacyPath": "6ee4d08b2155/TeraBox去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1073,7 +1022,6 @@
       "legacyFile": "TestFlight地区解锁.sgmodule",
       "legacyPath": "6ee4d08b2155/TestFlight地区解锁.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1096,7 +1044,6 @@
       "legacyPath": "6ee4d08b2155/TubeMax去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1118,7 +1065,6 @@
       "legacyFile": "Tumblr去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/Tumblr去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1140,8 +1086,6 @@
       "legacyFile": "Uki去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/Uki去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1163,7 +1107,6 @@
       "legacyFile": "VVebo时间线修复.sgmodule",
       "legacyPath": "6ee4d08b2155/VVebo时间线修复.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1185,8 +1128,6 @@
       "legacyFile": "WakeUp课程表去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/WakeUp课程表去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1229,7 +1170,6 @@
       "legacyFile": "WPS每日签到.sgmodule",
       "legacyPath": "6ee4d08b2155/WPS每日签到.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1251,7 +1191,6 @@
       "legacyFile": "YouTube去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/YouTube去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1273,7 +1212,6 @@
       "legacyFile": "YouTube双语翻译.sgmodule",
       "legacyPath": "6ee4d08b2155/YouTube双语翻译.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1296,8 +1234,6 @@
       "legacyPath": "6ee4d08b2155/YY去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1319,8 +1255,6 @@
       "legacyFile": "YY语音去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/YY语音去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1342,8 +1276,6 @@
       "legacyFile": "ZAKER去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/ZAKER去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1365,8 +1297,6 @@
       "legacyFile": "爱企查去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/爱企查去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1389,8 +1319,6 @@
       "legacyPath": "6ee4d08b2155/爱奇艺去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1413,8 +1341,6 @@
       "legacyPath": "6ee4d08b2155/阿里云盘去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1436,8 +1362,6 @@
       "legacyFile": "百度地图去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度地图去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1459,9 +1383,6 @@
       "legacyFile": "百度翻译去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度翻译去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1483,8 +1404,6 @@
       "legacyFile": "百度输入法去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度输入法去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1507,8 +1426,6 @@
       "legacyPath": "6ee4d08b2155/百度贴吧去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1530,7 +1447,6 @@
       "legacyFile": "百度网盘去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度网盘去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1552,7 +1468,6 @@
       "legacyFile": "百度网页去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度网页去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1574,8 +1489,6 @@
       "legacyFile": "百度文库去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/百度文库去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1598,7 +1511,6 @@
       "legacyPath": "6ee4d08b2155/宝宝树孕育去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1620,8 +1532,6 @@
       "legacyFile": "贝壳找房去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/贝壳找房去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1643,8 +1553,6 @@
       "legacyFile": "哔哩哔哩漫画去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/哔哩哔哩漫画去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1667,9 +1575,6 @@
       "legacyPath": "6ee4d08b2155/哔哩哔哩去广告.sgmodule",
       "sections": [
         "Rule",
-        "Header Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1691,7 +1596,6 @@
       "legacyFile": "比特球云盘去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/比特球云盘去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1734,8 +1638,6 @@
       "legacyFile": "波点音乐去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/波点音乐去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1757,8 +1659,6 @@
       "legacyFile": "薄荷健康去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/薄荷健康去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1780,7 +1680,6 @@
       "legacyFile": "菜鸟去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/菜鸟去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1802,8 +1701,6 @@
       "legacyFile": "财新去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/财新去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1826,8 +1723,6 @@
       "legacyPath": "6ee4d08b2155/彩云天气去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1849,8 +1744,6 @@
       "legacyFile": "测测去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/测测去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1894,9 +1787,6 @@
       "legacyPath": "6ee4d08b2155/车来了去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1918,8 +1808,6 @@
       "legacyFile": "成分喵去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/成分喵去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1941,7 +1829,6 @@
       "legacyFile": "创维智慧云去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/创维智慧云去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1963,8 +1850,6 @@
       "legacyFile": "触站去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/触站去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -1986,7 +1871,6 @@
       "legacyFile": "磁力宅播放器去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/磁力宅播放器去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2008,8 +1892,6 @@
       "legacyFile": "大麦去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/大麦去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2031,8 +1913,6 @@
       "legacyFile": "大姨妈月经期助手去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/大姨妈月经期助手去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2055,8 +1935,6 @@
       "legacyPath": "6ee4d08b2155/得间小说去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2078,7 +1956,6 @@
       "legacyFile": "得物去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/得物去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2100,7 +1977,6 @@
       "legacyFile": "滴答出行去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/滴答出行去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2123,8 +1999,6 @@
       "legacyPath": "6ee4d08b2155/滴滴去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2147,9 +2021,6 @@
       "legacyPath": "6ee4d08b2155/叮咚买菜去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2171,7 +2042,6 @@
       "legacyFile": "豆瓣去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/豆瓣去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2193,7 +2063,6 @@
       "legacyFile": "豆瓣阅读去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/豆瓣阅读去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2217,8 +2086,6 @@
       "sections": [
         "Rule",
         "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2240,8 +2107,6 @@
       "legacyFile": "堆糖去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/堆糖去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2263,7 +2128,6 @@
       "legacyFile": "多屏互动去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/多屏互动去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2306,8 +2170,6 @@
       "legacyFile": "帆书去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/帆书去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2329,9 +2191,6 @@
       "legacyFile": "飞客去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/飞客去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2353,7 +2212,6 @@
       "legacyFile": "飞猪旅行去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/飞猪旅行去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2375,8 +2233,6 @@
       "legacyFile": "粉笔去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/粉笔去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2398,8 +2254,6 @@
       "legacyFile": "丰巢去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/丰巢去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2421,9 +2275,6 @@
       "legacyFile": "凤凰新闻去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/凤凰新闻去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2445,8 +2296,6 @@
       "legacyFile": "风鸟去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/风鸟去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2468,7 +2317,6 @@
       "legacyFile": "纷玩岛去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/纷玩岛去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2490,8 +2338,6 @@
       "legacyFile": "盖得排行去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/盖得排行去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2514,8 +2360,6 @@
       "legacyPath": "6ee4d08b2155/高德地图去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2537,7 +2381,6 @@
       "legacyFile": "稿定设计去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/稿定设计去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2559,8 +2402,6 @@
       "legacyFile": "海雀去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/海雀去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2582,7 +2423,6 @@
       "legacyFile": "哈罗去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/哈罗去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2605,7 +2445,6 @@
       "legacyPath": "6ee4d08b2155/航旅纵横去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2627,7 +2466,6 @@
       "legacyFile": "好轻去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/好轻去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2649,7 +2487,6 @@
       "legacyFile": "盒马去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/盒马去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2671,8 +2508,6 @@
       "legacyFile": "华尔街见闻去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/华尔街见闻去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2694,7 +2529,6 @@
       "legacyFile": "华住会去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/华住会去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2716,8 +2550,6 @@
       "legacyFile": "慧生活798去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/慧生活798去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2739,8 +2571,6 @@
       "legacyFile": "虎扑去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/虎扑去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2763,8 +2593,6 @@
       "legacyPath": "6ee4d08b2155/虎嗅去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2786,7 +2614,6 @@
       "legacyFile": "驾考宝典去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/驾考宝典去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2808,9 +2635,6 @@
       "legacyFile": "健康160去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/健康160去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2833,7 +2657,6 @@
       "legacyPath": "6ee4d08b2155/剑网三无界去广告.sgmodule",
       "sections": [
         "General",
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2855,8 +2678,6 @@
       "legacyFile": "驾校一点通去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/驾校一点通去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2878,7 +2699,6 @@
       "legacyFile": "京东比价.sgmodule",
       "legacyPath": "6ee4d08b2155/京东比价.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2901,8 +2721,6 @@
       "legacyPath": "6ee4d08b2155/京东去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2924,8 +2742,6 @@
       "legacyFile": "京东外卖去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/京东外卖去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2947,7 +2763,6 @@
       "legacyFile": "金山文档去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/金山文档去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2969,7 +2784,6 @@
       "legacyFile": "金十数据去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/金十数据去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -2991,8 +2805,6 @@
       "legacyFile": "看家王去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/看家王去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3015,9 +2827,6 @@
       "legacyPath": "6ee4d08b2155/可莉广告过滤器.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3060,8 +2869,6 @@
       "legacyFile": "快递100去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/快递100去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3084,8 +2891,6 @@
       "legacyPath": "6ee4d08b2155/快对去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3107,7 +2912,6 @@
       "legacyFile": "快捷搜索.sgmodule",
       "legacyPath": "6ee4d08b2155/快捷搜索.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3130,8 +2934,6 @@
       "legacyPath": "6ee4d08b2155/快看漫画去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3153,8 +2955,6 @@
       "legacyFile": "快手去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/快手去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3176,7 +2976,6 @@
       "legacyFile": "快影去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/快影去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3198,8 +2997,6 @@
       "legacyFile": "夸克去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/夸克去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3221,8 +3018,6 @@
       "legacyFile": "夸克扫描王去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/夸克扫描王去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3244,7 +3039,6 @@
       "legacyFile": "酷安去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/酷安去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3266,7 +3060,6 @@
       "legacyFile": "酷狗概念版去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/酷狗概念版去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3288,7 +3081,6 @@
       "legacyFile": "酷狗铃声去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/酷狗铃声去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3311,7 +3103,6 @@
       "legacyPath": "6ee4d08b2155/酷狗音乐去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3333,7 +3124,6 @@
       "legacyFile": "库街区去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/库街区去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3356,7 +3146,6 @@
       "legacyPath": "6ee4d08b2155/酷我音乐去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3378,8 +3167,6 @@
       "legacyFile": "乐播投屏去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/乐播投屏去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3401,7 +3188,6 @@
       "legacyFile": "两步路户外助手去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/两步路户外助手去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3423,9 +3209,6 @@
       "legacyFile": "联掌门户去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/联掌门户去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3447,7 +3230,6 @@
       "legacyFile": "萝卜快跑去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/萝卜快跑去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3470,7 +3252,6 @@
       "legacyPath": "6ee4d08b2155/马蜂窝去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3492,7 +3273,6 @@
       "legacyFile": "马克水印相机去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/马克水印相机去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3515,8 +3295,6 @@
       "legacyPath": "6ee4d08b2155/芒果TV去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3538,8 +3316,6 @@
       "legacyFile": "漫客栈去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/漫客栈去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3561,8 +3337,6 @@
       "legacyFile": "猫耳FM去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/猫耳FM去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3584,8 +3358,6 @@
       "legacyFile": "美丽修行去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/美丽修行去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3607,7 +3379,6 @@
       "legacyFile": "每日赛车去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/每日赛车去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3651,7 +3422,6 @@
       "legacyPath": "6ee4d08b2155/美图秀秀去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3674,8 +3444,6 @@
       "legacyPath": "6ee4d08b2155/美颜相机去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3698,8 +3466,6 @@
       "legacyPath": "6ee4d08b2155/美柚去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3721,7 +3487,6 @@
       "legacyFile": "萌娘百科去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/萌娘百科去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3743,8 +3508,6 @@
       "legacyFile": "米游社去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/米游社去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3766,8 +3529,6 @@
       "legacyFile": "墨迹天气去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/墨迹天气去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3789,8 +3550,6 @@
       "legacyFile": "脉脉去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/脉脉去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3812,7 +3571,6 @@
       "legacyFile": "摩天轮去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/摩天轮去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3834,8 +3592,6 @@
       "legacyFile": "摩托范去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/摩托范去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3857,7 +3613,6 @@
       "legacyFile": "南网在线去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/南网在线去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3879,7 +3634,6 @@
       "legacyFile": "排班日历去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/排班日历去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3901,8 +3655,6 @@
       "legacyFile": "胖乖生活去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/胖乖生活去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3924,7 +3676,6 @@
       "legacyFile": "配音秀去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/配音秀去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3947,8 +3698,6 @@
       "legacyPath": "6ee4d08b2155/拼多多去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3970,7 +3719,6 @@
       "legacyFile": "皮皮虾去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/皮皮虾去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -3992,8 +3740,6 @@
       "legacyFile": "朴朴超市去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/朴朴超市去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4015,8 +3761,6 @@
       "legacyFile": "前程无忧去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/前程无忧去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4038,8 +3782,6 @@
       "legacyFile": "汽车之家去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/汽车之家去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4061,8 +3803,6 @@
       "legacyFile": "起点读书去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/起点读书去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4085,9 +3825,6 @@
       "legacyPath": "6ee4d08b2155/七猫小说去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4110,7 +3847,6 @@
       "legacyPath": "6ee4d08b2155/亲宝宝去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4133,9 +3869,6 @@
       "legacyPath": "6ee4d08b2155/蜻蜓FM去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4157,8 +3890,6 @@
       "legacyFile": "汽水音乐去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/汽水音乐去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4180,8 +3911,6 @@
       "legacyFile": "启信宝去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/启信宝去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4204,8 +3933,6 @@
       "legacyPath": "6ee4d08b2155/全民K歌去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4227,7 +3954,6 @@
       "legacyFile": "瑞幸咖啡去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/瑞幸咖啡去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4249,8 +3975,6 @@
       "legacyFile": "闪动校园去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/闪动校园去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4272,7 +3996,6 @@
       "legacyFile": "省钱快报去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/省钱快报去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4295,9 +4018,6 @@
       "legacyPath": "6ee4d08b2155/什么值得买去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4319,7 +4039,6 @@
       "legacyFile": "收银通商户端去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/收银通商户端去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4341,7 +4060,6 @@
       "legacyFile": "顺丰速运去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/顺丰速运去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4364,9 +4082,6 @@
       "legacyPath": "6ee4d08b2155/书旗小说去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4388,8 +4103,6 @@
       "legacyFile": "数字心动去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/数字心动去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4411,8 +4124,6 @@
       "legacyFile": "随手记去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/随手记去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4435,8 +4146,6 @@
       "legacyPath": "6ee4d08b2155/淘宝去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4458,8 +4167,6 @@
       "legacyFile": "淘票票去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/淘票票去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4481,7 +4188,6 @@
       "legacyFile": "他趣去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/他趣去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4504,8 +4210,6 @@
       "legacyPath": "6ee4d08b2155/腾讯视频去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4527,7 +4231,6 @@
       "legacyFile": "腾讯文档去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/腾讯文档去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4549,8 +4252,6 @@
       "legacyFile": "天猫校园去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/天猫校园去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4572,7 +4273,6 @@
       "legacyFile": "天气通去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/天气通去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4594,8 +4294,7 @@
       "legacyFile": "天气预报去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/天气预报去广告.sgmodule",
       "sections": [
-        "Rule",
-        "Map Local"
+        "Rule"
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
@@ -4616,7 +4315,6 @@
       "legacyFile": "天天跳绳去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/天天跳绳去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4638,7 +4336,6 @@
       "legacyFile": "图怪兽去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/图怪兽去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4660,7 +4357,6 @@
       "legacyFile": "推栏去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/推栏去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4682,7 +4378,6 @@
       "legacyFile": "挖财记账去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/挖财记账去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4704,8 +4399,6 @@
       "legacyFile": "挖财记账去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/挖财记账去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4727,8 +4420,6 @@
       "legacyFile": "网易大神去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/网易大神去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4751,8 +4442,6 @@
       "legacyPath": "6ee4d08b2155/网易新闻去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4774,8 +4463,6 @@
       "legacyFile": "网易有道词典去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/网易有道词典去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4797,8 +4484,6 @@
       "legacyFile": "网易邮箱大师去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/网易邮箱大师去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4821,8 +4506,6 @@
       "legacyPath": "6ee4d08b2155/网易云音乐去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4844,8 +4527,6 @@
       "legacyFile": "完美世界电竞去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/完美世界电竞去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4867,8 +4548,6 @@
       "legacyFile": "微博轻享版去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/微博轻享版去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4891,8 +4570,6 @@
       "legacyPath": "6ee4d08b2155/微博去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4935,7 +4612,6 @@
       "legacyFile": "威锋去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/威锋去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4957,7 +4633,6 @@
       "legacyFile": "微脉圈去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/微脉圈去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -4980,7 +4655,6 @@
       "legacyPath": "6ee4d08b2155/微信公众号去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5002,7 +4676,6 @@
       "legacyFile": "微信外部链接解锁.sgmodule",
       "legacyPath": "6ee4d08b2155/微信外部链接解锁.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5025,9 +4698,6 @@
       "legacyPath": "6ee4d08b2155/微信小程序去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5049,7 +4719,6 @@
       "legacyFile": "沃尔玛去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/沃尔玛去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5092,7 +4761,6 @@
       "legacyFile": "无他相机去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/无他相机去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5114,8 +4782,6 @@
       "legacyFile": "下厨房去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/下厨房去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5138,8 +4804,6 @@
       "legacyPath": "6ee4d08b2155/香港抖音去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5161,7 +4825,6 @@
       "legacyFile": "向日葵去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/向日葵去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5183,8 +4846,6 @@
       "legacyFile": "闲鱼去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/闲鱼去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5207,8 +4868,6 @@
       "legacyPath": "6ee4d08b2155/小白智慧打印去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5230,8 +4889,6 @@
       "legacyFile": "小蚕霸王餐去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小蚕霸王餐去广告.sgmodule",
       "sections": [
-        "Header Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5253,7 +4910,6 @@
       "legacyFile": "小店掌柜去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小店掌柜去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5275,7 +4931,6 @@
       "legacyFile": "小黑盒去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小黑盒去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5298,8 +4953,6 @@
       "legacyPath": "6ee4d08b2155/小红书去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5321,8 +4974,6 @@
       "legacyFile": "小桔充电去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小桔充电去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5344,7 +4995,6 @@
       "legacyFile": "小喵看书去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小喵看书去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5366,7 +5016,6 @@
       "legacyFile": "小米音箱去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小米音箱去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5388,7 +5037,6 @@
       "legacyFile": "小睡眠去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小睡眠去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5410,8 +5058,6 @@
       "legacyFile": "小象超市去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小象超市去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5433,7 +5079,6 @@
       "legacyFile": "小宇宙去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/小宇宙去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5456,8 +5101,6 @@
       "legacyPath": "6ee4d08b2155/喜马拉雅去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5479,8 +5122,6 @@
       "legacyFile": "行者户外去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/行者户外去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5523,8 +5164,6 @@
       "legacyFile": "雪球去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/雪球去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5546,8 +5185,6 @@
       "legacyFile": "学习通去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/学习通去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5569,7 +5206,6 @@
       "legacyFile": "迅雷去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/迅雷去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5591,7 +5227,6 @@
       "legacyFile": "医考帮去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/医考帮去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5613,8 +5248,6 @@
       "legacyFile": "一刻相册去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/一刻相册去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5636,8 +5269,6 @@
       "legacyFile": "萤石云视频去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/萤石云视频去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5659,8 +5290,6 @@
       "legacyFile": "一甜相机去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/一甜相机去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5682,8 +5311,6 @@
       "legacyFile": "易校园去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/易校园去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5705,7 +5332,6 @@
       "legacyFile": "有道翻译官去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/有道翻译官去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5727,7 +5353,6 @@
       "legacyFile": "有道云笔记去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/有道云笔记去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5750,7 +5375,6 @@
       "legacyPath": "6ee4d08b2155/优酷视频去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5773,7 +5397,6 @@
       "legacyPath": "6ee4d08b2155/阅友去广告.sgmodule",
       "sections": [
         "Rule",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5795,7 +5418,6 @@
       "legacyFile": "云鲸智能去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/云鲸智能去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5817,7 +5439,6 @@
       "legacyFile": "掌上无畏契约去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/掌上无畏契约去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5839,7 +5460,6 @@
       "legacyFile": "掌上英雄联盟去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/掌上英雄联盟去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5862,8 +5482,6 @@
       "legacyPath": "6ee4d08b2155/掌阅去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5885,8 +5503,6 @@
       "legacyFile": "直播吧去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/直播吧去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5908,7 +5524,6 @@
       "legacyFile": "智慧苏州去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/智慧苏州去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5930,8 +5545,6 @@
       "legacyFile": "知乎去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/知乎去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5954,9 +5567,6 @@
       "legacyPath": "6ee4d08b2155/智联招聘去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -5978,7 +5588,6 @@
       "legacyFile": "知识星球去水印.sgmodule",
       "legacyPath": "6ee4d08b2155/知识星球去水印.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6000,9 +5609,6 @@
       "legacyFile": "中国人保去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/中国人保去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6024,7 +5630,6 @@
       "legacyFile": "中国天气去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/中国天气去广告.sgmodule",
       "sections": [
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6046,7 +5651,6 @@
       "legacyFile": "中国移动云盘去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/中国移动云盘去广告.sgmodule",
       "sections": [
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6069,7 +5673,6 @@
       "legacyPath": "6ee4d08b2155/中华万年历去广告.sgmodule",
       "sections": [
         "Rule",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6091,33 +5694,10 @@
       "legacyFile": "转转去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/转转去广告.sgmodule",
       "sections": [
-        "Map Local",
-        "Script",
         "MITM"
       ],
       "sourceType": "loon-plugin",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx",
-      "sourceSiteId": "6ee4d08b2155",
-      "sourceSiteName": "可莉仓库",
-      "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "6ee4d08b2155:7dbd20d6e7912ef9.sgmodule",
-      "id": "6ee4d08b2155:https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx",
-      "name": "自动加入TestFlight",
-      "description": "自动监控TestFlight名额，一旦有新的名额即刻加入",
-      "nameSource": "original-metadata",
-      "nameConfidence": "low",
-      "file": "7dbd20d6e7912ef9.sgmodule",
-      "path": "6ee4d08b2155/7dbd20d6e7912ef9.sgmodule",
-      "legacyFile": "自动加入TestFlight.sgmodule",
-      "legacyPath": "6ee4d08b2155/自动加入TestFlight.sgmodule",
-      "sections": [
-        "Script"
-      ],
-      "sourceType": "loon-plugin",
-      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx",
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
@@ -6135,8 +5715,6 @@
       "legacyFile": "纵横小说去广告.sgmodule",
       "legacyPath": "6ee4d08b2155/纵横小说去广告.sgmodule",
       "sections": [
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6180,8 +5758,6 @@
       "legacyPath": "6ee4d08b2155/最右去广告.sgmodule",
       "sections": [
         "Rule",
-        "URL Rewrite",
-        "Map Local",
         "MITM"
       ],
       "sourceType": "loon-plugin",
@@ -6189,29 +5765,6 @@
       "sourceSiteId": "6ee4d08b2155",
       "sourceSiteName": "可莉仓库",
       "sourceSiteUrl": "https://hub.kelee.one",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:d93dffb5a6c22d90.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
-      "name": "序号",
-      "description": "如果有需要的去除广告的APP，可自行在共享表格中添加需求",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "d93dffb5a6c22d90.sgmodule",
-      "path": "1a51661d4c51/d93dffb5a6c22d90.sgmodule",
-      "legacyFile": "序号.sgmodule",
-      "legacyPath": "1a51661d4c51/序号.sgmodule",
-      "sections": [
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
       "convertedBy": "Script Hub 转换"
     },
     {
@@ -6259,95 +5812,6 @@
       "convertedBy": "Script Hub 转换"
     },
     {
-      "key": "1a51661d4c51:c0db9b84490d4655.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/kkmusic.vip.js",
-      "name": "酷我SVIP+净化",
-      "description": "用于 酷我SVIP+净化 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "c0db9b84490d4655.sgmodule",
-      "path": "1a51661d4c51/c0db9b84490d4655.sgmodule",
-      "legacyFile": "酷我SVIP+净化.sgmodule",
-      "legacyPath": "1a51661d4c51/酷我SVIP+净化.sgmodule",
-      "sections": [
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:75f5fee4d32dc14d.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/nicegram.vip.js",
-      "name": "Nicegram高级版",
-      "description": "用于 Nicegram高级版 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "75f5fee4d32dc14d.sgmodule",
-      "path": "1a51661d4c51/75f5fee4d32dc14d.sgmodule",
-      "legacyFile": "Nicegram高级版.sgmodule",
-      "legacyPath": "1a51661d4c51/Nicegram高级版.sgmodule",
-      "sections": [
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/nicegram.vip.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:4b86fdadb1da781c.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/revenuecat.vip.js",
-      "name": "RevenueCat多合一",
-      "description": "用于 RevenueCat多合一 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "4b86fdadb1da781c.sgmodule",
-      "path": "1a51661d4c51/4b86fdadb1da781c.sgmodule",
-      "legacyFile": "RevenueCat多合一.sgmodule",
-      "legacyPath": "1a51661d4c51/RevenueCat多合一.sgmodule",
-      "sections": [
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/revenuecat.vip.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:0fbd41daa03ded65.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/buyitunes.vip.js",
-      "name": "BuyiTunes多合一",
-      "description": "用于 BuyiTunes多合一 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "0fbd41daa03ded65.sgmodule",
-      "path": "1a51661d4c51/0fbd41daa03ded65.sgmodule",
-      "legacyFile": "BuyiTunes多合一.sgmodule",
-      "legacyPath": "1a51661d4c51/BuyiTunes多合一.sgmodule",
-      "sections": [
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/buyitunes.vip.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
       "key": "1a51661d4c51:1ca199ed31e91772.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/EmbyPlugin.conf",
       "name": "Emby解锁",
@@ -6364,28 +5828,6 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/EmbyPlugin.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:5c0dbd25867d884e.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/goodbility.vip.js",
-      "name": "Goodbility会员",
-      "description": "用于 Goodbility会员 的 Surge 模块。",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "5c0dbd25867d884e.sgmodule",
-      "path": "1a51661d4c51/5c0dbd25867d884e.sgmodule",
-      "legacyFile": "Goodbility会员.sgmodule",
-      "legacyPath": "1a51661d4c51/Goodbility会员.sgmodule",
-      "sections": [
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/goodbility.vip.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -6409,31 +5851,6 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:c516f177d12360b3.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/StartUpAds.conf",
-      "name": "墨鱼去开屏2.0",
-      "description": "广告屏蔽：墨鱼去开屏2.0",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "c516f177d12360b3.sgmodule",
-      "path": "1a51661d4c51/c516f177d12360b3.sgmodule",
-      "legacyFile": "墨鱼去开屏2.0.sgmodule",
-      "legacyPath": "1a51661d4c51/墨鱼去开屏2.0.sgmodule",
-      "sections": [
-        "Rule",
-        "URL Rewrite",
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/StartUpAds.conf",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -6509,29 +5926,6 @@
       "convertedBy": "Script Hub 转换"
     },
     {
-      "key": "1a51661d4c51:15c2921f81bbf683.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/bdpan.ads.js",
-      "name": "百度网盘去广告",
-      "description": "广告屏蔽：百度网盘去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "15c2921f81bbf683.sgmodule",
-      "path": "1a51661d4c51/15c2921f81bbf683.sgmodule",
-      "legacyFile": "百度网盘去广告.sgmodule",
-      "legacyPath": "1a51661d4c51/百度网盘去广告.sgmodule",
-      "sections": [
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/bdpan.ads.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
       "key": "1a51661d4c51:1f025c9ee85e9f9c.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf",
       "name": "喜马拉雅去广告",
@@ -6549,29 +5943,6 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:b6a1865597f43964.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
-      "name": "小红书去水印",
-      "description": "广告屏蔽：小红书去水印",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "b6a1865597f43964.sgmodule",
-      "path": "1a51661d4c51/b6a1865597f43964.sgmodule",
-      "legacyFile": "小红书去水印.sgmodule",
-      "legacyPath": "1a51661d4c51/小红书去水印.sgmodule",
-      "sections": [
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -6740,30 +6111,6 @@
       "convertedBy": "Script Hub 转换"
     },
     {
-      "key": "1a51661d4c51:55030101afdb1a2c.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/suishouji.ads.js",
-      "name": "随手记去广告",
-      "description": "广告屏蔽：随手记去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "55030101afdb1a2c.sgmodule",
-      "path": "1a51661d4c51/55030101afdb1a2c.sgmodule",
-      "legacyFile": "随手记去广告.sgmodule",
-      "legacyPath": "1a51661d4c51/随手记去广告.sgmodule",
-      "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/suishouji.ads.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
       "key": "1a51661d4c51:cb472de0b5274589.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/BingSimplify.conf",
       "name": "Bing首页简化",
@@ -6917,30 +6264,6 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/CaiYunAds.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:a201dea11df963a0.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/zhihu.ads.js",
-      "name": "知乎去广告[墨鱼自用版]",
-      "description": "广告屏蔽：知乎去广告[墨鱼自用版]",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "a201dea11df963a0.sgmodule",
-      "path": "1a51661d4c51/a201dea11df963a0.sgmodule",
-      "legacyFile": "知乎去广告[墨鱼自用版].sgmodule",
-      "legacyPath": "1a51661d4c51/知乎去广告[墨鱼自用版].sgmodule",
-      "sections": [
-        "URL Rewrite",
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/zhihu.ads.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -7124,29 +6447,6 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/MoJiWeatherAds.conf",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:e8ef419bbdab00ee.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/soutushenqi.vip.js",
-      "name": "搜图神器净化",
-      "description": "广告屏蔽：搜图神器净化",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "e8ef419bbdab00ee.sgmodule",
-      "path": "1a51661d4c51/e8ef419bbdab00ee.sgmodule",
-      "legacyFile": "搜图神器净化.sgmodule",
-      "legacyPath": "1a51661d4c51/搜图神器净化.sgmodule",
-      "sections": [
-        "Map Local",
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/soutushenqi.vip.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -7461,28 +6761,6 @@
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
       "convertedBy": "Script Hub 转换"
-    },
-    {
-      "key": "1a51661d4c51:ac9227ebad577337.sgmodule",
-      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/123pan.ads.js",
-      "name": "123盘网页去广告",
-      "description": "广告屏蔽：123盘网页去广告",
-      "nameSource": "墨魚手記官方 README 复写区",
-      "nameConfidence": "high",
-      "file": "ac9227ebad577337.sgmodule",
-      "path": "1a51661d4c51/ac9227ebad577337.sgmodule",
-      "legacyFile": "123盘网页去广告.sgmodule",
-      "legacyPath": "1a51661d4c51/123盘网页去广告.sgmodule",
-      "sections": [
-        "Script",
-        "MITM"
-      ],
-      "sourceType": "qx-rewrite",
-      "sourceUrl": "https://ddgksf2013.top/scripts/123pan.ads.js",
-      "sourceSiteId": "1a51661d4c51",
-      "sourceSiteName": "墨魚手記",
-      "sourceSiteUrl": "https://ddgksf2013.top",
-      "convertedBy": "Script Hub 转换"
     }
   ],
   "failed": [
@@ -7491,21 +6769,28 @@
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx",
       "sourceType": "loon-plugin",
       "sourceSiteName": "可莉仓库",
-      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=DNS防泄露\\n#!desc=专为小白设计的DNS防泄露\\n#!author=非正常人类研究中心\\n#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Prevent_DNS_Leaks.png\\n#!tag=DNS\\n#!loon_version=3.4.0(962)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-06-01 17:11:35\\n\\n"
+      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=DNS防泄露\\n#!desc=专为小白设计的DNS防泄露\\n#!author=非正常人类研究中心\\n#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Prevent_DNS_Leaks.png\\n#!tag=DNS\\n#!loon_version=3.5.1(998)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-10-02 13:57:49\\n\\n"
     },
     {
       "name": "代理链路检测",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx",
       "sourceType": "loon-plugin",
       "sourceSiteName": "可莉仓库",
-      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=代理链路检测\\n#!desc=查看目标节点的代理走向，在插件列表中点击此插件上的链接查看使用方法\\n#!author=I-am-R-E[https://github.com/I-am-R-E]\\n#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png\\n#!openUrl=https://github.com/luestr/ProxyResource/blob/main/Resource/Markdown/NodeLinkCheck/README.md\\n#!tag=节点检测\\n#!loon_version=3.4.0(962)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-06-01 17:11:35\\n\\n"
+      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=代理链路检测\\n#!desc=查看目标节点的代理走向，在插件列表中点击此插件上的链接查看使用方法\\n#!author=I-am-R-E[https://github.com/I-am-R-E]\\n#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png\\n#!openUrl=https://github.com/luestr/ProxyResource/blob/main/Resource/Markdown/NodeLinkCheck/README.md\\n#!tag=节点检测\\n#!loon_version=3.5.1(998)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-10-02 13:57:49\\n\\n"
     },
     {
       "name": "节点检测工具",
       "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx",
       "sourceType": "loon-plugin",
       "sourceSiteName": "可莉仓库",
-      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=节点检测工具\\n#!desc=适用于Loon的节点检测工具，可进行地理位置、节点解锁、入口落地等查询。请在所有节点页面选择一个节点长按，出现菜单后进行测试\\n#!author=xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO], dcpengx[https://github.com/dcpengx]\\n#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Node_detection_tool.png\\n#!tag=节点检测\\n#!loon_version=3.4.0(962)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-06-01 17:11:35\\n\\n"
+      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=节点检测工具\\n#!desc=适用于Loon的节点检测工具，可进行地理位置、节点解锁、入口落地等查询。请在所有节点页面选择一个节点长按，出现菜单后进行测试\\n#!author=xream[https://github.com/xream], Keywos[https://github.com/Keywos], KOP-XIAO[https://github.com/KOP-XIAO], dcpengx[https://github.com/dcpengx]\\n#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Node_detection_tool.png\\n#!tag=节点检测\\n#!loon_version=3.5.1(998)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-10-02 13:57:49\\n\\n"
+    },
+    {
+      "name": "自动加入TestFlight",
+      "sourceUrl": "https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx",
+      "sourceType": "loon-plugin",
+      "sourceSiteName": "可莉仓库",
+      "message": "处理结果未包含可识别的 Surge 模块分区。输出前 600 字：#!name=自动加入TestFlight\\n#!desc=自动监控TestFlight名额，一旦有新的名额即刻加入\\n#!author=奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]\\n#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TestFlight.png\\n#!openUrl=https://apps.apple.com/app/id899247664\\n#!tag=定时任务\\n#!loon_version=3.5.1(998)\\n#!homepage=https://hub.kelee.one\\n#!date=2026-10-02 13:57:49\\n#!arguments=CaptureAccountToken:false,RunTask:\"false\",RunMonitor:\"true\",TaskCron:\"0 0/2 * * * ?\",TaskMonitor:\"0 * * * * ?\"\\n\\n"
     }
   ],
   "overwritten": []
