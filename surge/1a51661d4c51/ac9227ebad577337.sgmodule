@@ -1,0 +1,8 @@
+#!name=123盘网页去广告
+#!desc=广告屏蔽：123盘网页去广告
+
+[Script]
+123pan = type=http-response, pattern=^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% www.123pan.com

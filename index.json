@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "generatedAt": "2026-10-06T23:16:16.931Z",
-  "total": 324,
+  "generatedAt": "2026-10-13T23:26:14.238Z",
+  "total": 337,
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -19,7 +19,7 @@
       "namingPolicy": "catalog-first",
       "descriptionPolicy": "catalog-first",
       "discovered": 62,
-      "accepted": 44
+      "accepted": 57
     }
   ],
   "modules": [
@@ -6801,7 +6801,7 @@
       "key": "1a51661d4c51:default-music-collection.sgmodule",
       "id": "merged:1a51661d4c51:default-music-collection.sgmodule",
       "name": "音乐媒体去广告",
-      "description": "音乐媒体去广告，包含：Spotify会员、喜马拉雅去广告、网易云去广告、汽水音乐净化[JQ版] 卸载重装、小宇宙FM去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
+      "description": "音乐媒体去广告，包含：Spotify会员、酷我SVIP+净化、喜马拉雅去广告、网易云去广告、汽水音乐净化[JQ版] 卸载重装、小宇宙FM去广告。仅合并来源「墨魚手記」内的模块；每个子模块可在模块参数中单独关闭，开关留空为启用，填 # 为关闭；子模块开关固定排在最上方，子模块参数按模块顺序排列并优先使用原说明作为参数名，重名时自动追加序号。",
       "file": "default-music-collection.sgmodule",
       "path": "1a51661d4c51/default-music-collection.sgmodule",
       "legacyFile": "音乐媒体去广告.sgmodule",
@@ -6821,6 +6821,13 @@
           "file": "bcad63b065c762b8.sgmodule",
           "path": "1a51661d4c51/bcad63b065c762b8.sgmodule",
           "sourceUrl": "https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf"
+        },
+        {
+          "name": "酷我SVIP+净化",
+          "description": "用于 酷我SVIP+净化 的 Surge 模块。",
+          "file": "c0db9b84490d4655.sgmodule",
+          "path": "1a51661d4c51/c0db9b84490d4655.sgmodule",
+          "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js"
         },
         {
           "name": "喜马拉雅去广告",
@@ -6901,6 +6908,29 @@
       ]
     },
     {
+      "key": "1a51661d4c51:d93dffb5a6c22d90.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
+      "name": "序号",
+      "description": "如果有需要的去除广告的APP，可自行在共享表格中添加需求",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "d93dffb5a6c22d90.sgmodule",
+      "path": "1a51661d4c51/d93dffb5a6c22d90.sgmodule",
+      "legacyFile": "序号.sgmodule",
+      "legacyPath": "1a51661d4c51/序号.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/BiliBiliAds.conf",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "1a51661d4c51:bcad63b065c762b8.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf",
       "name": "Spotify会员",
@@ -6950,6 +6980,100 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "1a51661d4c51:c0db9b84490d4655.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/kkmusic.vip.js",
+      "name": "酷我SVIP+净化",
+      "description": "用于 酷我SVIP+净化 的 Surge 模块。",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "c0db9b84490d4655.sgmodule",
+      "path": "1a51661d4c51/c0db9b84490d4655.sgmodule",
+      "legacyFile": "酷我SVIP+净化.sgmodule",
+      "legacyPath": "1a51661d4c51/酷我SVIP+净化.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/kkmusic.vip.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换",
+      "status": "已进入合并",
+      "mergedInto": "音乐媒体去广告",
+      "mergedIntoList": [
+        "音乐媒体去广告"
+      ]
+    },
+    {
+      "key": "1a51661d4c51:75f5fee4d32dc14d.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/nicegram.vip.js",
+      "name": "Nicegram高级版",
+      "description": "用于 Nicegram高级版 的 Surge 模块。",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "75f5fee4d32dc14d.sgmodule",
+      "path": "1a51661d4c51/75f5fee4d32dc14d.sgmodule",
+      "legacyFile": "Nicegram高级版.sgmodule",
+      "legacyPath": "1a51661d4c51/Nicegram高级版.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/nicegram.vip.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:4b86fdadb1da781c.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/revenuecat.vip.js",
+      "name": "RevenueCat多合一",
+      "description": "用于 RevenueCat多合一 的 Surge 模块。",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "4b86fdadb1da781c.sgmodule",
+      "path": "1a51661d4c51/4b86fdadb1da781c.sgmodule",
+      "legacyFile": "RevenueCat多合一.sgmodule",
+      "legacyPath": "1a51661d4c51/RevenueCat多合一.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/revenuecat.vip.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:0fbd41daa03ded65.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/buyitunes.vip.js",
+      "name": "BuyiTunes多合一",
+      "description": "用于 BuyiTunes多合一 的 Surge 模块。",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "0fbd41daa03ded65.sgmodule",
+      "path": "1a51661d4c51/0fbd41daa03ded65.sgmodule",
+      "legacyFile": "BuyiTunes多合一.sgmodule",
+      "legacyPath": "1a51661d4c51/BuyiTunes多合一.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/buyitunes.vip.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "1a51661d4c51:1ca199ed31e91772.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/EmbyPlugin.conf",
       "name": "Emby解锁",
@@ -6966,6 +7090,28 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/EmbyPlugin.conf",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:5c0dbd25867d884e.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/goodbility.vip.js",
+      "name": "Goodbility会员",
+      "description": "用于 Goodbility会员 的 Surge 模块。",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "5c0dbd25867d884e.sgmodule",
+      "path": "1a51661d4c51/5c0dbd25867d884e.sgmodule",
+      "legacyFile": "Goodbility会员.sgmodule",
+      "legacyPath": "1a51661d4c51/Goodbility会员.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/goodbility.vip.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -6989,6 +7135,31 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:c516f177d12360b3.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/StartUpAds.conf",
+      "name": "墨鱼去开屏2.0",
+      "description": "广告屏蔽：墨鱼去开屏2.0",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "c516f177d12360b3.sgmodule",
+      "path": "1a51661d4c51/c516f177d12360b3.sgmodule",
+      "legacyFile": "墨鱼去开屏2.0.sgmodule",
+      "legacyPath": "1a51661d4c51/墨鱼去开屏2.0.sgmodule",
+      "sections": [
+        "Rule",
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/StartUpAds.conf",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -7064,6 +7235,29 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "1a51661d4c51:15c2921f81bbf683.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/bdpan.ads.js",
+      "name": "百度网盘去广告",
+      "description": "广告屏蔽：百度网盘去广告",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "15c2921f81bbf683.sgmodule",
+      "path": "1a51661d4c51/15c2921f81bbf683.sgmodule",
+      "legacyFile": "百度网盘去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/百度网盘去广告.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/bdpan.ads.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "1a51661d4c51:1f025c9ee85e9f9c.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf",
       "name": "喜马拉雅去广告",
@@ -7090,6 +7284,29 @@
       "mergedIntoList": [
         "音乐媒体去广告"
       ]
+    },
+    {
+      "key": "1a51661d4c51:b6a1865597f43964.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
+      "name": "小红书去水印",
+      "description": "广告屏蔽：小红书去水印",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "b6a1865597f43964.sgmodule",
+      "path": "1a51661d4c51/b6a1865597f43964.sgmodule",
+      "legacyFile": "小红书去水印.sgmodule",
+      "legacyPath": "1a51661d4c51/小红书去水印.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
     },
     {
       "key": "1a51661d4c51:2d13b7418c34c51f.sgmodule",
@@ -7274,6 +7491,30 @@
       "convertedBy": "Script Hub 转换"
     },
     {
+      "key": "1a51661d4c51:55030101afdb1a2c.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/suishouji.ads.js",
+      "name": "随手记去广告",
+      "description": "广告屏蔽：随手记去广告",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "55030101afdb1a2c.sgmodule",
+      "path": "1a51661d4c51/55030101afdb1a2c.sgmodule",
+      "legacyFile": "随手记去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/随手记去广告.sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/suishouji.ads.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
       "key": "1a51661d4c51:cb472de0b5274589.sgmodule",
       "id": "1a51661d4c51:https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/BingSimplify.conf",
       "name": "Bing首页简化",
@@ -7437,6 +7678,30 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/CaiYunAds.conf",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:a201dea11df963a0.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/zhihu.ads.js",
+      "name": "知乎去广告[墨鱼自用版]",
+      "description": "广告屏蔽：知乎去广告[墨鱼自用版]",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "a201dea11df963a0.sgmodule",
+      "path": "1a51661d4c51/a201dea11df963a0.sgmodule",
+      "legacyFile": "知乎去广告[墨鱼自用版].sgmodule",
+      "legacyPath": "1a51661d4c51/知乎去广告[墨鱼自用版].sgmodule",
+      "sections": [
+        "URL Rewrite",
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/zhihu.ads.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
@@ -7649,6 +7914,29 @@
       "mergedIntoList": [
         "去广告合集"
       ]
+    },
+    {
+      "key": "1a51661d4c51:e8ef419bbdab00ee.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/soutushenqi.vip.js",
+      "name": "搜图神器净化",
+      "description": "广告屏蔽：搜图神器净化",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "e8ef419bbdab00ee.sgmodule",
+      "path": "1a51661d4c51/e8ef419bbdab00ee.sgmodule",
+      "legacyFile": "搜图神器净化.sgmodule",
+      "legacyPath": "1a51661d4c51/搜图神器净化.sgmodule",
+      "sections": [
+        "Map Local",
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/soutushenqi.vip.js",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
     },
     {
       "key": "1a51661d4c51:eb5f9d273d9e2c81.sgmodule",
@@ -7960,6 +8248,28 @@
       ],
       "sourceType": "qx-rewrite",
       "sourceUrl": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Snippet/GoogleCAPTCHA.snippet",
+      "sourceSiteId": "1a51661d4c51",
+      "sourceSiteName": "墨魚手記",
+      "sourceSiteUrl": "https://ddgksf2013.top",
+      "convertedBy": "Script Hub 转换"
+    },
+    {
+      "key": "1a51661d4c51:ac9227ebad577337.sgmodule",
+      "id": "1a51661d4c51:https://ddgksf2013.top/scripts/123pan.ads.js",
+      "name": "123盘网页去广告",
+      "description": "广告屏蔽：123盘网页去广告",
+      "nameSource": "墨魚手記官方 README 复写区",
+      "nameConfidence": "high",
+      "file": "ac9227ebad577337.sgmodule",
+      "path": "1a51661d4c51/ac9227ebad577337.sgmodule",
+      "legacyFile": "123盘网页去广告.sgmodule",
+      "legacyPath": "1a51661d4c51/123盘网页去广告.sgmodule",
+      "sections": [
+        "Script",
+        "MITM"
+      ],
+      "sourceType": "qx-rewrite",
+      "sourceUrl": "https://ddgksf2013.top/scripts/123pan.ads.js",
       "sourceSiteId": "1a51661d4c51",
       "sourceSiteName": "墨魚手記",
       "sourceSiteUrl": "https://ddgksf2013.top",
