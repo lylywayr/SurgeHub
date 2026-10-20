@@ -534,10 +534,6 @@
 {{{拼多多去广告}}}DOMAIN,ta-a.pinduoduo.com,REJECT
 {{{拼多多去广告}}}DOMAIN,meta.pinduoduo.com,REJECT
 {{{拼多多去广告}}}DOMAIN,apm-a.pinduoduo.com,REJECT
-# 高德地图去广告
-{{{高德地图去广告}}}DOMAIN,amap-aos-info-nogw.amap.com,REJECT
-{{{高德地图去广告}}}DOMAIN,free-aos-cdn-image.amap.com,REJECT
-{{{高德地图去广告}}}DOMAIN-SUFFIX,v.smtcdns.com,REJECT
 # 京东去广告
 {{{京东去广告}}}URL-REGEX,"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?",REJECT
 # 淘宝去广告
@@ -566,7 +562,7 @@
 # 夸克去广告
 {{{夸克去广告}}}hostname = %APPEND% open-cms-api.quark.cn, stars.shuqireader.com
 # 高德地图去广告
-{{{高德地图去广告}}}hostname = %APPEND% *.amap.com
+{{{高德地图去广告}}}hostname = %APPEND% m5.amap.com, ai.amap.com, m5-zb.amap.com, center.amap.com, sns.amap.com, info.amap.com
 # 掌上英雄联盟去广告
 {{{掌上英雄联盟去广告}}}hostname = %APPEND% mlol.qt.qq.com
 # 京东去广告

@@ -6,7 +6,7 @@
 >
 > 不同来源仓库的模块严格分开：不会跨来源合并、去重或同名覆盖。合集也只会合并同一来源内的模块。
 >
-> 同步上游时间：2026-10-14 07:26:14 Asia/Shanghai
+> 同步上游时间：2026-10-21 06:40:07 Asia/Shanghai
 
 ## 转换来源
 
@@ -152,7 +152,7 @@
 | 113 | 风鸟去广告 | 移除首页信息流和轮播图 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Af8e72c8fd68a088a.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Af8e72c8fd68a088a.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/RiskBird_remove_ads.lpx) |
 | 114 | 纷玩岛去广告 | 移除开屏广告、弹窗广告、信息横幅推广、票夹页面横幅广告 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A6a176e81160a7b36.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A6a176e81160a7b36.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/LiveLab_remove_ads.lpx) |
 | 115 | 盖得排行去广告 | 精简首页、移除分类横幅推广、单单返猜你喜欢和编辑精选，移除我的页面推广 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A190f810020da67e0.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A190f810020da67e0.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/GuideRank_remove_ads.lpx) |
-| 116 | 高德地图去广告 | 过滤高德地图开屏广告、各页面推广，精简我的页面 | 已进行合并（已包含于「去广告合集、地图出行去广告」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A701f0da9de16a80f.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A701f0da9de16a80f.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx) |
+| 116 | 高德地图去广告 | 移除开屏广告、首页推荐、搜索推荐、打车广告、地点推荐及广告，精简我的页面 | 已进行合并（已包含于「去广告合集、地图出行去广告」） | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A701f0da9de16a80f.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A701f0da9de16a80f.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx) |
 | 117 | 稿定设计去广告 | 移除稿定设计开屏广告、首页轮播图和弹窗，移除功能入口角标 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A630c8784421104e6.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A630c8784421104e6.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx) |
 | 118 | 海雀去广告 | 移除开屏广告、横幅广告、弹窗广告，拦截商城和资讯页面 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A36fa584e98740929.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3A36fa584e98740929.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx) |
 | 119 | 哈罗去广告 | 移除开屏广告及歌单广告 | 独立模块 | [Surge](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Aa0e6668db6522677.sgmodule&client=surge) | [Egern](https://lylywayr.github.io/SurgeHub/install.html?key=6ee4d08b2155%3Aa0e6668db6522677.sgmodule&client=egern) | [原文件](https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx) |
@@ -388,7 +388,7 @@
 
 ## 更新信息
 
-- 同步上游时间：2026-10-14 07:26:14 Asia/Shanghai
+- 同步上游时间：2026-10-21 06:40:07 Asia/Shanghai
 - 同步时间源：`SURGEHUB_BUILD_TIME`（工作流启动时固定）
 - 模块数量：337
 - 转换引擎：Script Hub Rewrite-Parser

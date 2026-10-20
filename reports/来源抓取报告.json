@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:26:14.238Z",
+  "generatedAt": "2026-10-20T22:40:07.348Z",
   "sources": [
     {
       "id": "6ee4d08b2155",
@@ -1059,7 +1059,7 @@
     },
     {
       "name": "高德地图去广告",
-      "description": "过滤高德地图开屏广告、各页面推广，精简我的页面",
+      "description": "移除开屏广告、首页推荐、搜索推荐、打车广告、地点推荐及广告，精简我的页面",
       "nameSource": "original-metadata",
       "descriptionSource": "original-description",
       "sourceType": "loon-plugin",
